@@ -26,7 +26,7 @@ github_username:  alvachien
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 encoding: utf-8
 permalink: /:title
 plugins:
