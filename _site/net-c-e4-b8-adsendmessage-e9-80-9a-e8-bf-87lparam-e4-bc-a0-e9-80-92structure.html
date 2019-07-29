@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>[.NET] C#中SendMessage通过LPARAM传递Structure | Alva Chien’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="[.NET] C#中SendMessage通过LPARAM传递Structure" />
+<meta name="author" content="alvachien" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://localhost:4000/net-c-e4-b8-adsendmessage-e9-80-9a-e8-bf-87lparam-e4-bc-a0-e9-80-92structure" />
+<meta property="og:url" content="http://localhost:4000/net-c-e4-b8-adsendmessage-e9-80-9a-e8-bf-87lparam-e4-bc-a0-e9-80-92structure" />
+<meta property="og:site_name" content="Alva Chien’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2009-11-03T23:57:00+08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/net-c-e4-b8-adsendmessage-e9-80-9a-e8-bf-87lparam-e4-bc-a0-e9-80-92structure","headline":"[.NET] C#中SendMessage通过LPARAM传递Structure","dateModified":"2009-11-03T23:57:00+08:00","datePublished":"2009-11-03T23:57:00+08:00","author":{"@type":"Person","name":"alvachien"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/net-c-e4-b8-adsendmessage-e9-80-9a-e8-bf-87lparam-e4-bc-a0-e9-80-92structure"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Alva Chien's Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Alva Chien&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">[.NET] C#中SendMessage通过LPARAM传递Structure</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2009-11-03T23:57:00+08:00" itemprop="datePublished">Nov 3, 2009
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">alvachien</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div id="bp-5CD1AA99D25FD840_938-content">
+
+这两天一直被一个问题烦着：SendMessage在C#始终不正常。因为SendMessage是标准的WinAPI，在C/C++中，Structure可以很方便通过取地址传递给SendMessage，比如Richedit中常用的EM_GETCHARFORMAT消息：
+<strong>SendMessage</strong>( hWnd, EM_GETCHARFORMAT, ( WPARAM)SCF_SELECTION, (LPARAM)&amp;cfm );
+
+在C#乃至CLR中，并没有对应的CHARFORMAT2，所以必须自己依照MSDN中CHARFORMAT2的C++定义：
+[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
+private struct CHARFORMAT2
+{
+    public int cbSize;
+    public uint dwMask;
+    public uint dwEffects;
+    public int yHeight;
+    public int yOffset;
+    public int crTextColor;
+    public byte bCharSet;
+    public byte bPitchAndFamily;
+    [MarshalAs(UnmanagedType.ByValArray, SizeConst = 32)]
+    public char[] szFaceName;
+    public short wWeight;
+    public short sSpacing;
+    public int crBackColor;
+    public int LCID;
+    public uint dwReserved;
+    public short sStyle;
+    public short wKerning;
+    public byte bUnderlineType;
+    public byte bAnimation;
+    public byte bRevAuthor;
+    public byte bReserved1;
+}
+LayoutKind和UnmanagedType.ByValArray是基本的Marshal常识，偶想强调的是CharSet这个Attribute，尽管CLR默认是CharSet.Auto，但部分语言会override这个属性，<strong><span style="text-decoration: underline;">C#中就会默认改为CharSet.Ansi</span></strong>，这也是磕绊偶两天的罪魁祸首。
+
+Structure定义好了，DllImport就比较方便，同样，<strong>必须制定相同的CharSet</strong>。因为Microsot在Windows NT开始已经在内核全部Unicode化，使用Ansi的CharSet会使得操作系统额外多出两部CharSet之间的转换，所以推荐Unicode或者Auto，Auto模式只在Windows 98和Windows ME中是Ansi。
+
+对于SendMessage这个定义在USER32.DLL中的导出函数来说，可以定义很多不同的DllImport，常用的有如：
+[DllImport("user32", CharSet = CharSet.Auto, SetLastError = true)]
+private static extern int SendMessage(HandleRef hWnd, int msg, int wParam, int lParam);
+
+[DllImport("user32", CharSet = CharSet.Auto)]
+private static extern int SendMessage(HandleRef hWnd, int msg, int wParam, ref CHARFORMAT2 lParam);
+
+[DllImport("user32", CharSet = CharSet.Auto, SetLastError = true)]
+private static extern IntPtr SendMessage(HandleRef hWnd, int msg, Int32 wParam, ref IntPtr lParam);
+
+[DllImport("USER32", EntryPoint = "SendMessage", ExactSpelling = true, CharSet = CharSet.Auto, SetLastError = true)]
+private static extern IntPtr SendMessage(IntPtr hWnd, int msg, IntPtr wp, IntPtr lp);
+
+最简单的方法莫过于第二种定义，它直接在LPARAM参数中使用了CHARFORMAT2的ref。C#编译器会直接生成内部GCHandle以完成Unmanaged和Managed Heap之间的数据转换。对于别的Structure，可以定义其自己的DllImport，并为LPARAM使用自身的Structure。
+
+对于其他三种定义，需要自己转换IntPtr了。其方法无外乎以下两种：
+GCHandle gch = GCHandle.Alloc(fmt);
+IntPtr lParam = GCHandle.ToIntPtr(gch);
+SendMessage(new HandleRef(this, Handle), EM_GETCHARFORMAT, SCF_SELECTION, ref lParam);
+fmt = (CHARFORMAT2)Marshal.PtrToStructure(lParam, typeof(CHARFORMAT2));
+gch.Free();
+
+或：
+IntPtr lparam = IntPtr.Zero;
+lparam = Marshal.AllocCoTaskMem(Marshal.SizeOf(fmtRange));
+Marshal.StructureToPtr(fmtRange, lparam, false);
+SendMessage(Handle, EM_FORMATRANGE, wparam, lparam);
+Marshal.FreeCoTaskMem(lparam);
+
+特别的，是对于输出为String的WinAPI，可以使用StringBuilder，而不需要制定ref或者out。如：
+[DllImport("user32.dll", EntryPoint="SendMessage")]
+private static extern Int32 SendMessage (IntPtr hwnd, Int32 wMsg, Int32 wParam, StringBuilder lParam);
+调用时：
+const Int32 MAX_SIZE = 1024;
+StringBuilder buffer = new StringBuilder(MAX_SIZE);
+SendMessage(tb_Input.Handle, WM_GETTEXT, MAX_SIZE, buffer);
+
+Issued by Alva Chien
+2009.11.3
+
+</div>
+
+  </div><a class="u-url" href="/net-c-e4-b8-adsendmessage-e9-80-9a-e8-bf-87lparam-e4-bc-a0-e9-80-92structure" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Alva Chien&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Alva Chien&#39;s Blog</li><li><a class="u-email" href="mailto:alvachien@163.com">alvachien@163.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/alvachien"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">alvachien</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

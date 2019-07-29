@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Excel plus VBA Tip 2: DateTimePicker控件和User Form的返回值 | Alva Chien’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Excel plus VBA Tip 2: DateTimePicker控件和User Form的返回值" />
+<meta name="author" content="alvachien" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="虽然一直想得很美好，把技术相关的Blog放到CSDN上（Write Ideas Down，Together With Skills），把随笔等文章放在个人网站上。然而，事实总是很残酷，总有些想法在一边起了个头，却在另外一边掺了一腿。这里说的是，我先是写了一篇Excel plus VBA Tip 1: Using Table in Data Validation，又写了一篇[Office] VBA Practice，然后，当我想写第三篇的时候，我凌乱了，伴随着我这些天感冒的涕零。" />
+<meta property="og:description" content="虽然一直想得很美好，把技术相关的Blog放到CSDN上（Write Ideas Down，Together With Skills），把随笔等文章放在个人网站上。然而，事实总是很残酷，总有些想法在一边起了个头，却在另外一边掺了一腿。这里说的是，我先是写了一篇Excel plus VBA Tip 1: Using Table in Data Validation，又写了一篇[Office] VBA Practice，然后，当我想写第三篇的时候，我凌乱了，伴随着我这些天感冒的涕零。" />
+<link rel="canonical" href="http://localhost:4000/excel-plus-vba-tip-2-datetimepicker-e6-8e-a7-e4-bb-b6-e5-92-8cuser-form-e7-9a-84-e8-bf-94-e5-9b-9e-e5-80-bc" />
+<meta property="og:url" content="http://localhost:4000/excel-plus-vba-tip-2-datetimepicker-e6-8e-a7-e4-bb-b6-e5-92-8cuser-form-e7-9a-84-e8-bf-94-e5-9b-9e-e5-80-bc" />
+<meta property="og:site_name" content="Alva Chien’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-12-17T19:57:00+08:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/excel-plus-vba-tip-2-datetimepicker-e6-8e-a7-e4-bb-b6-e5-92-8cuser-form-e7-9a-84-e8-bf-94-e5-9b-9e-e5-80-bc","headline":"Excel plus VBA Tip 2: DateTimePicker控件和User Form的返回值","dateModified":"2013-12-17T19:57:00+08:00","datePublished":"2013-12-17T19:57:00+08:00","author":{"@type":"Person","name":"alvachien"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/excel-plus-vba-tip-2-datetimepicker-e6-8e-a7-e4-bb-b6-e5-92-8cuser-form-e7-9a-84-e8-bf-94-e5-9b-9e-e5-80-bc"},"description":"虽然一直想得很美好，把技术相关的Blog放到CSDN上（Write Ideas Down，Together With Skills），把随笔等文章放在个人网站上。然而，事实总是很残酷，总有些想法在一边起了个头，却在另外一边掺了一腿。这里说的是，我先是写了一篇Excel plus VBA Tip 1: Using Table in Data Validation，又写了一篇[Office] VBA Practice，然后，当我想写第三篇的时候，我凌乱了，伴随着我这些天感冒的涕零。","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Alva Chien's Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Alva Chien&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Excel plus VBA Tip 2: DateTimePicker控件和User Form的返回值</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2013-12-17T19:57:00+08:00" itemprop="datePublished">Dec 17, 2013
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">alvachien</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>虽然一直想得很美好，把技术相关的Blog放到CSDN上（<a title="Write Ideas Down, Together With Skills" href="http://blog.csdn.net/alvachien" target="_blank">Write Ideas Down，Together With Skills</a>），把随笔等文章放在个人网站上。然而，事实总是很残酷，总有些想法在一边起了个头，却在另外一边掺了一腿。这里说的是，我先是写了一篇<a title="Excel plus VBA Tip 1: Using Table in Data Validation" href="http://www.alvachien.com/alvablog/?p=1416" target="_blank">Excel plus VBA Tip 1: Using Table in Data Validation</a>，又写了一篇<a title="[Office] VBA Practice" href="http://blog.csdn.net/alvachien/article/details/17267197" target="_blank">[Office] VBA Practice</a>，然后，当我想写第三篇的时候，我凌乱了，伴随着我这些天感冒的涕零。</p>
+
+<p>所以，这篇纯粹是CSDN上那篇文字的翻版，以为统一。</p>
+<h3><strong>使用DateTimePicker控件</strong></h3>
+<p>VBA中默认的User Form的Toolbox中的控件并不包含DateTimePicker，是接受时间相关数据的输入，在Toolbox上右击“Additional Controls”，在弹出的对话框中选择“Microsoft Date and Time Picker Control 6.0”</p>
+
+<p><img alt="" src="http://g.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=5ed5d69fbe3eb13540c7b7be9625d9ee/18d8bc3eb13533fa5c546959aad3fd1f40345be3.jpg?referer=0cc4c1b319d5ad6ef3ee50daa5a1&amp;x=.jpg" /></p>
+<h3><strong>User Form的返回值</strong></h3>
+<p>默认情况下，User Form并没有返回值（有意思的是，MsgBox倒是有返回值），那如何判断弹出的对话框是被点击了OK按钮还是Cancel按钮呢？</p>
+
+<p>一个简单的方法是，</p>
+
+<p>(1) 在User Form的Module中定义全局变量</p>
+<blockquote><span style="line-height: 1.5em;">Public ClickedByOK As Boolean</span></blockquote>
+<p><span style="line-height: 1.5em;">(2) 在对应的按钮响应方法中设置该变量</span></p>
+<blockquote><span style="line-height: 1.5em;">Private Sub btnCancel_Click()</span>
+
+ClickedByOK = False
+
+Me.Hide
+
+End Sub
+
+<span style="line-height: 1.5em;">Private Sub btnOK_Click()</span>
+
+<span style="line-height: 1.5em;">ClickedByOK = True</span>
+
+Me.Hide
+
+End Sub</blockquote>
+<p>(3) 在窗口结束后判断该变量的值</p>
+<blockquote><span style="line-height: 1.5em;">Dim dlg As New dlgRememberItem</span>
+
+dlg.Show
+
+<span style="line-height: 1.5em;">If dlg.ClickedByOK = False Then</span>
+
+Exit Sub
+
+End If</blockquote>
+<h3><strong>处理时间相关数据</strong></h3>
+<p>因为VBA只提供了一个简单的Date 数据类型，这无疑给时间相关数据的处理带来了复杂度；</p>
+
+<p>一个非常好的VBA中处理时间数据的资源： <a title="http://dmcritchie.mvps.org/excel/datetime.htm" href="http://dmcritchie.mvps.org/excel/datetime.htm" target="_blank">http://dmcritchie.mvps.org/excel/datetime.htm</a></p>
+
+<p>是为之记。
+Alva Chien
+2013.12.11于CSDN
+2013.12.17</p>
+
+  </div><a class="u-url" href="/excel-plus-vba-tip-2-datetimepicker-e6-8e-a7-e4-bb-b6-e5-92-8cuser-form-e7-9a-84-e8-bf-94-e5-9b-9e-e5-80-bc" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Alva Chien&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Alva Chien&#39;s Blog</li><li><a class="u-email" href="mailto:alvachien@163.com">alvachien@163.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/alvachien"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">alvachien</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

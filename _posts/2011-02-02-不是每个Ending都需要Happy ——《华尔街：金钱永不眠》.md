@@ -1,0 +1,23 @@
+---
+layout: post
+title: 不是每个Ending都需要Happy ——《华尔街：金钱永不眠》
+date: 2011-02-02 00:31
+author: alvachien
+comments: true
+categories: [华尔街, 观影乱谈]
+---
+[caption id="" align="alignnone" width="511" caption="Wall Street: Money Never Sleeps (From Sina.com.cn)"]<img title="Wall Street: Money Never Sleeps" src="http://apollo.s.dpool.sina.com.cn/nd/dataent/moviepic/pics/10/moviepic_bdd9b0a85ab26ed027c231c53799f967.jpg" alt="" width="511" height="755" />[/caption]
+
+赶在这个节前无比轻松的时候认真看了一下这部《华尔街：金钱永不眠》(Wall Street: Money Never Sleeps)。总得来说这是一部编剧上很成功的电影，不仅在于剧情糅合了次贷危机，同时又成功了衔接了第一部的剧情，更在于剧本又一次呈现了一个完美的圈套，是的，一个完美的圈套。如果说《局内人》(Insider)，《十一罗汉》(Elevent)作为罪案、推理类影片，设计一些精彩情节无可厚非的话，那么金融领域的暗算、设计更应该是贴近生活的，毕竟现实中不是每个人都需要抢劫银行、赌场。
+
+然而，正如我这篇Blog的标题所说的那样，导演设计的Happy Ending实在有点虎头蛇尾的感觉，而且显然大大的削弱了Michael Douglas之前呈现的精彩气场。这种感觉如同看《沉默的羔羊》中Anthony Hopkins扮演的Dr. Hannibal Lecter被警察抓了一样。对于这个一样毫无说服力的Happy Ending，我不由得想，假设切换为一个正常的Sad Ending，那么其杀伤力带来的震撼无疑会发人深省。如果导演真的这么设计的话，那么，这种跟“主旋律”格格不入的影片，估计根本进不了我天朝的影院。
+
+撇开Michael Douglas的女儿那条线不论，Josh Brolin所饰演的反派实在有点晃点观众的意味。也许因为片长的缘故，导演剪掉了很多镜头，我看到的这部时长2:12的片子中，对这个反派刻画并不深刻，某种意义上有点哗众取宠的感觉，比如会议室的油画，比如飙车设计，却对其私人账户成立的基金，其整垮竞争对手的情节交待不足，只是通过少数几个人物的对话的方式让剧情发展，显得比较单薄。
+
+回到摄影本身，印象最深的是两次的肥皂泡的镜头，一个是剧情真正拉开之前，第二个是在剧尾的时候。镜头展现了两种不同环境的肥皂泡，剧尾的那个肥皂泡甚至动用了长镜头（也可能是特技），以期达到一种对比效果，确实非常好。另外一个比较深刻的镜头是用都市建筑勾画股市的大盘的创意，也是很不错的。
+
+可能人都是这样，人心不足蛇吞象，只是希望下一部《华尔街》能带来真的惊喜。
+
+是为之记。
+Alva Chien
+2011.02.02
