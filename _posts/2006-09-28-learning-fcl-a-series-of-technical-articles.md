@@ -10,8 +10,8 @@ FCL, Functional Class Library, basis component of .Net Framework.
 
 All the articles base on .Net Framework 2.0.
 
-(1) <a href="http://blog.csdn.net/alvachien/archive/2006/09/19/1249906.aspx">Language and Region (1st Half)</a>
+(1) [Language and Region (1st Half)](http://blog.csdn.net/alvachien/archive/2006/09/19/1249906.aspx).
 
-(2) <a href="http://blog.csdn.net/alvachien/archive/2006/09/24/1272441.aspx">Language and Region (2nd Half)</a>
+(2) [Language and Region (2nd Half)](http://blog.csdn.net/alvachien/archive/2006/09/24/1272441.aspx).
 
 Keep updating...

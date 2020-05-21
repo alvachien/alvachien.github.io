@@ -12,7 +12,7 @@ After the new OS installation is completed, install the Graphics driver, the lat
  
 Then, search it out via BaiDu.com in Chinese description, no directly answer; search it around the producer's web site, still no answer. Go to Microsoft's update site, for some all-known reasons, it refused to offer me an opportunity to get the customize update. Disappointed! But suddenly an idea is shot at my mind, that is install the motherboard's driver! 
  
-Make every possible efforts, I choose to try it, reboot the OS as usual. Then, the unbelievable result comes! It works. When the video play back works properly, I can not help laughing and cheering! To make it sure, I download some HD files from Microsoft site for testing : <a href="http://www.microsoft.com/windows/windowsmedia/musicandvideo/hdvideo/contentshowcase.aspx">http://www.microsoft.com/windows/windowsmedia/musicandvideo/hdvideo/contentshowcase.aspx</a>
+Make every possible efforts, I choose to try it, reboot the OS as usual. Then, the unbelievable result comes! It works. When the video play back works properly, I can not help laughing and cheering! To make it sure, I download some HD files from Microsoft site for testing: [link]("http://www.microsoft.com/windows/windowsmedia/musicandvideo/hdvideo/contentshowcase.aspx).
  
 I also solve a software issue meaning while, that is, calling an external DLL in .NET framework always get a crash, check all the codes are fine, but however, I find the way to solve it. First, for the DLL built with C++, the exported function always be changed via extension, so using <span style="color: #0000ff;">'extern "C" {}' syntax to correct it. Second, if the DLL dependence on the other DLLs, make sure the dependence DLL are located on the searchable paths.
  

@@ -6,7 +6,6 @@ author: alvachien
 comments: true
 categories: [Real Madrid, 五洲足坛, 欧冠, 皇家马德里]
 ---
-<div id="bp-C678F199F470A1FB_709-content">
 
 Real Madrid 5-1 Dynamo Kyiv!
 
@@ -41,5 +40,3 @@ And I ain't gonna lose,
 And I need to go on and on and on and on...
 
 Put the end to this entry, maybe retirement will be a better solution for David Beckham...
-
-</div>

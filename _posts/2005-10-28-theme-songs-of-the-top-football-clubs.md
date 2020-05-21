@@ -6,11 +6,11 @@ author: alvachien
 comments: true
 categories: [Real Madrid, 五洲足坛, 歌曲, 皇家马德里]
 ---
-<div>The lyric and its Chinese version all searched by Internet, so, if you know the German, Italian, Spanish, check it please:-)</div>
-<div> </div>
-<div>1. <strong><span style="color: #800000; font-size: x-small;">Real Madrid 皇家马德里</span>队歌</strong></div>
-<div><strong>Hala Madrid</strong></div>
-<div>
+The lyric and its Chinese version all searched by Internet, so, if you know the German, Italian, Spanish, check it please:-)
+ 
+1. **Real Madrid 皇家马德里 队歌**
+**Hala Madrid**
+
 
 De las glorias deportivas
 que campean por Espa?a
@@ -86,27 +86,27 @@ defendiendo tu color
 因为我们的队伍在战斗
 
 2, 3, ...
-<div>4. <strong><span style="color: #800000; font-size: small;">FC Bayern 拜仁慕尼黑</span>队歌以及球迷歌</strong></div>
-<div>
-<strong>Forever Number One
-</strong> 
+4. **FC Bayern 拜仁慕尼黑 队歌以及球迷歌**
+
+**Forever Number One
+** 
 Es war ein langer weiter Weg
 Wir wollten mehr von Anfang an
 Das Spiel ist hart, doch wir sind dabei
-Für uns z?hlt einzig der Erfolg</div>
-<div>FC Bayern forever number one
+Für uns z?hlt einzig der Erfolg
+FC Bayern forever number one
 You can call us the champions of the world
 FC Bayern forever number one
-We′re much better than the rest</div>
-<div>Wir geben alles bis zum Schluss
+We′re much better than the rest
+Wir geben alles bis zum Schluss
 Was andres ist für uns nicht drin
 Die gro?e Chance, der Sieger holt den Cup
-Die Nummer eins ist unser Ziel</div>
-<div>FC Bayern forever number one
+Die Nummer eins ist unser Ziel
+FC Bayern forever number one
 You can call us the champions of the world
 FC Bayern forever number one
-We′re much better than the rest</div>
-<div>Du wei?t, Geschichte wird gemacht
+We′re much better than the rest
+Du wei?t, Geschichte wird gemacht
 Die Mannschaft einst, das Team von jetzt
 Gemeinsam werden wir nie untergehen
 Wenn wir mit euch zusammenstehen
@@ -129,29 +129,29 @@ FC BAYERN，永远的第一名，
 FC BAYERN，永远的第一名，
 我们卓尔不群！
  
-<strong>Stern des Südens</strong>
+**Stern des Südens**
  
 Welche Münchner Fu?ballmannschaft kennt man auf der ganzen Welt?
 Wie hei?t dieser Klub der hierzulande die Rekorde h?lt?
 Wer hat schon gewonnen， was jemals zu gewinnen gab?
-Wer bringt seit Jahrzehnten unsere Bundesliga voll auf Trab?</div>
-<div>FC Bayern， Stern des Südens， Du wirst niemals untergehen，
+Wer bringt seit Jahrzehnten unsere Bundesliga voll auf Trab?
+FC Bayern， Stern des Südens， Du wirst niemals untergehen，
 weil wir in guten， wie in schlechten Zeiten zueinander stehen，
 FC Bayern， Deutscher Meister， ja so hei?t er mein Verein，
-ja so war es， und so ist es， und so wird es immer sein.</div>
-<div>Wo wird lauschend angegriffen， wo wird t?glich spioniert?
+ja so war es， und so ist es， und so wird es immer sein.
+Wo wird lauschend angegriffen， wo wird t?glich spioniert?
 Wo ist Presse， wo ist Rummel， wo wird immer diskutiert?
 Wer spielt in jedem Stadion vor ausverkauften Haus?
-Wer h?lt den gro?en Druck der Gegener stets aufs Neue aus?</div>
-<div>FC Bayern， Stern des Südens， Du wirst niemals untergehen，
+Wer h?lt den gro?en Druck der Gegener stets aufs Neue aus?
+FC Bayern， Stern des Südens， Du wirst niemals untergehen，
 weil wir in guten， wie in schlechten Zeiten zueinander stehen，
 FC Bayern， Deutscher Meister， ja so hei?t er mein Verein，
-ja so war es， und so ist es， und so wird es immer sein.</div>
-<div>Ob Bundesliga， im Pokal oder Championsleague，
+ja so war es， und so ist es， und so wird es immer sein.
+Ob Bundesliga， im Pokal oder Championsleague，
 ja gibt es denn was sch?neres als einen Bayernsieg?
 Hier ist Leben， hier ist Liebe， hier ist Feuer，
-und es bleibt Bayern München， Deutschlands Bester， bis in alle Ewigkeit.</div>
-<div>
+und es bleibt Bayern München， Deutschlands Bester， bis in alle Ewigkeit.
+
 FC Bayern， Stern des Südens， Du wirst niemals untergehen，
 weil wir in guten， wie in schlechten Zeiten zueinander stehen，
 FC Bayern， Deutscher Meister， ja so hei?t er mein Verein，
@@ -165,16 +165,16 @@ ja so war es， und so ist es， und so wird es immer sein.
 拜仁慕尼黑 南方之星 你永不言败
 无论是逆境还是天堂 我们永远和你共命运
 拜仁尼黑 德意志的王者
-我一生挚爱</div>
-<div>哪个体育场的门票每每售馨
+我一生挚爱
+哪个体育场的门票每每售馨
 哪支球队让对手谈虎色变
 哪支球队被人津津乐道
  
 拜仁慕尼黑 南方之星 你永不言败
 无论是逆境还是天堂 我们永远和你共命运
 拜仁尼黑 德意志的王者
-我一生挚爱</div>
-<div>联赛 杯赛 冠军杯
+我一生挚爱
+联赛 杯赛 冠军杯
 谁能比拜仁赢得更漂亮
 这就是生活 这就是爱
 这里有梦想和欢歌
@@ -182,6 +182,6 @@ ja so war es， und so ist es， und so wird es immer sein.
 拜仁慕尼黑 南方之星 你永不言败
 无论是逆境还是天堂 我们永远和你共命运
 拜仁尼黑 德意志的王者
-我一生挚爱</div>
-<div>...</div>
-</div>
+我一生挚爱
+...
+

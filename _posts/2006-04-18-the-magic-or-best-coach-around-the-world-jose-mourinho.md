@@ -6,20 +6,22 @@ author: alvachien
 comments: true
 categories: [Mourinho, 五洲足坛, 狂人, 穆里尼奥]
 ---
-<div id="bp-C678F199F470A1FB_474-content">
-<div>
 
-<strong>1. Introduction to the Coach</strong>
 
-<strong>José Mourinho</strong> was voted Chelsea's greatest ever manager after just his first season in charge - quite a feat!  Yet the Chelsea manager is used to setting records and his achievement in bringing the title to Stamford Bridge for the first time in 50 years made him an instant legend.
+**1. Introduction to the Coach**
+
+**José Mourinho** was voted Chelsea's greatest ever manager after just his first season in charge - quite a feat!  Yet the Chelsea manager is used to setting records and his achievement in bringing the title to Stamford Bridge for the first time in 50 years made him an instant legend.
 
 An ultra professional, no detail is overlooked in preparation or training, it is also his personality that has not only made him loved by the Chelsea fans but made him the most talked about, and written about, manager last season.   
 
 Mourinho has a university degree in Physical Education specialising in football methodology and has won two Portuguese Championships, the Portuguese Cup and Portuguese Super Cup as well as the UEFA Champions League and UEFA Cup in his last two years in Portugal.  In his first season in the England he won the Premiership and Carling Cup.  His methodology is something that is obviously well honed. 
-<div> </div>
-<div><em>[Above From Chelsea Football club Website]</em>  <hr /></div>
-<div><strong>2. His best quotes</strong>:(Here is a compilation done by the BBC):</div>
-<div>
+ 
+*Above From Chelsea Football club Website*
+
+**2. His best quotes**
+
+(Here is a compilation done by the BBC):
+
 
 On his arrival - June 2004
 I intend to give my best, to improve things and to create the football team in relation to my image and my football philosophy.
@@ -117,18 +119,17 @@ You have to wonder why they did that penalty. Because they have so many penaltie
 On Arsene Wenger - October 2005
 I think he is one of these people who is a voyeur. He likes to watch other people. There are some guys who, when they are at home, have a big telescope to see what happens in other families. He speaks, speaks, speaks about Chelsea.
 
-<em> [Above from BBC]</em>
+*Above from BBC*
 
-<hr /> 
+**3. The End**
 
-<strong>3. The End</strong>
+**God，and after God, Me. -- José Mourinho**
 
-<strong>God，and after God, Me. -- José Mourinho</strong>
+More Detail of the coach, visit the URL ([Chinese Version Only, from Sina.com](http://sports.sina.com.cn/g/2006-04-18/14352167318.shtml).
 
-More Detail of the coach, visit the URL (<em>Chinese Version Only, from Sina.com</em>): <a href="http://sports.sina.com.cn/g/2006-04-18/14352167318.shtml">http://sports.sina.com.cn/g/2006-04-18/14352167318.shtml</a>
 
-</div>
+
  
 
-</div>
-</div>
+
+

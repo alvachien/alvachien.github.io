@@ -6,9 +6,14 @@ author: alvachien
 comments: true
 categories: [Spring Festvial, 春节, 随心随笔]
 ---
-<div>Wish Ferrari win back the champion in F1.</div>
-<div>Wish Real Madrid win back the champion in Spanish League and Champion League.</div>
-<div>Wish everybody will live comfortable.</div>
-<div>Got the money, love, etc. as you wish.</div>
-<div> </div>
-<div>Anyway, Merry Spring Festival to all!</div>
+Wish Ferrari win back the champion in F1.
+
+Wish Real Madrid win back the champion in Spanish League and Champion League.
+
+Wish everybody will live comfortable.
+
+Got the money, love, etc. as you wish.
+
+ 
+Anyway, Merry Spring Festival to all!
+

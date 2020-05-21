@@ -6,7 +6,9 @@ author: alvachien
 comments: true
 categories: [Federer, Nadal, 纳达尔, 网球闲话, 费德勒]
 ---
-<strong>序:</strong><em>本来不打算写这么一篇应景的文字，问题是，今天早晨上班，俺们team两个美女同事（费天王的坚定拥护者）一到公司就很开心相互通告：“Nadal被横扫出局，很爽”。于是我很不爽，继而成文。</em>
+**序:**
+
+*本来不打算写这么一篇应景的文字，问题是，今天早晨上班，俺们team两个美女同事（费天王的坚定拥护者）一到公司就很开心相互通告：“Nadal被横扫出局，很爽”。于是我很不爽，继而成文。*
 
 2008年的澳网Nadal终于被横扫出局了，之所以我用终于这个词，是因为这个结果是我预料中的。然而，值得表扬的是，这次澳网过程中，Nadal同学一改去年上海大师杯上的疲态，发挥出色，在墨尔本拿到了他在澳网的最佳名次：打进4强，虽然这个还有点水分 —— 十六进八时他的对手因伤退赛。
 
@@ -24,6 +26,6 @@ categories: [Federer, Nadal, 纳达尔, 网球闲话, 费德勒]
 
 我们还有Nadal。
 
-<a href="file:///D:/Downloads/Spaces/Alva's%20space/img/C678F199F470A1FB_996_0.jpg"></a><strong><span style="color: #1f497d;">[Updated at 2008.1.25, PeiKing Time, 19:30] </span></strong>
+<a href="file:///D:/Downloads/Spaces/Alva's%20space/img/C678F199F470A1FB_996_0.jpg"></a>**<span style="color: #1f497d;">[Updated at 2008.1.25, PeiKing Time, 19:30] </span>**
 
-<strong><span style="color: #1f497d;">最新战报：费天王也被横扫出局，老天，你也看过我的文章了？</span></strong>
+**最新战报：费天王也被横扫出局，老天，你也看过我的文章了？**

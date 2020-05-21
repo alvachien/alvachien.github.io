@@ -27,9 +27,12 @@ markdown: CommonMarkGhPages
 theme: minima
 encoding: utf-8
 permalink: /:title
+paginate: 15
 plugins:
   - jemoji
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
 commonmark:
   options: ["SMART", "FOOTNOTES"]

@@ -6,12 +6,11 @@ author: alvachien
 comments: true
 categories: [IT业内, SAP, 歌曲]
 ---
-<div id="bp-C678F199F470A1FB_768-content">
-<div>Download the mp3 version: <a href="http://morsekode.com/SAP/ERPofCentury.mp3">http://morsekode.com/SAP/ERPofCentury.mp3</a></div>
-<div> </div>
-<div><strong>Song Lyrics:</strong></div>
-<div> </div>
-<div>Chorus
+[Download the mp3 version](http://morsekode.com/SAP/ERPofCentury.mp3)
+ 
+**Song Lyrics:**
+ 
+Chorus
 S A P
 We're gonna be
 The ERP
@@ -78,5 +77,5 @@ And the 'kode thinks your phat, and we like it like that
 
 Yo, SAP, we be hipper than Flea in the Peppers of Chili
 We can take the load, just give 'er to the 'kode
-And together we'll watch your new business explode</div>
-</div>
+And together we'll watch your new business explode
+
