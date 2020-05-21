@@ -7,11 +7,13 @@ comments: true
 categories: [MySql, PHP, phpMyAdmin, Web Development, 技术Tips]
 ---
 登录phpMyAdmin，一直有个user没有设置密码的警告，于是把root的密码给修改掉了，然后，再登录phpMyAdmin，一个华丽丽的错误显示在屏幕上：
+
 ```log
 #1045 - Access denied for user 'root'@'localhost' (using password: NO)
 ```
 
 反复登录，然而错误坚挺依旧。于是，万能的搜索引擎开动了，最后解决方案如下：
+
 - 打开PHPMyAdmin的安装目录；
 - 打开config.inc.php文件，修改以下几行：
 

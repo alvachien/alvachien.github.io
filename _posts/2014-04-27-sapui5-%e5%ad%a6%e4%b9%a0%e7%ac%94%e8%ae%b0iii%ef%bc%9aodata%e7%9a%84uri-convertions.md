@@ -13,15 +13,16 @@ categories: [Microsoft, oData, SAP, SAP, SAPUI5]
 要回答这个问题，首先得明白一点，oData是基于AtomPub和REST的，其中Atom用来数据封装格式，而对oData的访问都是基于REST所定义的五种HTTP Method，即GET, POST， PUT, DELETE和PATCH。
 
 而基础的oData使用则主要集中在URI上，以下是常用的几个URI Convertions (http://www.odata.org/documentation/odata-version-2-0/uri-conventions/)
-<ol>
-	<li>$count: 只返回数目；</li>
-	<li>$inlinecount: （Acceptable values: allpages和none）除了返回指定的entity之外附带返回数量，因为entity可能通过$top等进行了过滤。如：<a style="color: #dd4814;" href="http://services.odata.org/OData/OData.svc/Products?$inlinecount=allpages&amp;$top=10&amp;$filter=Price%20gt%20200">http://services.odata.org/OData/OData.svc/Products?$inlinecount=allpages&amp;$top=10&amp;$filter=Price gt 200</a>  返回前十个价格大于200的Product并返回所有价格超过200的Product数量.</li>
-	<li>$top和$skip：分页的模拟，如<a style="color: #dd4814;" href="http://services.odata.org/OData/OData.svc/Products?$skip=2&amp;$top=2&amp;$orderby=Rating">http://services.odata.org/OData/OData.svc/Products?$skip=2&amp;$top=2</a> 返回第三个和第四个Product——即skip掉前面两个再取2个。</li>
-	<li>$format：返回格式，常用的是Atom+XML和JSON。</li>
-	<li>$orderby: 指定排序的property。</li>
-	<li>$filter: 用来做过滤——即搜索。</li>
-	<li>$expand: 将有association关系的entity一同取出。注意，这种方式可能会性能有较大影响。</li>
-</ol>
+
+- $count: 只返回数目；
+- $inlinecount: （Acceptable values: allpages和none）除了返回指定的entity之外附带返回数量，因为entity可能通过$top等进行了过滤。如：<a style="color: #dd4814;" href="http://services.odata.org/OData/OData.svc/Products?$inlinecount=allpages&amp;$top=10&amp;$filter=Price%20gt%20200">http://services.odata.org/OData/OData.svc/Products?$inlinecount=allpages&amp;$top=10&amp;$filter=Price gt 200</a>  返回前十个价格大于200的Product并返回所有价格超过200的Product数量.
+- $top和$skip：分页的模拟，如<a style="color: #dd4814;" href="http://services.odata.org/OData/OData.svc/Products?$skip=2&amp;$top=2&amp;$orderby=Rating">http://services.odata.org/OData/OData.svc/Products?$skip=2&amp;$top=2</a> 返回第三个和第四个Product——即skip掉前面两个再取2个。
+- $format：返回格式，常用的是Atom+XML和JSON。
+- $orderby: 指定排序的property。
+- $filter: 用来做过滤——即搜索。
+- $expand: 将有association关系的entity一同取出。注意，这种方式可能会性能有较大影响。
+
+
 是为之记。
 Alva Chien
 2014.4.26
