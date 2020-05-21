@@ -6,9 +6,9 @@ author: alvachien
 comments: true
 categories: [DirectShow, Windows Platform, 技术Tips]
 ---
-<div id="bp-C678F199F470A1FB_158-content"><span style="font-family: 宋体;">Part I: COM实现部分和部分辅助源码浅读：<a href="http://blog.csdn.net/alvachien/archive/2005/01/05/241012.aspx" target="_blank">点击这里</a>.
+[Part I: COM实现部分和部分辅助源码浅读](http://blog.csdn.net/alvachien/archive/2005/01/05/241012.aspx).
 
-Part II: CBasePin类、CBaseOutputPin类和CBaseInputPin类源代码解析：<a href="http://blog.csdn.net/alvachien/archive/2005/01/10/247220.aspx" target="_blank">点击这里</a>.
+[Part II: CBasePin类、CBaseOutputPin类和CBaseInputPin类源代码解析](http://blog.csdn.net/alvachien/archive/2005/01/10/247220.aspx).
 
 Part III: CBaseFilter类源代码解析：<a href="http://blog.csdn.net/alvachien/archive/2005/01/11/248351.aspx" target="_blank">点击这里</a>.
 
