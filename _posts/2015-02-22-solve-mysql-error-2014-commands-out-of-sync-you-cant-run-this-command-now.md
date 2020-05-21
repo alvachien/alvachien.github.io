@@ -12,6 +12,7 @@ categories: [MySql, mysqli, PHP, Web Development]
 
 示例的成功代码：
 
+```php
 $mysqli = new mysqli( MySqlHost, MySqlUser, MySqlPwd, MySqlDB );
 
 /* check connection */
@@ -28,15 +29,15 @@ $sMsg = "";
 /* Prepare an insert statement */
 $query = "CALL " . MySqlLearnObjectCreateProc . "(?, ?, ?);";
 
-if ($stmt = $mysqli-&gt;prepare($query)) {
-$stmt-&gt;bind_param("iss", $ctgyid, $name, $content);
+if ($stmt = $mysqli->prepare($query)) {
+$stmt->bind_param("iss", $ctgyid, $name, $content);
 /* Execute the statement */
-if ($stmt-&gt;execute()) {
+if ($stmt->execute()) {
 /* bind variables to prepared statement */
-$stmt-&gt;bind_result($code, $msg, $lastid);
+$stmt->bind_result($code, $msg, $lastid);
 
 /* fetch values */
-while ($stmt-&gt;fetch()) {
+while ($stmt->fetch()) {
 $nCode = (int) $code;
 $sMsg = $msg;
 $nNewid = (int)$lastid;
@@ -47,38 +48,39 @@ $sMsg = "Failed to execute query: ". $query;
 }
 
 /* close statement */
-$stmt-&gt;close();
+$stmt->close();
 } else {
 $nCode = 1;
 $sMsg = "Failed to parpare statement: ". $query;
 }
 
 $rsttable = array();
-if ($nCode &gt; 0) {
+if ($nCode > 0) {
 $sError = $sMsg;
-} else if ($nCode === 0 &amp;&amp; $nNewid &gt; 0) {
+} else if ($nCode === 0 &amp;&amp; $nNewid > 0) {
 $query = "SELECT ID, CATEGORY_ID, CATEGORY_NAME, NAME, CONTENT FROM " . MySqlLearnObjListView . " WHERE ID = ". $nNewid;
 
-if ($result = $mysqli-&gt;query($query)) {
+if ($result = $mysqli->query($query)) {
 /* fetch associative array */
-while ($row = $result-&gt;fetch_row()) {
+while ($row = $result->fetch_row()) {
 $rsttable [] = array (
-"id" =&gt; $row [0],
-"categoryid" =&gt; $row [1],
-"categoryname" =&gt; $row [2],
-"name" =&gt; $row[3],
-"content" =&gt; $row[4]
+"id" => $row [0],
+"categoryid" => $row [1],
+"categoryname" => $row [2],
+"name" => $row[3],
+"content" => $row[4]
 );
 }
 /* free result set */
-$result-&gt;close();
+$result->close();
 } else {
-$sError = "Failed to execute query: ". $query . " ; Error: ". $mysqli-&gt;error;
+$sError = "Failed to execute query: ". $query . " ; Error: ". $mysqli->error;
 }
 }
 
 /* close connection */
-$mysqli-&gt;close();
+$mysqli->close();
+```
 
 是为之记。
 Alva Chien

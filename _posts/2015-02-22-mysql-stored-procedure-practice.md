@@ -14,6 +14,7 @@ categories: [MariaDB, MySql, PHP, Web Development]
 
 一个示例Stored Procedure如下：
 
+```sql
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `CREATE_LEARNCATEGORY`(
 IN parid int(11),
@@ -42,6 +43,7 @@ END IF;
 SELECT code, msg, LAST_INSERT_ID();
 END$$
 DELIMITER ;
+```
 
 是为之记。
 Alva Chien

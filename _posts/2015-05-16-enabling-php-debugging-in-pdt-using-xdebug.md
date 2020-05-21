@@ -20,10 +20,12 @@ The next step is, enable the extension in the PHP.ini. And restart the Apache se
 
 Add the following part:
 
+```ini
 [XDebug]
 xdebug.remote_enable=1
 xdebug.remote_handler=dbgp
 xdebug.remote_port=9000
+```
 
 Then, go to set the PDT.
 
