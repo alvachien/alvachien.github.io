@@ -26,8 +26,12 @@ github_username:  alvachien
 markdown: CommonMarkGhPages
 theme: minima
 encoding: utf-8
-permalink: /:title
-paginate: 15
+permalink: /:short_year:i_month:i_day.html
+
+# Pagination
+paginate: 20
+paginate_path: "page:num"
+
 plugins:
   - jemoji
   - jekyll-feed
