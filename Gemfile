@@ -28,6 +28,8 @@ end
 
 # Paginate
 paginate: 10
+paginate_path: '/blog/page:num/'
+permalink:     '/blog/:year/:month/:title/'
 pagination:
   previous: "&larr; Previous"
   next: "Next &rarr;"
