@@ -12,7 +12,8 @@ categories: [Microsoft.NET, Windows Platform, 技术Tips]
 
 一时手痒，花了一个小时自己写了调整SRT文件的工具。以后有空把代码改改应该可以支持歌词文件。
 
-<a href="http://www.alvachien.com/alvablog/wp-content/uploads/2010/10/IMAGE_8.png"><img class="alignnone size-full wp-image-673" title="IMAGE_8" src="http://www.alvachien.com/alvablog/wp-content/uploads/2010/10/IMAGE_8.png" alt="" width="570" height="275" /></a>
+![IMAGE 8](/assets/uploads/2010/10/IMAGE_8.png)
+
 
 是为之记。
 Alva Chien

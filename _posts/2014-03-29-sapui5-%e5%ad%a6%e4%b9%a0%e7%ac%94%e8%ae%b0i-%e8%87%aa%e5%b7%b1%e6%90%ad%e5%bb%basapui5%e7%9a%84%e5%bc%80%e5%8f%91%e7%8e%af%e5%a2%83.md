@@ -10,19 +10,19 @@ categories: [Eclipse, HTML5, SAP, SAP, SAPUI5, Visual Studio]
 
 闲言少叙，回归SAPUI 5学习的正题。工欲善其事，必先利其器。要学习SAPUI5，没有对应的IDE无疑是痴人说梦。Visual Studio Express无疑是我个人理想的选择，毕竟这个IDE用了这么多年了。然而我司却选择了Eclipse，好吧，那就转用Eclipse算了。
 
-<strong>Step 1</strong>. 安装Eclipse
+**Step 1**. 安装Eclipse
 http://www.eclipse.org/downloads/
 Eclipse的版本也挺搞的。Eclipse 3.7称为Indigo；Eclipse 4.2称为Juno；Eclipse 4.3称为Kelper。
 这里需要额外强调的是，需要安装Eclipse for Java EE，否则后续的的安装会复杂一些。
 
-<strong>Step 2</strong>. 安装SAPUI5的plugin
+**Step 2**. 安装SAPUI5的plugin
 https://tools.hana.ondemand.com/#sapui5
-最重要的信息是，使用<span style="text-decoration: underline;">https://tools.hana.ondemand.com/kepler</span> for Eclipse Kepler (4.3)； <span style="text-decoration: underline;">https://tools.hana.ondemand.com/juno</span> for Eclipse Juno (4.2) 来安装该Plugin;
+最重要的信息是，使用![Eclipse Kepler (4.3)](https://tools.hana.ondemand.com/kepler) ![Eclipse Juno (4.2)](https://tools.hana.ondemand.com/juno) 来安装该Plugin;
 
-<strong>Step 3</strong>. 官方的SDK文档： https://sapui5.hana.ondemand.com/sdk
+**Step 3**. 官方的SDK文档： https://sapui5.hana.ondemand.com/sdk
 SCN对应的论坛： http://scn.sap.com/community/developer-center/front-end
 
-<strong>Step 4</strong>. 安装TomCat
+**Step 4**. 安装TomCat
 http://tomcat.apache.org/download-70.cgi
 跟Visual Studio Express只带了IIS Express不同，为了能本地测试，Apache Tomcat是必须的。
 

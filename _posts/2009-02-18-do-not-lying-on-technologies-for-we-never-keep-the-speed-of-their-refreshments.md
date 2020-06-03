@@ -6,9 +6,8 @@ author: alvachien
 comments: true
 categories: [C++, IT业内, Windows Platform, 技术Tips]
 ---
-<div id="bp-5CD1AA99D25FD840_380-content">
-<h3>What programming languages are paying the bills?</h3>
-Survey period: <strong>9 Feb 2009</strong> to <strong>16 Feb 2009</strong>
+### What programming languages are paying the bills?</h3>
+Survey period: **9 Feb 2009** to **16 Feb 2009**
 
 Which languages are you using for paid work purposes (not hobby purposes) (<em>Suggested by John C</em>)
 <table border="0" cellspacing="0" cellpadding="0" width="450">
@@ -92,4 +91,4 @@ Which languages are you using for paid work purposes (not hobby purposes) (<em>S
 </table>
 <blockquote><strong><a href="http://www.codeproject.com/script/Surveys/ViewTextAnswers.aspx?questionId=2254" target="_blank"><span style="color: #0068cf;">View optional text answers (315 answers)</span></a></strong></blockquote>
 <div>[Vote information from <a href="http://www.codeproject.com/" target="_blank">CodeProject.com</a>]</div>
-</div>
+

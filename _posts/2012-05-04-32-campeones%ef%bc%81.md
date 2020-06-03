@@ -6,7 +6,7 @@ author: alvachien
 comments: true
 categories: [Real Madrid, 五洲足坛, 皇家马德里]
 ---
-[caption id="attachment_1291" align="alignnone" width="950" caption="32 Campeones (From sina.com.cn)"]<a href="http://www.alvachien.com/alvablog/wp-content/uploads/2012/05/730_686979_450082.jpg"><img class="size-full wp-image-1291" title="32 Campeones" src="http://www.alvachien.com/alvablog/wp-content/uploads/2012/05/730_686979_450082.jpg" alt="32 Campeones" width="950" height="633" /></a>[/caption]
+![32 Campeones (From sina.com.cn)](/assets/uploads/2012/05/730_686979_450082.jpg)
 
 在电视机前很平静的看着白色军团轻松的3:0击败对手，拿到了4年来第一个、总第32个西甲冠军，在那个晨曦初露的清晨，我有些诧异于自己的平静。屏幕上高富帅的白色7号冲着对方球员做着愤怒的打伞动作，而头发日益灰白的鸟叔一个一个的拥抱自己那些兴奋的弟子，随后被弟子们抛在半空以示感激。
 

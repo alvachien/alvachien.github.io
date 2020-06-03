@@ -14,8 +14,6 @@ There are lots of choice actually. Therefore, you need run phpinfo() to ensure y
 
 ![PhpInfo](/assets/uploads/2015/05/PhpInfo.png)
 
-<a href="http://www.alvachien.com/alvablog/wp-content/uploads/2015/05/PhpInfo.jpg"><img class="alignnone size-full wp-image-1778" src="http://www.alvachien.com/alvablog/wp-content/uploads/2015/05/PhpInfo.jpg" alt="PhpInfo" width="935" height="216" /></a>
-
 After you get the binary file of XDebug, in this case, the DLL file. Copy it the "ext" folder of you PHP installation.
 
 The next step is, enable the extension in the PHP.ini. And restart the Apache server to make it work.

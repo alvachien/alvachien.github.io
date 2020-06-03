@@ -11,7 +11,7 @@ Real Madrid 5-1 Dynamo Kyiv!
 
 We are walking on the way to the 10th Champion League Cup, the major opponent - FC Barcelona also fighting for their the 3rd Champion League Cup too. And, in the October 2006, a match will be arranged between this two top clubs in Spanish.
 
-A Classical Song: <strong>We are the Champion</strong>
+A Classical Song: **We are the Champion**
 
 I've paid my dues, time after time;
 I've done my sentence, but committed no crime;

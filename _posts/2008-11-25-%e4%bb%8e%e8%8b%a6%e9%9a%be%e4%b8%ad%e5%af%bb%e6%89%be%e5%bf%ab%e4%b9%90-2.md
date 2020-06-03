@@ -6,7 +6,6 @@ author: alvachien
 comments: true
 categories: [Federer, IT业内, SAP, 大师杯, 网球闲话, 费德勒]
 ---
-<div id="bp-5CD1AA99D25FD840_223-content">
 
 局势依旧扑朔迷离，好在远在大洋彼岸的美国股市这几天没有发生吸引全球视线的动静。然而，说到底，我们这些打工的命运并不掌握在自己手上，且股市涨跌跟我们也没太大关系，我个人而言，更Care公司的Revenue和Cash Flow，2个Billion的Cash当然远远比不上M$的21 billion以及Google的14 billion，但应该可以支撑我们拥有50k employee的公司一年左右的开销。
 
@@ -26,9 +25,8 @@ categories: [Federer, IT业内, SAP, 大师杯, 网球闲话, 费德勒]
 <a title="Tennis Master Cup 2008, Shanghai, Roger Federer by Alva Chien, on Flickr" href="http://www.flickr.com/photos/alvachien/3056598466/sizes/o/"><img src="http://farm4.static.flickr.com/3024/3056598466_1a22a04159_b.jpg" alt="Tennis Master Cup 2008, Shanghai, Roger Federer" width="683" height="1024" /></a>
 天王的网前截击
 
-<strong>欣赏全部的27张照片请移步</strong>：<a title="http://www.flickr.com/photos/alvachien/sets/72157609918571391/" href="http://www.flickr.com/photos/alvachien/sets/72157609918571391/">http://www.flickr.com/photos/alvachien/sets/72157609918571391/</a>
+**欣赏全部的27张照片请移步**：<a title="http://www.flickr.com/photos/alvachien/sets/72157609918571391/" href="http://www.flickr.com/photos/alvachien/sets/72157609918571391/">http://www.flickr.com/photos/alvachien/sets/72157609918571391/</a>
 
 Alva Chien
 2008.11.25
 
-</div>

@@ -9,11 +9,15 @@ categories: [IT业内, This is IT, 腾讯]
 跟SAP, Oracle, HP在新闻媒体上的声明，反驳等迂回式口水战不同，腾讯与360的对抗则显得简单而直接，针针见血，刀刀见肉，让我等观众看得目瞪口呆。如果说Oracle总裁用"dot not"来攻击Microsoft的“.NET”平台的手法如同西毒大战洪七，那360与腾讯的口水战我只能归档到市井流氓的赤身互博了。
 
 首先看看腾讯官网上炮制的反360专题：<a href="http://tech.qq.com/zt2010/360defameqq/index.htm">http://tech.qq.com/zt2010/360defameqq/index.htm</a> ,截图如下:
-<a href="http://www.alvachien.com/alvablog/wp-content/uploads/2010/10/Capture_20101028.jpg"><img class="alignnone size-full wp-image-931" title="Capture_20101028" src="http://www.alvachien.com/alvablog/wp-content/uploads/2010/10/Capture_20101028.jpg" alt="" width="967" height="663" /></a>
+
+![Capture_20101028](/assets/uploads/2010/10/Capture_20101028.jpg)
+
 腾讯很耐心的为所有读者勾勒出360这些年的累累劣迹，虽然不至于罄竹难书，只怕也千夫所指了。整个专题页面，可以清晰的看出腾讯对360打击采用了道德高度为突破口，所以，除了这个路线图之外，还有业内公司、业内人士、网友对360控诉。当然，以腾讯今时今日在IT界的威望，请出门客三千不费吹灰之力，更何况，这次腾讯来联合了中国互联网业第二大巨头百度、金山、遨游等五家企业一起发难。
 
 然后再看360官网上的公告：<a href="http://bbs.360.cn/3237987/39875769.html?recommend=1">http://bbs.360.cn/3237987/39875769.html?recommend=1</a>，截图如下:
-<a href="http://www.alvachien.com/alvablog/wp-content/uploads/2010/10/Capture_20101028_2.jpg"><img class="alignnone size-full wp-image-932" title="Capture_20101028_2" src="http://www.alvachien.com/alvablog/wp-content/uploads/2010/10/Capture_20101028_2.jpg" alt="" width="668" height="510" /></a>
+
+![Capture_20101028_2](/assets/uploads/2010/10/Capture_20101028_2.jpg)
+
 跟腾讯攻击360所用的以道德高度为突破口的手法出奇的一致，360反击也是直接对腾讯、百度、金山等以往劣迹进行抨击。只是，我难以接受的是，360甚至在这个页面第一行加了个对腾讯老大马化腾的个人攻击的链接。该链接中中贴了一张表格截图，试图说明马化腾领深圳经济适用房住房补贴，您看，即便对付马化腾个人，360还是选择从道德高度的层面进行攻击。
 
 原则上，腾讯跟360这种狗咬狗式的互掐是不会让我有写点东东的动力的。只是，在写完Oracle, HP, SAP的口水战之后，我觉得有必要记录一下这场内战，以为对比和衬托。

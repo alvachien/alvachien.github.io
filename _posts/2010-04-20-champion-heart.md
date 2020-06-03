@@ -6,14 +6,15 @@ author: alvachien
 comments: true
 categories: [Ferrari, Nadal, Real Madrid, 五洲足坛, 法拉利车队, 狂飙F1, 皇家马德里, 纳达尔, 网球闲话]
 ---
-<div><strong>Chapter 1. 史上第一个六连冠</strong></div>
+**Chapter 1. 史上第一个六连冠**
 <img src="http://i2.sinaimg.cn/ty/t/p/2010-04-18/U3616P6T12D4944922F44DT20100418224737.jpg" alt="" />
 一场酣畅淋漓的决赛，6-0/6-1的数据证明了血洗对手的威力，Nadal又一次回到大家的视野。
 在他破了十一个月的冠军荒之后；
 在他拿到公开赛时代第一个六连冠之后；
 只有Champion Heart还在，
 Nadal总会重回巅峰。
-<div><strong>Chapter 2. 还有希望！</strong></div>
+
+**Chapter 2. 还有希望！**
 <img src="http://i0.sinaimg.cn/ty/g/p/2010-04-19/U773P6T12D4945313F44DT20100419053109.jpg" alt="" />
 虽然溃败与巴萨，虽然看起来90%的可能四大皆空；
 但，老佛爷不仅买来了巨星，
@@ -26,7 +27,7 @@ C罗接受采访时说，
 自从看了Special One在Chelsea的表演之后，
 我一直觉得，Special One才应该执掌白衣军团。
 
-<strong>Chapter 3. 只为冠军</strong>
+**Chapter 3. 只为冠军**
 
 <img src="http://i0.sinaimg.cn/ty/f1/p/2010-04-18/U346P6T12D4944179F44DT20100418153033.jpg" alt="" />
 虽然站上F1上海站领奖台的没有这辆赛车，

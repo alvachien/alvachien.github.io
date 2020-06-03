@@ -6,8 +6,8 @@ author: alvachien
 comments: true
 categories: [ECNU, 华师大, 红圈白炮]
 ---
-<div>Just several photos of <strong>East China Normal University </strong>(ECNU):</div>
-<div><a title="Photo Sharing" href="http://www.flickr.com/photos/alvachien/1940584851/"><img src="http://farm3.static.flickr.com/2196/1940584851_fcaa994901_b.jpg" alt="Door" width="800" /></a></div>
+Just several photos of **East China Normal University** (ECNU):
+<div><a title="Photo Sharing" href="http://www.flickr.com/photos/alvachien/1940584851/"><img src="http://farm3.static.flickr.com/2196/1940584851_fcaa994901_b.jpg" alt="Door" width="800" /></a>
 Door of ECNU
 
 <a title="Photo Sharing" href="http://www.flickr.com/photos/alvachien/1944670686/"><img src="http://farm3.static.flickr.com/2387/1944670686_8faec29db7_b.jpg" alt="The river" width="800" /></a>

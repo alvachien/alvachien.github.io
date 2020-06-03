@@ -6,9 +6,8 @@ author: alvachien
 comments: true
 categories: [IT业内, Microsoft, SAP]
 ---
-<div id="bp-5CD1AA99D25FD840_265-content">
 
-<strong>Top 10最大软件公司</strong> (Search result via Google Engine; Currency: Million Dollar)：
+**Top 10最大软件公司** (Search result via Google Engine; Currency: Million Dollar)：
 <table border="2" cellspacing="0" cellpadding="2" width="283">
 <tbody>
 <tr>
@@ -79,7 +78,7 @@ categories: [IT业内, Microsoft, SAP]
 </tr>
 </tbody>
 </table>
-<strong>Top 10最佳软件公司</strong>(由&lt;<a href="http://www.cioinsight.com/" target="_blank">CIO Insight</a>&gt;发布)
+**Top 10最佳软件公司** (由&lt;<a href="http://www.cioinsight.com/" target="_blank">CIO Insight</a>&gt;发布)
 <table border="2" cellspacing="0" cellpadding="2" width="278">
 <tbody>
 <tr>
@@ -139,6 +138,4 @@ categories: [IT业内, Microsoft, SAP]
 </tr>
 </tbody>
 </table>
-Note: <strong>Business Objects was bought by SAP with <span style="color: #ff0000;">$6.79 Bn</span> dollars</strong>.
-
-</div>
+Note: **Business Objects was bought by SAP with *$6.79 Bn* dollars**.

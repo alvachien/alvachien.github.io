@@ -6,38 +6,34 @@ author: alvachien
 comments: true
 categories: [64bit, Photoshop, Photoshop, Vista, Windows Platform, 技术Tips]
 ---
-<div>
-<h2>Adobe Creative Suite 3 application installer closes with error code 2739 in Windows Vista</h2>
-<div>
-<h3>Issue</h3>
+## Adobe Creative Suite 3 application installer closes with error code 2739 in Windows Vista
+
+### Issue
 When you install Adobe Creative Suite 3 or a stand-alone Creative Suite 3 application in Windows Vista, one or more of the following occur:
-<ul>
-	<li>After you launch the Setup.exe file, the application returns the error message, "This software cannot be installed because JScript is not properly registered. Please repair JScript and then restart the installer"</li>
-	<li>The installer quits without an error message, though Setup.exe appears in the Task Manager.</li>
-	<li>You receive the error message, "Setup has encountered an error and needs to close. Error Code: 2739."</li>
-	<li>Installer log displays the error message, "Error 2739: Could not access JavaScript runtime for custom action"  </li>
-</ul>
+
+- After you launch the Setup.exe file, the application returns the error message, "This software cannot be installed because JScript is not properly registered. Please repair JScript and then restart the installer"
+- The installer quits without an error message, though Setup.exe appears in the Task Manager.
+- You receive the error message, "Setup has encountered an error and needs to close. Error Code: 2739."
+- Installer log displays the error message, "Error 2739: Could not access JavaScript runtime for custom action"  
  
-<div>
-<h3>Solution</h3>
-<strong><em>Disclaimer:</em></strong> This procedure involves editing the Windows registry. Adobe doesn't support editing the registry, which contains critical system and application information. For information on the Windows Registry Editor, see the documentation for Windows or contact Microsoft Technical Support.<strong>Manually register the jscript.dll file.</strong>On Windows Vista32:
-<ol>
-	<li>Choose Start &gt; All Programs &gt; Accessories.</li>
-	<li>Right-click the Command icon, choose Run As Administrator, and authenticate.</li>
-	<li>Navigate to Windows\System32.</li>
-	<li>At the prompt, type <strong>regsvr32 jscript.dll</strong> and press Enter.</li>
-	<li>When a dialog box with the message "DllRegisterServer in jscript.dll succeeded" appears, click OK.</li>
-</ol>
+
+### Solution
+**Disclaimer:** This procedure involves editing the Windows registry. Adobe doesn't support editing the registry, which contains critical system and application information. For information on the Windows Registry Editor, see the documentation for Windows or contact Microsoft Technical Support.**Manually register the jscript.dll file.**On Windows Vista32:
+
+- Choose Start &gt; All Programs &gt; Accessories.
+- Right-click the Command icon, choose Run As Administrator, and authenticate.
+- Navigate to Windows\System32.
+- At the prompt, type **regsvr32 jscript.dll** and press Enter.
+- When a dialog box with the message "DllRegisterServer in jscript.dll succeeded" appears, click OK.
+
 On Windows Vista64:
-<ol>
-	<li>Choose Start &gt; All Programs &gt; Accessories.</li>
-	<li>Right-click the Command icon, choose Run As Administrator, and authenticate.</li>
-	<li>Navigate to Windows\SysWow64.</li>
-	<li>At the prompt, type <strong>regsvr32 jscript.dll</strong> and press Enter.</li>
-	<li>When a dialog box with the message "DllRegisterServer in jscript.dll succeeded" appears, click OK.  </li>
-</ol>
+- Choose Start &gt; All Programs &gt; Accessories.
+- Right-click the Command icon, choose Run As Administrator, and authenticate.
+- Navigate to Windows\SysWow64.
+- At the prompt, type **regsvr32 jscript.dll** and press Enter.
+- When a dialog box with the message "DllRegisterServer in jscript.dll succeeded" appears, click OK.  
  
-<h3>TechNote Details</h3>
+### TechNote Details
 <table cellspacing="0" cellpadding="5">
 <tbody>
 <tr>
@@ -52,7 +48,7 @@ On Windows Vista64:
 <td>OS:</td>
 <td>
 <ul>
-	<li>Windows Vista</li>
+- Windows Vista
 </ul>
 </td>
 </tr>
@@ -66,6 +62,4 @@ On Windows Vista64:
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
+
