@@ -26,11 +26,13 @@ github_username:  alvachien
 markdown: CommonMarkGhPages
 theme: minima
 encoding: utf-8
-permalink: /:short_year:i_month:i_day.html
 
-# Pagination
-paginate: 20
-paginate_path: "page:num"
+# Paginate
+paginate: 10
+paginate_path: '/page:num/'
+pagination:
+  previous: "&larr; Previous"
+  next: "Next &rarr;"
 
 plugins:
   - jemoji

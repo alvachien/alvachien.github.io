@@ -26,14 +26,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
-# Paginate
-paginate: 10
-paginate_path: '/blog/page:num/'
-permalink:     '/blog/:year/:month/:title/'
-pagination:
-  previous: "&larr; Previous"
-  next: "Next &rarr;"
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
