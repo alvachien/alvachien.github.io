@@ -34,6 +34,13 @@ pagination:
   previous: "&larr; Previous"
   next: "Next &rarr;"
 
+# Upload images
+defaults:
+  - scope:
+      path: "assets/uploads"
+    values:
+      image: true
+
 plugins:
   - jemoji
   - jekyll-feed

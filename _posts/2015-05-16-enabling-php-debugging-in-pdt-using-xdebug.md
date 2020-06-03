@@ -12,6 +12,8 @@ Then, download the XDebug binaries, Link: http://xdebug.org/download.php
 
 There are lots of choice actually. Therefore, you need run phpinfo() to ensure your PHP version first. As the snapshot shows below, it is a 32-bit (X86), built with MSVC11 (Visual C++ 2012). The TS/NTS choice depends on the 'Thread Safety" of the PHP again.
 
+![PhpInfo](/assets/uploads/2015/05/PhpInfo.png)
+
 <a href="http://www.alvachien.com/alvablog/wp-content/uploads/2015/05/PhpInfo.jpg"><img class="alignnone size-full wp-image-1778" src="http://www.alvachien.com/alvablog/wp-content/uploads/2015/05/PhpInfo.jpg" alt="PhpInfo" width="935" height="216" /></a>
 
 After you get the binary file of XDebug, in this case, the DLL file. Copy it the "ext" folder of you PHP installation.
