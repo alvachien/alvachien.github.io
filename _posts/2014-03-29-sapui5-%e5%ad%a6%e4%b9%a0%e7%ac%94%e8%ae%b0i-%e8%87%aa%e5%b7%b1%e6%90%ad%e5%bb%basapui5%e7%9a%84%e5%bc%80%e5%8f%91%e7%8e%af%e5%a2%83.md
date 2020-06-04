@@ -17,7 +17,7 @@ Eclipse的版本也挺搞的。Eclipse 3.7称为Indigo；Eclipse 4.2称为Juno�
 
 **Step 2**. 安装SAPUI5的plugin
 https://tools.hana.ondemand.com/#sapui5
-最重要的信息是，使用![Eclipse Kepler (4.3)](https://tools.hana.ondemand.com/kepler) ![Eclipse Juno (4.2)](https://tools.hana.ondemand.com/juno) 来安装该Plugin;
+最重要的信息是，使用 [Eclipse Kepler (4.3)](https://tools.hana.ondemand.com/kepler) [Eclipse Juno (4.2)](https://tools.hana.ondemand.com/juno) 来安装该Plugin;
 
 **Step 3**. 官方的SDK文档： https://sapui5.hana.ondemand.com/sdk
 SCN对应的论坛： http://scn.sap.com/community/developer-center/front-end

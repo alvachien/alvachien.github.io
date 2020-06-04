@@ -17,7 +17,7 @@ $mysqli = new mysqli( MySqlHost, MySqlUser, MySqlPwd, MySqlDB );
 
 /* check connection */
 if (mysqli_connect_errno ()) {
-die("Connect failed: %s\n" . mysqli_connect_error ());
+    die("Connect failed: %s\n" . mysqli_connect_error ());
 }
 
 $sError = "";
@@ -30,52 +30,52 @@ $sMsg = "";
 $query = "CALL " . MySqlLearnObjectCreateProc . "(?, ?, ?);";
 
 if ($stmt = $mysqli->prepare($query)) {
-$stmt->bind_param("iss", $ctgyid, $name, $content);
-/* Execute the statement */
-if ($stmt->execute()) {
-/* bind variables to prepared statement */
-$stmt->bind_result($code, $msg, $lastid);
+    $stmt->bind_param("iss", $ctgyid, $name, $content);
+    /* Execute the statement */
+    if ($stmt->execute()) {
+        /* bind variables to prepared statement */
+        $stmt->bind_result($code, $msg, $lastid);
 
-/* fetch values */
-while ($stmt->fetch()) {
-$nCode = (int) $code;
-$sMsg = $msg;
-$nNewid = (int)$lastid;
-}
-} else {
-$nCode = 1;
-$sMsg = "Failed to execute query: ". $query;
-}
+        /* fetch values */
+        while ($stmt->fetch()) {
+            $nCode = (int) $code;
+            $sMsg = $msg;
+            $nNewid = (int)$lastid;
+        }
+    } else {
+        $nCode = 1;
+        $sMsg = "Failed to execute query: ". $query;
+    }
 
-/* close statement */
-$stmt->close();
+    /* close statement */
+    $stmt->close();
 } else {
-$nCode = 1;
-$sMsg = "Failed to parpare statement: ". $query;
+    $nCode = 1;
+    $sMsg = "Failed to parpare statement: ". $query;
 }
 
 $rsttable = array();
 if ($nCode > 0) {
-$sError = $sMsg;
+    $sError = $sMsg;
 } else if ($nCode === 0 &amp;&amp; $nNewid > 0) {
-$query = "SELECT ID, CATEGORY_ID, CATEGORY_NAME, NAME, CONTENT FROM " . MySqlLearnObjListView . " WHERE ID = ". $nNewid;
+    $query = "SELECT ID, CATEGORY_ID, CATEGORY_NAME, NAME, CONTENT FROM " . MySqlLearnObjListView . " WHERE ID = ". $nNewid;
 
-if ($result = $mysqli->query($query)) {
-/* fetch associative array */
-while ($row = $result->fetch_row()) {
-$rsttable [] = array (
-"id" => $row [0],
-"categoryid" => $row [1],
-"categoryname" => $row [2],
-"name" => $row[3],
-"content" => $row[4]
-);
-}
-/* free result set */
-$result->close();
-} else {
-$sError = "Failed to execute query: ". $query . " ; Error: ". $mysqli->error;
-}
+    if ($result = $mysqli->query($query)) {
+        /* fetch associative array */
+        while ($row = $result->fetch_row()) {
+            $rsttable [] = array (
+                "id" => $row [0],
+                "categoryid" => $row [1],
+                "categoryname" => $row [2],
+                "name" => $row[3],
+                "content" => $row[4]
+            );
+        }
+        /* free result set */
+        $result->close();
+    } else {
+        $sError = "Failed to execute query: ". $query . " ; Error: ". $mysqli->error;
+    }
 }
 
 /* close connection */

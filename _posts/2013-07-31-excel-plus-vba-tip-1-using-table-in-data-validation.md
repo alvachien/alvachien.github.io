@@ -10,7 +10,7 @@ categories: [Excel, Microsoft, Office, VBA, Windows Platform]
 
 - 虽然该Table Name显示在Name Manager Dialog中，VBA代码却无法直接用Name的方式读取，即ActiveWorkbook的Names找不到对应的名字。这个问题限于时间原因，来不及研究根本原因，但我怀疑应该跟Conver To Range休戚相关。Conver To Range在选择Table的Context Menu\Table子菜单中。- 在Data Validation框中，Source输入框中也无法直接使用Table Name+Column的语法，如Table1[Header1]，尽管Excel本身已经解析出来对应的Range。解决这个问题我想到的办法是，**重新Define Name，并定义其Refer To指定Table Name（或加Header名称）**。在Data Validation中使用新的Name就可以了。通过搜索引擎找到另外一个办法是使用INDIRECT函数，即Source输入框中使用 **INDIRECT("Table1[Header1]")**
 
-Microsoft官方Office 2010关于Table Name的说明页：&lt;Using structured references with Excel tables&gt;, Link: <a href="http://office.microsoft.com/en-us/excel-help/using-structured-references-with-excel-tables-HA010342999.aspx?CTT=1">http://office.microsoft.com/en-us/excel-help/using-structured-references-with-excel-tables-HA010342999.aspx?CTT=1</a>
+Microsoft官方Office 2010关于Table Name的说明页：[Using structured references with Excel tables](http://office.microsoft.com/en-us/excel-help/using-structured-references-with-excel-tables-HA010342999.aspx?CTT=1)
 
 是为之记。
 Alva Chien
