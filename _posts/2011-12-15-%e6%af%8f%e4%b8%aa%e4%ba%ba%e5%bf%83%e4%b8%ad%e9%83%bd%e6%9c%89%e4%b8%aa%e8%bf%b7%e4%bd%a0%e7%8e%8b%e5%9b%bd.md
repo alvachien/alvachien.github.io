@@ -6,7 +6,8 @@ author: alvachien
 comments: true
 categories: [亚瑟, 吕克贝松, 斯皮尔伯格, 观影乱谈]
 ---
-[caption id="" align="alignnone" width="680" caption="亚瑟和他的迷你王国 (Picture From Sina.com.cn)"]<a href="http://apollo.s.dpool.sina.com.cn/nd/dataent/tmp/moviepic/pics/moviepic_7a031e4a67fe68d361a426d38a8aaece.jpg"><img title="亚瑟和他的迷你王国" src="http://apollo.s.dpool.sina.com.cn/nd/dataent/tmp/moviepic/pics/moviepic_7a031e4a67fe68d361a426d38a8aaece.jpg" alt="亚瑟和他的迷你王国" width="680" height="907" /></a>[/caption]
+
+![Arthur And The Invisibles](/assets/uploads/2011/12/ArthurAndTheInvisibles.jpg)
 
 “每个心中都有个迷你王国。”看着屏幕上的《亚瑟和他的迷你王国》，脑海里不由自主的反应出这句话来。
 

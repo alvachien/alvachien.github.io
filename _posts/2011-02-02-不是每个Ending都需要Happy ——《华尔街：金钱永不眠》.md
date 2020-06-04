@@ -6,7 +6,7 @@ author: alvachien
 comments: true
 categories: [华尔街, 观影乱谈]
 ---
-[caption id="" align="alignnone" width="511" caption="Wall Street: Money Never Sleeps (From Sina.com.cn)"]<img title="Wall Street: Money Never Sleeps" src="http://apollo.s.dpool.sina.com.cn/nd/dataent/moviepic/pics/10/moviepic_bdd9b0a85ab26ed027c231c53799f967.jpg" alt="" width="511" height="755" />[/caption]
+![Wall Street: Money Never Sleep](/assets/uploads/2011/02/MoneyNeverSleep.jpg)
 
 赶在这个节前无比轻松的时候认真看了一下这部《华尔街：金钱永不眠》(Wall Street: Money Never Sleeps)。总得来说这是一部编剧上很成功的电影，不仅在于剧情糅合了次贷危机，同时又成功了衔接了第一部的剧情，更在于剧本又一次呈现了一个完美的圈套，是的，一个完美的圈套。如果说《局内人》(Insider)，《十一罗汉》(Elevent)作为罪案、推理类影片，设计一些精彩情节无可厚非的话，那么金融领域的暗算、设计更应该是贴近生活的，毕竟现实中不是每个人都需要抢劫银行、赌场。
 

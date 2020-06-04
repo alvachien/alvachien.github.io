@@ -26,6 +26,7 @@ github_username:  alvachien
 markdown: CommonMarkGhPages
 theme: minima
 encoding: utf-8
+permalink: /:year/:month/:title:output_ext
 
 # Paginate
 paginate: 10
