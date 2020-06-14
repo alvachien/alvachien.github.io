@@ -12,17 +12,15 @@ layout: default
       
         {{ content }}
       
-      
         {% if site.paginate %}
           {% assign posts = paginator.posts %}
         {% else %}
           {% assign posts = site.posts %}
         {% endif %}
       
-      
         {%- if posts.size > 0 -%}
           {%- if page.list_title -%}
-            <h2 class="post-list-heading">{{ page.list_title }}</h2>
+          <h2 class="post-list-heading">{{ page.list_title }}</h2>
           {%- endif -%}
           <ul class="post-list">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -59,8 +57,7 @@ layout: default
             </div>
           {%- endif %}
       
-        {%- endif -%}
-      
+        {%- endif -%}      
       </div>      
     </div>
 
@@ -68,7 +65,7 @@ layout: default
       <h4>Categories</h4>
       <ul>
           {% for category in site.categories %}
-          <li><a href="/categories/{{ category | first }}/" title="view all posts">{{ category | first }} {{ category | last | size }}</a>
+          <li><a href="/categories/{{ category | first }}" title="view all posts">{{ category | first }} ({{ category | last | size }})</a>
           </li>
           {% endfor %}
       </ul>      

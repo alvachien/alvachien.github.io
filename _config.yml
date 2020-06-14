@@ -26,12 +26,20 @@ collections:
   category:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%Y-%m-%d %H:%M"
 
-  skin: "dark"
+#  skin: "dark"
   
   # generate social links in footer
   social_links:
