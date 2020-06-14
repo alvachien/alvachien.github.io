@@ -4,7 +4,8 @@ title: 势在必行的Evolution I
 date: 2008-12-17 14:03
 author: alvachien
 comments: true
-categories: [SAP, 职场生涯, 随心随笔]
+tags: [SAP]
+categories: [职场生涯, 随心随笔]
 ---
 在被老板Challenge的间隔中看了一下唐骏的故事，See ![here](http://money.163.com/08/1208/15/4SLE0MOK002524TL.html)。 
 

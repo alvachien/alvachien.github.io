@@ -4,7 +4,8 @@ title: 1:6, Discreditable!
 date: 2006-02-10 15:40
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 欧冠, 皇家马德里]
+categories: [五洲足坛]
+tags: [Real Madrid, 欧冠, 皇家马德里]
 ---
 Real Madrid lost the game in King's Cup with the scrore 1:6, **a discreditable result**!
  

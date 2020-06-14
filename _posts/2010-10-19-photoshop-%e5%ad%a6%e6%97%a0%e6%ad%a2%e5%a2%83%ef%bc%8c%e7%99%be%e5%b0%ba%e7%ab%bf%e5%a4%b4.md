@@ -4,7 +4,8 @@ title: "[Photoshop] 学无止境，百尺竿头"
 date: 2010-10-19 12:47
 author: alvachien
 comments: true
-categories: [Photoshop, Photoshop, 技术Tips]
+tags: [Photoshop]
+categories: [技术Tips]
 ---
 陆陆续续又累积了无数的片子等待PS，从去年的杭州之旅到东京、西安所拍的照片，对了，还有世纪公园的烟花。
 

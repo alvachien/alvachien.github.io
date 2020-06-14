@@ -4,7 +4,8 @@ title: TongJi University Century Celebration
 date: 2006-03-30 15:45
 author: alvachien
 comments: true
-categories: [同济, 百年校庆, 随心随笔]
+categories: [随心随笔]
+tags: [同济, 百年校庆]
 ---
 **TongJi University Century Celebration** is coming [1907-2007]!
  

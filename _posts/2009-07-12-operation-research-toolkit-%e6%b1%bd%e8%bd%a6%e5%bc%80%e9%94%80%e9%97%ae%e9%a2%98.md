@@ -4,7 +4,8 @@ title: "Operation Research Toolkit: 汽车开销问题"
 date: 2009-07-12 15:39
 author: alvachien
 comments: true
-categories: [Windows Platform, 技术Tips, 随心随笔]
+tags: [Windows Platform]
+categories: [技术Tips, 随心随笔]
 ---
 一直想写个Toolkit来应用Operation Research中那些不错的方法。迫于LD要求，首先付之行动的便是汽车开销问题。本以为，写个算法应该不太难，真正动手的时候才发现：写个可以重用的算法就非常难，尤其是基于图这个结构。
 

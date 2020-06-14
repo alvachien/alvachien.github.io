@@ -4,7 +4,8 @@ title: 《Code Complete》 2nd Edition
 date: 2006-03-31 15:46
 author: alvachien
 comments: true
-categories: [Code Complete, 读书笔记]
+categories: [读书笔记]
+tags: [Code Complete]
 ---
 Got the book - **Code Complete (2nd Edition)**, I will focus on this book for several weeks, and will update my notes in to [Alva Chien's CSDN Blog](http://blog.csdn.net/alvachien) as soon as possible.
  

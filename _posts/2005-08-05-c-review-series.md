@@ -4,7 +4,8 @@ title: C++ Review Series
 date: 2005-08-05 18:15
 author: alvachien
 comments: true
-categories: [C++, STL, 技术Tips]
+tags: [C++, STL]
+categories: [技术Tips]
 ---
 写在前面的话
 

@@ -4,7 +4,8 @@ title: Looking forward to 翘首以待 （第六辑 @36W）
 date: 2008-07-02 12:53
 author: alvachien
 comments: true
-categories: [Duoduo, LD, 多多, 孕期, 红圈白炮, 随心随笔]
+tags: [Duoduo, LD, 多多, 孕期]
+categories: [Family, 红圈白炮, 随心随笔]
 ---
 俺们家多多离足月儿就差几天了，于是俺们的期待更加炙热了几分。
 

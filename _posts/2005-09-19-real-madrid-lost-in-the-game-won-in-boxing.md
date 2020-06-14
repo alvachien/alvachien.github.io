@@ -4,7 +4,8 @@ title: Real Madrid, lost in the game, won in boxing...
 date: 2005-09-19 15:21
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 皇家马德里]
+categories: [五洲足坛]
+tags: [Real Madrid, 皇家马德里]
 ---
 
 **Disappointed!**

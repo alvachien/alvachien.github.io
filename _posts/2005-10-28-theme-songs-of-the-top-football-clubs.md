@@ -4,7 +4,8 @@ title: Theme songs of the top football clubs
 date: 2005-10-28 15:28
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 歌曲, 皇家马德里]
+categories: [五洲足坛]
+tags: [Real Madrid, 歌曲, 皇家马德里]
 ---
 The lyric and its Chinese version all searched by Internet, so, if you know the German, Italian, Spanish, check it please:-)
  

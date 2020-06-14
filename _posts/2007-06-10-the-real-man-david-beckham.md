@@ -4,7 +4,8 @@ title: The real man_David Beckham
 date: 2007-06-10 17:33
 author: alvachien
 comments: true
-categories: [Beckham, David Beckham, 五洲足坛, 贝克汉姆]
+tags: [Beckham, David Beckham, 贝克汉姆]
+categories: [五洲足坛]
 ---
 There are three months passed after David Beckham come back to Real Madrid's squad, and during those days, No. 23 of Real Madrid played lots of great games which causes the coach of England decided to take him in.
  

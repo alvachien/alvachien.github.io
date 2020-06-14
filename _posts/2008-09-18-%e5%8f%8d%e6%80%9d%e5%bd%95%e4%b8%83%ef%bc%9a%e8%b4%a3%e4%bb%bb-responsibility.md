@@ -4,9 +4,9 @@ title: 反思录(七)：责任 Responsibility
 date: 2008-09-18 13:36
 author: alvachien
 comments: true
-categories: [反思录, 随心随笔]
+categories: [随心随笔]
+tags: [反思录]
 ---
-<div id="bp-C678F199F470A1FB_1454-content">
 
 我效力的这家著名软件巨头有两个优良的传统。第一个传统是开发阶段，每在内部DEV系统中创建一个Object，都必须制定Responsible Person，哪怕这个人根本跟Created by和Last Modified by完全没有关系，这样在这个Object出现问题时，使用者都能找到对应的解决问题的那个人。第二个传统是，当一个Module在上市一段时间后，根据Customer的Feedback来决定是否把Responsibility从Developer手里移交到IMS（一个专门的部门），这样可以让Developer从繁重的Responsibility中解脱出来，全心投入下一个Module的Design和Implementation中去。
 
@@ -24,6 +24,5 @@ Responsibility，一个琅琅上口的词汇。所以，和我一起共事的老
 Alva Chien
 2008.09.18於家，上海。
 
-<hr />PS. 总算写完这个系列，本来是想在多多出生之前把自己这么多年胡思乱想凝结成文字，可惜，这一拖就拖到今天。Anyway，可以收工了。
 
-</div>
+PS. 总算写完这个系列，本来是想在多多出生之前把自己这么多年胡思乱想凝结成文字，可惜，这一拖就拖到今天。Anyway，可以收工了。

@@ -4,7 +4,8 @@ title: A very strange question with my Live Messenger, and I can foresee MS's lo
 date: 2008-09-23 13:38
 author: alvachien
 comments: true
-categories: [IT业内, Microsoft, Windows Live]
+tags: [Microsoft, Windows Live]
+categories: [IT业内]
 ---
 From last saturday, I can't login my Live Account on Windows Live Messenger, and the other sevices work fine, that means I can access my mailbox and Spaces like before.
  

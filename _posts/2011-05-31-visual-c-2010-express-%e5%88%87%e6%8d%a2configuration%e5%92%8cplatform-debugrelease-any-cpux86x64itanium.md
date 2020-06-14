@@ -4,7 +4,8 @@ title: "Visual C# 2010 Express 切换Configuration和Platform: Debug/Release, An
 date: 2011-05-31 22:52
 author: alvachien
 comments: true
-categories: [Visual C# Express, Visual Studio, Windows Platform, 技术Tips]
+tags: [Visual C# Express, Visual Studio, Windows Platform]
+categories: [技术Tips]
 ---
 一直没注意Visual C# Express(以下简称VCSE)默认并不提供切换Configuration和Platform的功能。具体来说，VCSE会默认生成Release版本当按F6来启动Build，而按F5或者F10等启动Debug时则默认会生成Debug版本。至于Platform则根据当前Active的Platform来自动执行。
 

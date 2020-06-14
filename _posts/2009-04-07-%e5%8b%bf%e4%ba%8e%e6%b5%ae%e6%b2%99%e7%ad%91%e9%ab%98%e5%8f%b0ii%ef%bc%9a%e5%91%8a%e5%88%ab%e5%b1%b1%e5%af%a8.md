@@ -4,9 +4,9 @@ title: 勿于浮沙筑高台II：告别山寨
 date: 2009-04-07 14:59
 author: alvachien
 comments: true
-categories: [M8, Meizu, 随心随笔]
+tags: [M8, Meizu]
+categories: [随心随笔]
 ---
-<div id="bp-5CD1AA99D25FD840_531-content">
 
 终于成功的抛售了那台山寨神机——Meizu M8，这个跳票长达两年，时至今日，连电话、通讯功能都做不好的“中国版iPhone”，更别提我最看重的Calendar和To-DO List了，这台神机的伟大之处不仅仅在于能莫名其妙的没法接收或拨打电话（是在本人不知情的情况下），还能把Calendar中的Event莫名其妙的提前一天，更能把两个礼拜前或后的Event给手机的主人提醒一下。而更牛的是，现在这个系统居然是这台神机开发两年多之后的成果，幸亏他们使用了Windows CE而没有选择完全自己开发。
 
@@ -20,4 +20,3 @@ categories: [M8, Meizu, 随心随笔]
 Alva Chien
 2009.04.07于上海
 
-</div>

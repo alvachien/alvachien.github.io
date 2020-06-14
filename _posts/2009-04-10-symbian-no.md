@@ -4,7 +4,8 @@ title: Symbian? NO!
 date: 2009-04-10 15:01
 author: alvachien
 comments: true
-categories: [E71, IT业内, Nokia, Symbian, 技术Tips, 随心随笔]
+tags: [E71, IT业内, Nokia, Symbian]
+categories: [技术Tips, 随心随笔]
 ---
 尽管刚刚入手E71一个礼拜，我已经深深后悔，如今的S60系统已经物是人非了，暂且不论证书的引入孰是孰非，但其复杂的权限设置、基础功能的缺失更是让我这种有着数年软件开发经验的用户头疼不已。
  

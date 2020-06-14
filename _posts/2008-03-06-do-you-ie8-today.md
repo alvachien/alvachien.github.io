@@ -4,7 +4,8 @@ title: Do you IE8 today?
 date: 2008-03-06 20:57
 author: alvachien
 comments: true
-categories: [IE, IT业内, Windows, Windows Platform, 技术Tips]
+tags: [IE, Windows, Windows Platform]
+categories: [IT业内, 技术Tips]
 ---
 It seemed that the software giant in Raymond has waken up. So that it only took about 1 year for the Internet Explorer to upgrade from 7 to 8, however it cost more than 4 years for IE to upgraded from 6 to 7.
 

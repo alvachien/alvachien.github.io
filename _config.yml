@@ -22,6 +22,10 @@ url: "https://alvachien.github.io" # the base hostname & protocol for your site,
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
+collections:
+  category:
+    output: true
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:

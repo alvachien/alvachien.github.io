@@ -4,7 +4,8 @@ title: An old album, published in 1996
 date: 2007-06-26 17:36
 author: alvachien
 comments: true
-categories: [歌曲, 随心随笔]
+tags: [歌曲]
+categories: [随心随笔]
 ---
 <img src="http://images.sogua.com/album_pic/source/9/4/3/943211.jpg" alt="" />
 The envelope

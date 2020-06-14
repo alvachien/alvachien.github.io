@@ -4,7 +4,8 @@ title: SQL Server Compact Edition 3.5 SP1
 date: 2008-08-31 13:11
 author: alvachien
 comments: true
-categories: [HIH, SQL Server Compact, Windows Platform, 技术Tips]
+tags: [HIH, SQL Server Compact, Windows Platform]
+categories: [技术Tips]
 ---
 不得不记录一下，为了那终于到来的native 64-bit Support！
 

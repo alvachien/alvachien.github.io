@@ -4,7 +4,8 @@ title: Fickr setup a new picture server!
 date: 2007-10-28 17:47
 author: alvachien
 comments: true
-categories: [Flickr, 三亚, 刘德华, 演唱会, 红圈白炮, 羽毛球, 随心随笔]
+tags: [Flickr, 三亚, 刘德华, 演唱会, 羽毛球]
+categories: [红圈白炮, 随心随笔]
 ---
 
 Regarding the new picture server, I guess the amount of pictures have exceeded the capability of the old two servers, so **Flickr** (perhaps it's better to call it Yahoo) setup a new picture server, and all the new-added photo works fine now !

@@ -4,7 +4,8 @@ title: WHITE is greatest for merging colors, RED/BLUE just part of it
 date: 2008-04-30 12:32
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 皇家马德里]
+tags: [Real Madrid, 皇家马德里]
+categories: [五洲足坛]
 ---
 
 BAR has been kicked off from the Champion League by the MU last night, which means their lost the last chance to own one kind of championship this season.

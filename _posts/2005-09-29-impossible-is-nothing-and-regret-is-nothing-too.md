@@ -4,7 +4,8 @@ title: Impossible is nothing, and, Regret is nothing, too.
 date: 2005-09-29 15:22
 author: alvachien
 comments: true
-categories: [SAP, 职场生涯, 随心随笔]
+tags: [SAP]
+categories: [职场生涯, 随心随笔]
 ---
 I have writen a article <Impossible is Nothing>, now, I just try to write another, with the name <Regret is Nothing>, but after think it over, I decide to use the name as the article is used.
  

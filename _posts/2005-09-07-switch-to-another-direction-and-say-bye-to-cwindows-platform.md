@@ -4,7 +4,8 @@ title: Switch to another direction, and say bye to C++/Windows platform
 date: 2005-09-07 15:19
 author: alvachien
 comments: true
-categories: [C++, DirectShow, MFC, SAP, STL, Windows, 职场生涯]
+tags: [C++, DirectShow, MFC, SAP, STL, Windows]
+categories: [职场生涯]
 ---
 
 Finally, I have changed my direction of career, give up the C++ and windows development, to star up a new phase of my career life.

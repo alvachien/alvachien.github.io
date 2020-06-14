@@ -4,7 +4,8 @@ title: "This is IT (12): 论Adobe关闭中国研发中心的必然性"
 date: 2014-09-25 23:15
 author: alvachien
 comments: true
-categories: [Adobe, IT业内, Microsoft, This is IT]
+tags: [Adobe, Microsoft, This is IT]
+categories: [IT业内]
 ---
 毫无征兆的，Adobe宣布关闭其中国的研发部门，并将对应的Header Counter移到印度。印度人的身影不仅在IT巨头（尤其是美国）的高管层屡见不鲜，而印度团队从中国团队抢走蛋糕的故事更加是耳熟能详。
 

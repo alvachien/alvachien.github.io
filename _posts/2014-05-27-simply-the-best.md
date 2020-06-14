@@ -4,7 +4,8 @@ title: Simply The Best
 date: 2014-05-27 22:55
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 冠军, 皇家马德里]
+tags: [Real Madrid, 冠军, 皇家马德里]
+categories: [五洲足坛]
 ---
 当第十座大耳杯杯变成了现实，作为白衣军团的拥趸，总得写点什么以为纪念。
 

@@ -4,7 +4,8 @@ title: Top 10最大软件公司 VS Top 10最佳软件公司 （2008年）
 date: 2008-12-14 14:01
 author: alvachien
 comments: true
-categories: [IT业内, Microsoft, SAP]
+tags: [Microsoft, SAP]
+categories: [IT业内]
 ---
 
 **Top 10最大软件公司** (Search result via Google Engine; Currency: Million Dollar)：

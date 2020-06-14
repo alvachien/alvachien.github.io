@@ -4,7 +4,8 @@ title: Angel_The man/woman who fixes a long-time existed issue
 date: 2007-01-16 16:50
 author: alvachien
 comments: true
-categories: [C++, Microsoft.NET, Windows Platform, 技术Tips]
+tags: [C++, Microsoft.NET, Windows Platform]
+categories: [技术Tips]
 ---
 After I decide to reinstall the OS system to get rid of the strange problem which occurred only video file playback with the new Graphics Card (Nvidia GeForce 7600 GS, AGP 8X), it takes about 1 hours to do the preparation. And I could not find out the English OS disc, so I have to choose Chinese version as an instead. 
  

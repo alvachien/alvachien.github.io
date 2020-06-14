@@ -4,7 +4,8 @@ title: 船长登舰！No.1 of Real Madrid!
 date: 2010-06-01 21:23
 author: alvachien
 comments: true
-categories: [Mourinho, Real Madrid, 五洲足坛, 皇家马德里, 穆里尼奥]
+tags: [Mourinho, Real Madrid, 皇家马德里, 穆里尼奥]
+categories: [五洲足坛]
 ---
 The photo says everything.
 <img src="http://i1.sinaimg.cn/ty/g/p/2010-06-01/U3948P6T12D5014099F44DT20100601073311.JPG" alt="" />

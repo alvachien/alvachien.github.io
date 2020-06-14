@@ -4,7 +4,8 @@ title: Do NOT lying on technologies for we NEVER keep the speed of their refresh
 date: 2009-02-18 14:17
 author: alvachien
 comments: true
-categories: [C++, IT业内, Windows Platform, 技术Tips]
+tags: [C++, Windows Platform]
+categories: [IT业内, 技术Tips]
 ---
 ### What programming languages are paying the bills?</h3>
 Survey period: **9 Feb 2009** to **16 Feb 2009**

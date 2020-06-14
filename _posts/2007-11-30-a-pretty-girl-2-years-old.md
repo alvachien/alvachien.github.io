@@ -4,7 +4,8 @@ title: A pretty girl @ 2 years old
 date: 2007-11-30 17:52
 author: alvachien
 comments: true
-categories: [红圈白炮, 茜茜]
+tags: [茜茜]
+categories: [红圈白炮]
 ---
 
 A pretty girl named Qianqian (茜茜) is my niece, about two years old.

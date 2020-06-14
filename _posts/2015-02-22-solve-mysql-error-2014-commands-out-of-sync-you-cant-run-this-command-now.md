@@ -4,7 +4,8 @@ title: "Solve MySQL error 2014: Commands out of sync; you can't run this command
 date: 2015-02-22 16:05
 author: alvachien
 comments: true
-categories: [MySql, mysqli, PHP, Web Development]
+tags: [MySql, mysqli, PHP, Web Development]
+categories: [技术Tips]
 ---
 如果需要在新插入数据记录后立刻进行查询，则可能遇到著名的MySQL error 2014: Commands out of sync; you can't run this command now
 

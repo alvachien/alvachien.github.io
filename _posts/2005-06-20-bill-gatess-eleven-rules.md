@@ -4,7 +4,8 @@ title: Bill Gates's Eleven Rules
 date: 2005-06-20 13:29
 author: alvachien
 comments: true
-categories: [Bill Gate, IT业内]
+categories: [IT业内]
+tags: [Bill Gates]
 ---
 **BILL GATES ELEVEN RULES TO CONFROUNT REALITY OF THE WORKPLACE**
 

@@ -4,7 +4,8 @@ title: Feeling the power of ASP.Net
 date: 2006-08-22 15:53
 author: alvachien
 comments: true
-categories: [ASP.NET, C++, Microsoft.NET, Windows Platform, 技术Tips]
+tags: [ASP.NET, C++, Microsoft.NET, Windows Platform]
+categories: [技术Tips]
 ---
 After I have put a month to study the C# under the .Net Framework 2.0 and have writen a Windows Form version P.I.H., I am satisified with current status, and the GP of C# is great, and C# is powerful tool and much more easier than C++, but it still low performance in execution, maybe upgrade my notebook is one of best solutions.
  

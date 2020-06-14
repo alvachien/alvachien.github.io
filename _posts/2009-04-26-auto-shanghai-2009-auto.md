@@ -4,7 +4,8 @@ title: "Auto Shanghai 2009: Auto"
 date: 2009-04-26 15:06
 author: alvachien
 comments: true
-categories: [Automobile, 汽车, 爱车一族, 红圈白炮, 车展]
+tags: [Automobile, 汽车, 爱车一族, 车展]
+categories: [行万里路, 红圈白炮]
 ---
 1.4TSI版本的朗逸侧重运动，GTI网格式进气口。TSI+DSG是大众今年的杀手锏。
 <a title="TSI 最明显的发动机 by Alva Chien, on Flickr" href="http://www.flickr.com/photos/alvachien/3469148443/"><img src="http://farm4.static.flickr.com/3663/3469148443_0c3618b347_b.jpg" alt="TSI 最明显的发动机" width="600" /></a>

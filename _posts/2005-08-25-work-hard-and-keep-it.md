@@ -4,7 +4,8 @@ title: Work hard and keep it!
 date: 2005-08-25 15:16
 author: alvachien
 comments: true
-categories: [HP, Interview, IT业内]
+categories: [IT业内]
+tags: [HP, Interview]
 ---
 
 The day before yesterday, I got an interview in HP for a suitable position. I am not sure about HP can give me an offer, but I just try. During the processing of the interview, I found the guy who are doing interview to me is very depth in the technologies which I always be proud of, such as C, Windows 32 platform. In the viewpoint of those guys, Linux is a same one as UNIX and Windows, for there are all load the file(executable) into memory and then got the address of code and parameters and RUN it, it is so similar in all OSs. But to me, it is to hard to explain the format of PE structure and find the bugs only by the error status report of the CPU and memory status. And, I don't know how long it will be caused for me to being so professional like him.

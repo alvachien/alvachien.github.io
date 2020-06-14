@@ -4,7 +4,8 @@ title: Photos of ECNU
 date: 2007-11-11 17:51
 author: alvachien
 comments: true
-categories: [ECNU, 华师大, 红圈白炮]
+tags: [ECNU, 华师大]
+categories: [红圈白炮]
 ---
 Just several photos of **East China Normal University** (ECNU):
 

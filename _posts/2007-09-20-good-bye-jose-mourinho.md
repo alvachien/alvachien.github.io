@@ -4,7 +4,8 @@ title: Good bye, Jose Mourinho
 date: 2007-09-20 17:46
 author: alvachien
 comments: true
-categories: [Mourinho, 五洲足坛, 穆里尼奥]
+tags: [Mourinho, 穆里尼奥]
+categories: [五洲足坛]
 ---
 Jose left Chelsea in quite a sudden.
 

@@ -4,7 +4,8 @@ title: The ERP of Century -- A song about SAP
 date: 2006-11-11 16:47
 author: alvachien
 comments: true
-categories: [IT业内, SAP, 歌曲]
+tags: [SAP, 歌曲]
+categories: [IT业内]
 ---
 [Download the mp3 version](http://morsekode.com/SAP/ERPofCentury.mp3)
  

@@ -4,7 +4,8 @@ title: Basic Concept of UML
 date: 2005-08-05 15:14
 author: alvachien
 comments: true
-categories: [UML, 技术Tips]
+tags: [UML]
+categories: [技术Tips]
 ---
 
 UML is a powerful language for Software Engineering. And the useful tools will be Rational Rose and Microsoft Visio.

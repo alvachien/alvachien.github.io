@@ -4,7 +4,8 @@ title: "[Photoshop] Location of Actions and Scripts for Photoshop CS4"
 date: 2009-12-27 17:22
 author: alvachien
 comments: true
-categories: [Photoshop, Photoshop, 技术Tips]
+tags: [Photoshop]
+categories: [技术Tips]
 ---
 I always confused with the locations for Actions and Scripts, especially after upgrade the Photoshop or even the OS.
 

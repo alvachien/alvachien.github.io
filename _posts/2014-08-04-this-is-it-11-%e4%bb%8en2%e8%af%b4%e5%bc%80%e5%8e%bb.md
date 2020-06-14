@@ -4,7 +4,8 @@ title: "This is IT (11): 从N+2说开去"
 date: 2014-08-04 09:58
 author: alvachien
 comments: true
-categories: [IT业内, Microsoft, Nokia, This is IT, 大礼包, 职场生涯]
+categories: [IT业内]
+tags: [Microsoft, Nokia, This is IT, 大礼包, 职场生涯]
 ---
 当双方的官方网站同步宣布：百年老店Nokia被比成立年限只有一半的Microsoft收购了——虽然只有手机业务部分，这则老黄历的新闻的轰动性并不足以让我这个Ericsson拥趸产生什么共鸣，谁让Ericsson曾是Nokia的死对头呢。而Microsoft宣布史上最大规模裁员，而且重灾区是Nokia的时候，没没有让同为IT民工的我吃惊，公司被并购被裁员是可以预期的，何况Microsoft自己有硬件部门，有Windows Phone开发团队，更遑论两者庞大的销售团队了。资源重叠必然重组，而被并购的公司注定了是重灾区。当看到报道Nokia员工抗议微软裁员（[诺基亚中国员工抗议微软裁员：补偿不及预期](http://tech.sina.com.cn/it/2014-08-01/18189530562.shtml)），原因是“补偿只有N+2，没有达到N+6的预期”，我不禁一下子想到了当年南京moto大裁员（动刀的是Google这个号称从不为恶的互联网巨头），多么类似的情节，多么狗血的剧情。
 

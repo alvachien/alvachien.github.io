@@ -4,7 +4,8 @@ title: Windows 7 and PMA08
 date: 2007-01-24 17:55
 author: alvachien
 comments: true
-categories: [IT业内, Windows 7]
+tags: [Windows 7]
+categories: [IT业内]
 ---
 
 Some snapshot of Windows 7 have been published in the Internet several days ago. I am not so excited with the new coming Windows OS, but excited in the information which has published with the new OS as well: **Windows 7 (Version 6.1 or 7.0?)** will be the last Windows OS which shipped with 32-bit solution offered by Microsoft.

@@ -4,7 +4,8 @@ title: How to install Photoshop CS3 on Vista 64bit
 date: 2007-09-12 17:43
 author: alvachien
 comments: true
-categories: [64bit, Photoshop, Photoshop, Vista, Windows Platform, 技术Tips]
+tags: [64bit, Photoshop, Vista, Windows Platform]
+categories: [技术Tips]
 ---
 ## Adobe Creative Suite 3 application installer closes with error code 2739 in Windows Vista
 

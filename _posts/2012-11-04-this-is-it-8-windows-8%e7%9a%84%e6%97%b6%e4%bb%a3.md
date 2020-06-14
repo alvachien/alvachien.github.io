@@ -4,7 +4,8 @@ title: This is IT (8) —— Windows 8的时代
 date: 2012-11-04 23:16
 author: alvachien
 comments: true
-categories: [IT业内, Lumia, This is IT, Windows 8]
+tags: [Lumia, This is IT, Windows 8]
+categories: [IT业内]
 ---
 装Windows 8的决定是一个很无奈的决定，因为台式机又开始偶发性的蓝屏Error了。而且Dump信息明确提到某Driver出错，但我已经全盘更新了MontherBoard，LAN，Graphics Card等所有可能的Driver，但是还是不能避免那抹幽怨的蓝色，只能痛定思痛重装一下系统，以拯救那数以百G计算的图片，源码和资料。
 

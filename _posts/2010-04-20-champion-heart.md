@@ -4,7 +4,8 @@ title: Champion Heart
 date: 2010-04-20 20:55
 author: alvachien
 comments: true
-categories: [Ferrari, Nadal, Real Madrid, 五洲足坛, 法拉利车队, 狂飙F1, 皇家马德里, 纳达尔, 网球闲话]
+tags: [Ferrari, Nadal, Real Madrid, 法拉利车队, 皇家马德里, 纳达尔]
+categories: [五洲足坛, 狂飙F1, 网球闲话]
 ---
 **Chapter 1. 史上第一个六连冠**
 <img src="http://i2.sinaimg.cn/ty/t/p/2010-04-18/U3616P6T12D4944922F44DT20100418224737.jpg" alt="" />

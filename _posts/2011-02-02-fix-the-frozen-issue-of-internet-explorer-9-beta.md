@@ -4,7 +4,8 @@ title: Fix the Frozen issue of Internet Explorer 9 Beta
 date: 2011-02-02 13:14
 author: alvachien
 comments: true
-categories: [IE, Windows Platform, 技术Tips]
+tags: [IE, Windows Platform]
+categories: [技术Tips]
 ---
 <p>Download URL for IE9 Beta: http://windows.microsoft.com/ie9</p>
 <p>It's frequently frozen during running IE9 beta, from my test, this case occurred during switching the tabs. It's very unacceptable for this big issue of usability. So, I have to find the way out to get the IE9 runs smoothly. After several hours research, here comes the way to fix it:</p>

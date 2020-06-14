@@ -4,12 +4,12 @@ title: "[.NET] C#中SendMessage通过LPARAM传递Structure"
 date: 2009-11-03 23:57
 author: alvachien
 comments: true
-categories: [C++, LPARAM, Microsoft.NET, SendMessage, Windows Platform, 技术Tips]
+tags: [C++, LPARAM, Microsoft.NET, SendMessage, Windows Platform]
+categories: [技术Tips]
 ---
-<div id="bp-5CD1AA99D25FD840_938-content">
 
 这两天一直被一个问题烦着：SendMessage在C#始终不正常。因为SendMessage是标准的WinAPI，在C/C++中，Structure可以很方便通过取地址传递给SendMessage，比如Richedit中常用的EM_GETCHARFORMAT消息：
-```C++
+```Cpp
 SendMessage( hWnd, EM_GETCHARFORMAT, ( WPARAM)SCF_SELECTION, (LPARAM)cfm );
 ```
 
@@ -41,11 +41,15 @@ private struct CHARFORMAT2
     public byte bReserved1;
 }
 ```
+
 LayoutKind和UnmanagedType.ByValArray是基本的Marshal常识，偶想强调的是CharSet这个Attribute，尽管CLR默认是CharSet.Auto，但部分语言会override这个属性，**C#中就会默认改为CharSet.Ansi**，这也是磕绊偶两天的罪魁祸首。
+
 
 Structure定义好了，DllImport就比较方便，同样，**必须制定相同的CharSet**。因为Microsot在Windows NT开始已经在内核全部Unicode化，使用Ansi的CharSet会使得操作系统额外多出两部CharSet之间的转换，所以推荐Unicode或者Auto，Auto模式只在Windows 98和Windows ME中是Ansi。
 
+
 对于SendMessage这个定义在USER32.DLL中的导出函数来说，可以定义很多不同的DllImport，常用的有如：
+
 ```C++
 [DllImport("user32", CharSet = CharSet.Auto, SetLastError = true)]
 private static extern int SendMessage(HandleRef hWnd, int msg, int wParam, int lParam);
@@ -63,6 +67,7 @@ private static extern IntPtr SendMessage(IntPtr hWnd, int msg, IntPtr wp, IntPtr
 最简单的方法莫过于第二种定义，它直接在LPARAM参数中使用了CHARFORMAT2的ref。C#编译器会直接生成内部GCHandle以完成Unmanaged和Managed Heap之间的数据转换。对于别的Structure，可以定义其自己的DllImport，并为LPARAM使用自身的Structure。
 
 对于其他三种定义，需要自己转换IntPtr了。其方法无外乎以下两种：
+
 ```C++
 GCHandle gch = GCHandle.Alloc(fmt);
 IntPtr lParam = GCHandle.ToIntPtr(gch);

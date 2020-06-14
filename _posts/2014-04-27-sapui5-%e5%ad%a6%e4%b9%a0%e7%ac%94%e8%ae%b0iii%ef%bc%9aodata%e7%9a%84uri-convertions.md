@@ -4,7 +4,8 @@ title: SAPUI5 学习笔记III：oData的URI Convertions
 date: 2014-04-27 21:45
 author: alvachien
 comments: true
-categories: [Microsoft, oData, SAP, SAP, SAPUI5]
+tags: [Microsoft, oData, SAP, SAP, SAPUI5]
+categories: [技术Tips]
 ---
 虽然SAPUI5支持N种Model，但在SAP的产品开发中，最常见的是oData。关于oData(Open Data Protocol)，是Microsoft发布的一种旨在标准化网页程序数据交换标准化的开源协议，oData被.Net框架中的WCF原生支持。具体可以参考：[OData.org](https://www.odata.org/)。
 

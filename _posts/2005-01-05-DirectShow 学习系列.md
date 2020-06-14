@@ -4,7 +4,8 @@ title: DirectShow 学习系列
 date: 2005-01-05 11:42
 author: alvachien
 comments: true
-categories: [DirectShow, Windows Platform, 技术Tips]
+categories: [技术Tips]
+tags: [DirectShow, Windows Platform, 技术Tips]
 ---
 [Part I: COM实现部分和部分辅助源码浅读](http://blog.csdn.net/alvachien/archive/2005/01/05/241012.aspx).
 

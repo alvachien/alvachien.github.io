@@ -4,7 +4,8 @@ title: 网坛， 只有一个Nadal
 date: 2007-01-25 17:56
 author: alvachien
 comments: true
-categories: [Federer, Nadal, 纳达尔, 网球闲话, 费德勒]
+tags: [Federer, Nadal, 纳达尔, 费德勒]
+categories: [网球闲话]
 ---
 **序:**
 

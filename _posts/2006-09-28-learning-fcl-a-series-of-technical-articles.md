@@ -4,7 +4,8 @@ title: Learning FCL – A series of technical articles
 date: 2006-09-28 16:39
 author: alvachien
 comments: true
-categories: [FCL, Microsoft.NET, Windows Platform, 技术Tips]
+tags: [FCL, Microsoft.NET, Windows Platform]
+categories: [技术Tips]
 ---
 FCL, Functional Class Library, basis component of .Net Framework.
 

@@ -4,9 +4,9 @@ title: 反思录(六)：感恩，Thanksgiving
 date: 2008-09-08 22:31
 author: alvachien
 comments: true
-categories: [反思录, 随心随笔]
+tags: [反思录]
+categories: [随心随笔]
 ---
-<div id="bp-C678F199F470A1FB_1436-content">
 
 有段时间，网络上流传着一句这样的话：“我以为我上过大学，后来我才发现我被大学上过”。无独有偶，我有个大学同学毫不客气的用“Wild Chicken”来称呼我们共同毕业的那所母校。其实，这种心态并非现代的天之娇子刚刚发明的产物，我出生的那个年代（上个世纪八十年代）就曾流传过“端起碗来吃肉，放下筷子骂娘”。
 
@@ -22,4 +22,3 @@ Thanksgiving，就是善待自己得到的一切，而不是抱憾缺失的那�
 Alva Chien
 2008.09.08於家，沪。
 
-</div>

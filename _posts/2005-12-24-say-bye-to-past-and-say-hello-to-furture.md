@@ -4,7 +4,8 @@ title: Say bye to past and say hello to furture...
 date: 2005-12-24 22:36
 author: alvachien
 comments: true
-categories: [Christmas, Christmas Eve, 圣诞夜, 随心随笔]
+categories: [随心随笔]
+tags: [Christmas, Christmas Eve, 圣诞夜]
 ---
 
 12.24, Christmas Eve, and it can be counted by fingers to work out the days left before the new year.

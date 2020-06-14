@@ -4,7 +4,8 @@ title: Apple Inc., you should shut down immediately
 date: 2007-02-17 16:55
 author: alvachien
 comments: true
-categories: [Apple, iPod, iTunes, IT业内, 技术Tips, 苹果]
+tags: [Apple, iPod, iTunes, 苹果]
+categories: [IT业内, 技术Tips]
 ---
 Apple Inc. got a quickly increasement in year 2006, and, they even design another product iPhone. Abviously they want to copy their success from portable music player to the mobile phone.
  

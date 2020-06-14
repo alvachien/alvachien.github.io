@@ -4,7 +4,8 @@ title: Nadal! Nadal!
 date: 2008-07-07 12:55
 author: alvachien
 comments: true
-categories: [Nadal, 纳达尔, 网球闲话]
+tags: [Nadal, 纳达尔]
+categories: [网球闲话]
 ---
 4个小时48分钟的鏖战，纳达尔第一次登顶温网，不仅终结了费德勒在草场连胜记录，更击碎了费德勒连续六次温网冠军的梦想。
  

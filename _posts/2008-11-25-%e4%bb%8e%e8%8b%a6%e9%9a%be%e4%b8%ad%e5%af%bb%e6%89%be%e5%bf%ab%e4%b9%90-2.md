@@ -4,7 +4,8 @@ title: 从苦难中寻找快乐 (2)
 date: 2008-11-25 13:55
 author: alvachien
 comments: true
-categories: [Federer, IT业内, SAP, 大师杯, 网球闲话, 费德勒]
+tags: [Federer, SAP, 大师杯, 费德勒]
+categories: [IT业内, 网球闲话]
 ---
 
 局势依旧扑朔迷离，好在远在大洋彼岸的美国股市这几天没有发生吸引全球视线的动静。然而，说到底，我们这些打工的命运并不掌握在自己手上，且股市涨跌跟我们也没太大关系，我个人而言，更Care公司的Revenue和Cash Flow，2个Billion的Cash当然远远比不上M$的21 billion以及Google的14 billion，但应该可以支撑我们拥有50k employee的公司一年左右的开销。

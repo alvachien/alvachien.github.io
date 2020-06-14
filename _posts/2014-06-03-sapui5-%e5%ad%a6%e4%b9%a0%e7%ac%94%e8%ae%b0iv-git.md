@@ -4,7 +4,8 @@ title: "SAPUI5 学习笔记IV: Git"
 date: 2014-06-03 22:52
 author: alvachien
 comments: true
-categories: [Git, SAP, SAP, SAPUI5]
+tags: [Git, SAP, SAPUI5]
+categories: [技术Tips]
 ---
 跟传统的SAP代码架构不同，也与我熟知的VCS (Version Control System)迥异，SAPUI5项目采用了Git.
 

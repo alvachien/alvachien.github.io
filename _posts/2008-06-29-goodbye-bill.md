@@ -4,7 +4,8 @@ title: Goodbye, Bill!
 date: 2008-06-29 12:52
 author: alvachien
 comments: true
-categories: [Bill Gates, IT业内]
+categories: [IT业内]
+tags: [Bill Gates]
 ---
 Bill Gates retired, finally, with donate all his properties.
 

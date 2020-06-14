@@ -4,7 +4,8 @@ title: 32 Campeones！
 date: 2012-05-04 22:24
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 皇家马德里]
+tags: [Real Madrid, 皇家马德里]
+categories: [五洲足坛]
 ---
 ![32 Campeones (From sina.com.cn)](/assets/uploads/2012/05/730_686979_450082.jpg)
 

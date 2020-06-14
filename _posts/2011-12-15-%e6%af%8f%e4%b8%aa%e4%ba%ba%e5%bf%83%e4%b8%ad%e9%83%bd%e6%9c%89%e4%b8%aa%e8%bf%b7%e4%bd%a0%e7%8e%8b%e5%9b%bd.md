@@ -4,7 +4,8 @@ title: 每个人心中都有个迷你王国
 date: 2011-12-15 23:36
 author: alvachien
 comments: true
-categories: [亚瑟, 吕克贝松, 斯皮尔伯格, 观影乱谈]
+tags: [亚瑟, 吕克贝松, 斯皮尔伯格]
+categories: [观影乱谈]
 ---
 
 ![Arthur And The Invisibles](/assets/uploads/2011/12/ArthurAndTheInvisibles.jpg)

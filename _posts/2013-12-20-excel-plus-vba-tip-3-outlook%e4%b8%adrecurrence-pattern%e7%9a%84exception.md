@@ -4,7 +4,8 @@ title: "Excel plus VBA Tip 3: Outlook中Recurrence Pattern的Exception"
 date: 2013-12-20 18:35
 author: alvachien
 comments: true
-categories: [Excel, Microsoft, Office, Outlook, VBA, Windows Platform, 技术Tips]
+tags: [Excel, Microsoft, Office, Outlook, VBA, Windows Platform]
+categories: [技术Tips]
 ---
 想起来写个Outlook的Macro是因为年纪渐渐大，记忆力越来越不够用，于是考虑用艾宾浩斯记忆曲线来加强一下自己的记忆。跟之前写过的那些“复杂”的Excel Macro相比较，Outlook的Macro更具有挑战性——可以有多个Excel的Instance，但只有一个Outlook的Instance。
 

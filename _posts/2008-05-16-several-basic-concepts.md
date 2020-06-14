@@ -4,7 +4,8 @@ title: Several basic Concepts
 date: 2008-05-16 12:38
 author: alvachien
 comments: true
-categories: [Automobile, 汽车, 爱车一族]
+tags: [Automobile, 汽车, 爱车一族]
+categories: [行万里路]
 ---
 
 在**<a href="http://infinitudecn.spaces.live.com/" target="_blank">XX</a>**和**<a href="http://cnzhangzhen.spaces.live.com/" target="_blank">ZZ</a>**的近乎每天的例行教育下，再加上万能的Baidu知道，列出一些俺以前不知道现在刚刚知道，或以前知道一些现在加深理解的Concepts (注：以下资料本人不拥有版权，更不承担由此造成错误认识及其引起的各种附带责任)。

@@ -4,7 +4,8 @@ title: Trip of WuXi City
 date: 2005-12-13 15:30
 author: alvachien
 comments: true
-categories: [旅游, 无锡, 行万里路]
+tags: [旅游, 无锡]
+categories: [行万里路]
 ---
 About two weeks ago, we arranged a travle of **WuXi** city, including all the members of my family (my parents, Esther and me), and, of course, with our new weapons, **Sony T7** for Esther and **Panasoinc FZ30** for me^_^.
  

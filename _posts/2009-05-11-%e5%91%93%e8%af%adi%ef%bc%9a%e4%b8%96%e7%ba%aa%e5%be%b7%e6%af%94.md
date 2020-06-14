@@ -4,7 +4,8 @@ title: 呓语I：世纪德比
 date: 2009-05-11 15:15
 author: alvachien
 comments: true
-categories: [Real Madrid, 世纪德比, 五洲足坛, 皇家马德里]
+tags: [Real Madrid, 世纪德比, 皇家马德里]
+categories: [五洲足坛]
 ---
 
 那个周日早上一到教室就有人不怀好意问我，“昨晚的比赛看了吧”。即便Graceful如我这般的皇马铁杆，也忍不住大喝一声“你丫闭嘴”！再忠实的皇马球迷面对“2：6”这样悬殊比分，面对在伯纳乌被巴萨屠杀的现实，无论如何都很难控制脾气的。 

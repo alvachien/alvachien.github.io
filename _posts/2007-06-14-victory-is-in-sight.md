@@ -4,7 +4,8 @@ title: Victory is in sight!
 date: 2007-06-14 17:34
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 皇家马德里]
+tags: [Real Madrid, 皇家马德里]
+categories: [五洲足坛]
 ---
 ![Real Madrid](/assets/uploads/2007/06/realmadrid.jpg)
 

@@ -4,7 +4,8 @@ title: New style, new begining
 date: 2005-08-02 13:31
 author: alvachien
 comments: true
-categories: [David Beckham, Real Madrid, 随心随笔]
+categories: [五洲足坛, 随心随笔]
+tags: [David Beckham, Real Madrid, 随心随笔]
 ---
 
 Yesterday I have to have my hair cut because my mum ask me to do so, and she will choose this topic to discuss in the phone each time, I surrounded.

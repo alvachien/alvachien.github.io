@@ -4,7 +4,8 @@ title: 不是每个Ending都需要Happy ——《华尔街：金钱永不眠》
 date: 2011-02-02 00:31
 author: alvachien
 comments: true
-categories: [华尔街, 观影乱谈]
+tags: [华尔街]
+categories: [观影乱谈]
 ---
 ![Wall Street: Money Never Sleep](/assets/uploads/2011/02/MoneyNeverSleep.jpg)
 

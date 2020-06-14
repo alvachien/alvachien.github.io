@@ -4,7 +4,8 @@ title: Andriod？Andriod!
 date: 2010-05-09 21:06
 author: alvachien
 comments: true
-categories: [Andriod, HTC, IT业内, Symbian, 技术Tips]
+tags: [Andriod, HTC, Symbian]
+categories: [IT业内, 技术Tips]
 ---
 终于逃离了Symbian，终于丢掉了Nokia，在偶的E71华丽地以自由落体的方式亲吻了地板之后。当然，Nokia的做工是让人折服的，这样的蹂躏之下，依然只是外伤，内部完好无损。
 

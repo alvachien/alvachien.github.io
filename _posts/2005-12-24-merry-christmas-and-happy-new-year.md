@@ -4,7 +4,8 @@ title: Merry Christmas and Happy New Year!
 date: 2005-12-24 15:35
 author: alvachien
 comments: true
-categories: [Christmas, New Year, 元旦, 圣诞, 随心随笔]
+tags: [Christmas, New Year, 元旦, 圣诞]
+categories: [随心随笔]
 ---
 Merry Christmas and Happy New Year! And the coming Chinese Festival ^_^.
  

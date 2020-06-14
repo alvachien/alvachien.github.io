@@ -4,7 +4,8 @@ title: MacBook Air安装Windows 8虚拟机实录
 date: 2013-11-18 14:44
 author: alvachien
 comments: true
-categories: [Google, MacBook Air, Microsoft, Windows 8, 技术Tips, 虚拟机]
+tags: [Google, MacBook Air, Microsoft, Windows 8, 虚拟机]
+categories: [技术Tips]
 ---
 打算给MacBook Air安装Windows 8的虚拟机的需求来自MacBook Air的主人坚持使用着她的Thinkpad T400。尤其在双十一来临之际，MacBook Air的主人更是抱着T400寸步不离。询问为啥不能给MacBook Air一个春天，得到的答复是，“太麻烦了，Word程序中很多常用的功能还需要花时间找”，顿了一下，又道，“还有，淘宝的插件虽然安装了，总是有问题。另外，网上银行根本不支持Mac。”花了点时间查了查，广受赞誉的招商银行专业版确实不支持Mac系统，更别提各种证券交易软件了。
 

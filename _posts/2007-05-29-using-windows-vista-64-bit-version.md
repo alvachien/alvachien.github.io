@@ -4,7 +4,8 @@ title: Using Windows Vista 64-bit Version
 date: 2007-05-29 17:05
 author: alvachien
 comments: true
-categories: [64bit, C++, Vista, Windows, Windows Platform, 技术Tips]
+tags: [64bit, C++, Vista, Windows, Windows Platform]
+categories: [技术Tips]
 ---
 Finally, I got the 64-bit Windows Vista Home Premium to instead of the unactived version, and it's great that the new OS supports 4G memory very well.
  

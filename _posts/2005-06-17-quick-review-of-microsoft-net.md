@@ -4,7 +4,8 @@ title: Quick Review of Microsoft.Net
 date: 2005-06-17 15:12
 author: alvachien
 comments: true
-categories: [Microsoft.NET, Windows Platform, 技术Tips]
+tags: [Microsoft.NET, Windows Platform, STL]
+categories: [技术Tips]
 ---
 
 As I explained in my articles earily, I have to stop the review process of C++ and STL, instead, I must put all my attention to Microsoft.Net platform.

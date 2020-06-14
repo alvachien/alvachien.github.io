@@ -4,7 +4,8 @@ title: The Magic (or best?) Coach around the World - José Mourinho
 date: 2006-04-18 15:48
 author: alvachien
 comments: true
-categories: [Mourinho, 五洲足坛, 狂人, 穆里尼奥]
+categories: [五洲足坛]
+tags: [Mourinho, 狂人, 穆里尼奥]
 ---
 
 

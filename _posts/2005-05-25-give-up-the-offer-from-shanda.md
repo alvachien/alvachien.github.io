@@ -4,7 +4,8 @@ title: Give up the offer from ShanDa
 date: 2005-05-25 13:24
 author: alvachien
 comments: true
-categories: [Offer, 盛大, 职场生涯]
+categories: [职场生涯]
+tags: [Offer, 盛大]
 ---
 
 Today, I have given up the offer by ShanDa, but, I have make several mistakes with it.

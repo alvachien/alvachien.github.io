@@ -4,7 +4,8 @@ title: 多多的第一份家庭作业
 date: 2011-10-16 20:42
 author: alvachien
 comments: true
-categories: [Duoduo, Family, LD, 多多, 家庭作业, 幼儿园, 随心随笔]
+tags: [Duoduo, Family, LD, 多多, 家庭作业, 幼儿园]
+categories: [Family, 随心随笔]
 ---
 ![多多的作业](http://farm7.static.flickr.com/6160/6249221463_612d22eafe_b.jpg)
 

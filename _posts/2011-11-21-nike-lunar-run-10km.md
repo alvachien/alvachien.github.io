@@ -4,7 +4,8 @@ title: Nike Lunar Run 10KM
 date: 2011-11-21 13:55
 author: alvachien
 comments: true
-categories: [10公里, Nike, SAP, 跑步, 随心随笔]
+tags: [10公里, Nike, SAP, 跑步]
+categories: [随心随笔]
 ---
 出发前：
 

@@ -4,7 +4,8 @@ title: Reading Notes
 date: 2006-11-15 16:48
 author: alvachien
 comments: true
-categories: [Microsoft.NET, Windows Platform, 技术Tips, 读书笔记]
+tags: [Microsoft.NET, Windows Platform]
+categories: [技术Tips, 读书笔记]
 ---
 
 Reading a good book, and a cup of coffee, and I won't ask for more...

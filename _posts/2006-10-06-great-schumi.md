@@ -4,7 +4,8 @@ title: Great, Schumi!
 date: 2006-10-06 16:40
 author: alvachien
 comments: true
-categories: [Ferrari, 法拉利车队, 狂飙F1, 舒马赫]
+tags: [Ferrari, 法拉利车队, 舒马赫]
+categories: [狂飙F1]
 ---
 Long holiday, long trip.
 

@@ -4,7 +4,8 @@ title: The Speed of Adobe
 date: 2010-03-24 20:22
 author: alvachien
 comments: true
-categories: [IT业内, Photoshop]
+tags: [Photoshop]
+categories: [IT业内]
 ---
 ![Image](/assets/uploads/2010/10/002.jpg)
 

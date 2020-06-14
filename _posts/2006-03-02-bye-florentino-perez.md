@@ -4,7 +4,8 @@ title: Bye, Florentino Pérez!
 date: 2006-03-02 15:43
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 弗洛伦蒂诺, 皇家马德里, 老佛爷]
+categories: [五洲足坛]
+tags: [Real Madrid, 弗洛伦蒂诺, 皇家马德里, 老佛爷]
 ---
 Please join me to say good bye to those persons:
 

@@ -4,7 +4,8 @@ title: Merry Spring Festival!
 date: 2006-01-20 15:37
 author: alvachien
 comments: true
-categories: [Spring Festvial, 春节, 随心随笔]
+tags: [Spring Festvial, 春节]
+categories: [随心随笔]
 ---
 Wish Ferrari win back the champion in F1.
 

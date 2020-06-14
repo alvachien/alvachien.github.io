@@ -4,7 +4,8 @@ title: On the way to the 10th Champion League Cup
 date: 2006-09-27 16:38
 author: alvachien
 comments: true
-categories: [Real Madrid, 五洲足坛, 欧冠, 皇家马德里]
+categories: [五洲足坛]
+tags: [Real Madrid, 欧冠, 皇家马德里]
 ---
 
 Real Madrid 5-1 Dynamo Kyiv!

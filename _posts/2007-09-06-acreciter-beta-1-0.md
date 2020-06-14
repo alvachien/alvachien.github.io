@@ -4,7 +4,8 @@ title: ACReciter Beta 1.0
 date: 2007-09-06 17:42
 author: alvachien
 comments: true
-categories: [ACReciter, C++, Microsoft.NET, 技术Tips]
+tags: [ACReciter, C++, Microsoft.NET]
+categories: [技术Tips]
 ---
 In fact, I had decided to read more books instead of written so many codes (mostly in C# now). However when I finished the travel to Nanjing, I can not help myself to write another application again - I need a reciter application to record any word or sentence anywhere.
  

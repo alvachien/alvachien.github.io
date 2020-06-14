@@ -4,7 +4,8 @@ title: "jQuery vs Angular JS: 遍历数组"
 date: 2015-07-02 22:51
 author: alvachien
 comments: true
-categories: [Angular JS, foreach, jQuery, Web Development, 技术Tips]
+tags: [Angular JS, foreach, jQuery, Web Development]
+categories: [技术Tips]
 ---
 jQuery中遍历数组，通常的方法是$.each; 语法：
 

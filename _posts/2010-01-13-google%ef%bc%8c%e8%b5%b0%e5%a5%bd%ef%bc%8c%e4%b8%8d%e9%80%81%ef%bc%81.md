@@ -4,7 +4,8 @@ title: Google，走好，不送！
 date: 2010-01-13 17:35
 author: alvachien
 comments: true
-categories: [Google, IT业内]
+tags: [Google]
+categories: [IT业内]
 ---
 继昨天Baidu被黑之后，今天爆出的大新闻：Google要退出中国。这篇由SVP发的Blog全文链接：<a href="http://googleblog.blogspot.com/2010/01/new-approach-to-china.html">http://googleblog.blogspot.com/2010/01/new-approach-to-china.html</a>
  

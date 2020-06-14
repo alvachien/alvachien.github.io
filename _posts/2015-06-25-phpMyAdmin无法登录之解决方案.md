@@ -4,7 +4,8 @@ title: phpMyAdmin无法登录之解决方案
 date: 2015-06-25 20:42
 author: alvachien
 comments: true
-categories: [MySql, PHP, phpMyAdmin, Web Development, 技术Tips]
+categories: [技术Tips]
+tags: [MySql, PHP, phpMyAdmin, Web Development]
 ---
 登录phpMyAdmin，一直有个user没有设置密码的警告，于是把root的密码给修改掉了，然后，再登录phpMyAdmin，一个华丽丽的错误显示在屏幕上：
 

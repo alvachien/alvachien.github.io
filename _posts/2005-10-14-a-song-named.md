@@ -4,7 +4,8 @@ title: A Song named 'Clouds of Hometown'
 date: 2005-10-14 15:26
 author: alvachien
 comments: true
-categories: [歌曲, 随心随笔]
+tags: [歌曲]
+categories: [随心随笔]
 ---
 
 Several days ago I heard the old song name 'Clouds of Hometown', the singer is Fei, Xiang, a famous star in 1980's who from TaiWan province.

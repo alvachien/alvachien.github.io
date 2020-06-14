@@ -4,7 +4,8 @@ title: Influence Power ——《德川家康》读后感之三
 date: 2008-03-11 21:00
 author: alvachien
 comments: true
-categories: [德川家康, 读书笔记]
+tags: [德川家康]
+categories: [读书笔记]
 ---
 上上个礼拜参加了一个叫做"**Advance Communication Skill**", 老师告诉我们所谓Communication就是把自己的思想implant到别人的思想中，换言之，说服别人接纳你的思想。至于如何才能成功进行implant的, 老师同样谈到一个词：**influence power**.
 

@@ -4,9 +4,9 @@ title: Ways Towards Photography
 date: 2009-04-29 15:14
 author: alvachien
 comments: true
-categories: [Photography, 摄影, 红圈白炮]
+tags: [Photography, 摄影]
+categories: [红圈白炮]
 ---
-<div id="bp-5CD1AA99D25FD840_617-content">
 
 Final Result is:
 
@@ -23,4 +23,3 @@ That’s photography. And, that’s one part of my life.
 Alva Chien/大Q
 2009.04.29
 
-</div>

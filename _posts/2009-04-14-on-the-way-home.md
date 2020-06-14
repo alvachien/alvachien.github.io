@@ -4,7 +4,8 @@ title: On the way home
 date: 2009-04-14 15:03
 author: alvachien
 comments: true
-categories: [Duoduo, Family, 多多, 随心随笔]
+tags: [Duoduo, Family, 多多]
+categories: [Family, 随心随笔]
 ---
 <div id="bp-5CD1AA99D25FD840_564-content">
 <div>On the way home, with the setting sun.</div>

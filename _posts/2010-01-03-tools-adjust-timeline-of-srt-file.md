@@ -4,7 +4,8 @@ title: "Tools: Adjust Timeline of SRT file"
 date: 2010-01-03 17:30
 author: alvachien
 comments: true
-categories: [Microsoft.NET, Windows Platform, 技术Tips]
+tags: [Microsoft.NET, Windows Platform]
+categories: [技术Tips]
 ---
 看一部叫做《Appaloosa》的片子，可惜提供的字幕实在难以忍受。同样的问题出现在最近的《Inglourious Basterds》。
 

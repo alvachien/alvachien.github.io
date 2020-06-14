@@ -4,7 +4,8 @@ title: Thanksgiving
 date: 2008-08-06 13:02
 author: alvachien
 comments: true
-categories: [Duoduo, Family, 多多, 随心随笔]
+tags: [Duoduo, Family, 多多]
+categories: [Family, 随心随笔]
 ---
 走过对我而言如噩梦一般的2007之后，璀璨的2008正在一点一点的在我面前绽放。
  

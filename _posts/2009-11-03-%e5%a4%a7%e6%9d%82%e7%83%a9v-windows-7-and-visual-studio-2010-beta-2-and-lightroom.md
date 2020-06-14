@@ -4,7 +4,8 @@ title: "大杂烩V: Windows 7 and Visual Studio 2010 Beta 2 and Lightroom"
 date: 2009-11-03 16:56
 author: alvachien
 comments: true
-categories: [Lightroom, Photoshop, Photoshop, Visual Studio, Windows 7, Windows Platform, 大杂烩, 技术Tips]
+tags: [Lightroom, Photoshop, Visual Studio, Windows 7, Windows Platform, 大杂烩]
+categories: [技术Tips]
 ---
 Chapter 1. **Windows 7**
 偶承认，偶安装的Windows 7 Ultimate是盗版。

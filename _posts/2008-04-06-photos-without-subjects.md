@@ -4,9 +4,9 @@ title: Photos without Subjects
 date: 2008-04-06 10:18
 author: alvachien
 comments: true
-categories: [世纪公园, 红圈白炮, 随心随笔]
+tags: [世纪公园]
+categories: [红圈白炮, 随心随笔]
 ---
-<div id="bp-C678F199F470A1FB_1070-content">
 
 No words to say, so I would like to post some photos. As usual, please click on the picture directly to jump to the page in Flickr where you can view more.
 
@@ -30,5 +30,3 @@ Pretty Girl with her hand up.
 
 Alva Chien
 @2008.04.06
-
-</div>

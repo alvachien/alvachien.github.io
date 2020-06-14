@@ -4,7 +4,8 @@ title: Websites for WIC/XMP, EXIF, IPTC
 date: 2010-04-16 20:54
 author: alvachien
 comments: true
-categories: [EXIF, XMP, 技术Tips]
+tags: [EXIF, XMP]
+categories: [技术Tips]
 ---
 首先，一个值得收藏的个人Blog: <a href="http://www.tassography.com/"><span style="text-decoration: underline;"><span style="color: #810081;">http://www.tassography.com/</span></span></a>。看得偶自己都又想做一个自己的了。
  

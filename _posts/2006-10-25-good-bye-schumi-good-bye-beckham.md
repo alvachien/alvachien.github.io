@@ -4,7 +4,8 @@ title: Good bye, Schumi; Good bye, Beckham!
 date: 2006-10-25 16:45
 author: alvachien
 comments: true
-categories: [Beckham, 五洲足坛, 狂飙F1, 舒马赫, 贝克汉姆]
+tags: [Beckham, 舒马赫, 贝克汉姆]
+categories: [五洲足坛, 狂飙F1]
 ---
 After a great show in Brazil, Schumi retired. From now on, we can only see Schumi's driving from the videos.
 Let me write a little more about Alonso, it is hard to say, because he is also a fans of Real Madrid, and next year he will join Malaren team, during the meantime, our company is a sponsor of Malaren team; so, congratulation to he anyway.

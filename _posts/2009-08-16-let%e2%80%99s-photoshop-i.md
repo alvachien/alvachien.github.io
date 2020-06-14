@@ -4,7 +4,8 @@ title: Let’s Photoshop I
 date: 2009-08-16 16:22
 author: alvachien
 comments: true
-categories: [Photoshop, Photoshop, 技术Tips]
+tags: [Photoshop]
+categories: [技术Tips]
 ---
 既然逃不过磨皮这道关，那就甘之如饴好了。
 

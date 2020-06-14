@@ -4,7 +4,8 @@ title: Enabling PHP Debugging in PDT (Using XDebug)
 date: 2015-05-16 21:25
 author: alvachien
 comments: true
-categories: [Eclipse, PDT, PHP, Web Development, XDebug]
+categories: [技术Tips]
+tags: [Eclipse, PDT, PHP, Web Development, XDebug]
 ---
 First of all, read the official document provided by Eclipse: http://wiki.eclipse.org/Debugging_using_XDebug
 

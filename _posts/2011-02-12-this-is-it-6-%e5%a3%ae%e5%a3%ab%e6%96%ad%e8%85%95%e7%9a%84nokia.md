@@ -4,7 +4,8 @@ title: "This is IT (6): 壮士断腕的Nokia，Mobile领域的'官渡之战'？"
 date: 2011-02-12 13:04
 author: alvachien
 comments: true
-categories: [IT业内, Microsoft, Nokia, SAP, Symbian, This is IT, Windows Phone]
+tags: [Microsoft, Nokia, SAP, Symbian, This is IT, Windows Phone]
+categories: [IT业内]
 ---
 Nokia终于还是与Microsoft合作了。Nokia官网公布的Nokia Strategy 2011: ![Nokia Strategy 2011](http://conversations.nokia.com/nokia-strategy-2011/). Microsoft公布的News: ![Microsoft's News letter](http://www.microsoft.com/presspass/press/2011/feb11/02-11partnership.mspx).
 

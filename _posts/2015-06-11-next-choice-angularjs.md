@@ -4,7 +4,8 @@ title: "Next choice: AngularJS?"
 date: 2015-06-11 17:36
 author: alvachien
 comments: true
-categories: [AngularJS, AngularUI, JavaScript, Web Development]
+categories: [技术Tips]
+tags: [AngularJS, AngularUI, JavaScript, Web Development]
 ---
 Search "Multiple views One Page" in Stackoverflow.com, the results all pointed to Angular UI. It's actually a UI libarary based on AngularJS. AngularJS, is a lightweight, pure JavaScript framework which bought by Google.
 

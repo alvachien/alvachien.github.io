@@ -4,7 +4,8 @@ title: Centenary Celebration of TongJi University
 date: 2007-05-06 17:02
 author: alvachien
 comments: true
-categories: [同济, 百年校庆, 随心随笔]
+tags: [同济, 百年校庆]
+categories: [随心随笔]
 ---
 20 May, the Centenary Celebration of TongJi University will start.
  

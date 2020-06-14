@@ -4,7 +4,8 @@ title: "This Is IT (4): 让口水战来得更精彩点吧（上）"
 date: 2010-10-28 14:56
 author: alvachien
 comments: true
-categories: [HP, IT业内, Microsoft, Nokia, Oracle, SAP, This is IT]
+tags: [HP, Microsoft, Nokia, Oracle, SAP, This is IT]
+categories: [IT业内]
 ---
 
 ![即将履任HP CEO的Léo (Picture from Sina.com.cn)](http://i1.sinaimg.cn/IT/cr/2010/1027/2538490283.jpg)

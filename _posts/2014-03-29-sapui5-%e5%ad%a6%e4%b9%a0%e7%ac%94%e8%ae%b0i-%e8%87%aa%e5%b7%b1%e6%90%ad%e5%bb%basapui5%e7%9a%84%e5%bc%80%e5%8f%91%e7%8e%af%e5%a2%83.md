@@ -4,7 +4,8 @@ title: "SAPUI5 学习笔记I: 自己搭建SAPUI5的开发环境"
 date: 2014-03-29 12:03
 author: alvachien
 comments: true
-categories: [Eclipse, HTML5, SAP, SAP, SAPUI5, Visual Studio]
+tags: [Eclipse, HTML5, SAP, SAP, SAPUI5, Visual Studio]
+categories: [技术Tips]
 ---
 我司是一个严格控制访问权限的公司：内部Server不通过VPN很难访问，就连Exchange Server权限管理都比Microsoft等严格得多：即便Activate Sync开放出来，即便BYOD (Bring Your Own Device)，也不允许unathorized的device进行直连——仅允许Apple和Samsung的Device才可以。
 

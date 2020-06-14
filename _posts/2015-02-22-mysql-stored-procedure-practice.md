@@ -4,7 +4,8 @@ title: MySQL Stored Procedure Practice
 date: 2015-02-22 15:51
 author: alvachien
 comments: true
-categories: [MariaDB, MySql, PHP, Web Development]
+tags: [MariaDB, MySql, PHP, Web Development]
+categories: [技术Tips]
 ---
 使用MySQL的几点心得。
 

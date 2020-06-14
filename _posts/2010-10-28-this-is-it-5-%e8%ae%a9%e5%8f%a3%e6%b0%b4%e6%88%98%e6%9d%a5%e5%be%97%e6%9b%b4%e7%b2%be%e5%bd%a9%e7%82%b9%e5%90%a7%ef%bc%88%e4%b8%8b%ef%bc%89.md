@@ -4,7 +4,8 @@ title: "This Is IT (5): 让口水战来得更精彩点吧（下）"
 date: 2010-10-28 16:16
 author: alvachien
 comments: true
-categories: [IT业内, This is IT, 腾讯]
+tags: [This is IT, 腾讯]
+categories: [IT业内]
 ---
 跟SAP, Oracle, HP在新闻媒体上的声明，反驳等迂回式口水战不同，腾讯与360的对抗则显得简单而直接，针针见血，刀刀见肉，让我等观众看得目瞪口呆。如果说Oracle总裁用"dot not"来攻击Microsoft的“.NET”平台的手法如同西毒大战洪七，那360与腾讯的口水战我只能归档到市井流氓的赤身互博了。
 

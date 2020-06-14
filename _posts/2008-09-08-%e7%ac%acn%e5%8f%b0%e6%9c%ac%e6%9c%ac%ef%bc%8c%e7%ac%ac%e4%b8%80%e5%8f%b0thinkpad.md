@@ -4,7 +4,8 @@ title: 第N台本本，第一台ThinkPad
 date: 2008-09-08 13:30
 author: alvachien
 comments: true
-categories: [Canon, Thinkpad, 佳能, 随心随笔]
+tags: [Canon, Thinkpad, 佳能]
+categories: [随心随笔]
 ---
 
 人是旧的好，物是新的棒！

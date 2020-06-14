@@ -4,7 +4,8 @@ title: Let's talking about Tencent and it's QQ again
 date: 2008-06-15 12:47
 author: alvachien
 comments: true
-categories: [IT业内, QQ, Tencent, 腾讯, 随心随笔]
+tags: [QQ, Tencent, 腾讯]
+categories: [IT业内, 随心随笔]
 ---
 I do remember I wrote an article about Tencent and it's poor IM - QQ months ago, you can review my old post: "珍惜生命, 远离QQ". However, I have to admit that I wrote that article just because the worst using feedback from it's software.
 

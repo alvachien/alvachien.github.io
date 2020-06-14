@@ -4,7 +4,8 @@ title: "Excel plus VBA Tip 1: Using Table in Data Validation"
 date: 2013-07-31 12:54
 author: alvachien
 comments: true
-categories: [Excel, Microsoft, Office, VBA, Windows Platform]
+tags: [Excel, Microsoft, Office, VBA, Windows Platform]
+categories: [技术Tips]
 ---
 在Excel定义Table或是使用Table Style (Styles Group中的Format as Table按钮)时，Excel会自动为该Table命名，从Table1， Table2开始。在Name Manager会看到对应的Table。一切看起来很完美，不是么？但注意，Table Name没有对应的Refer To，这点区别于自定义的Name，同时，在选择Table时，只有不包括Header的内容才算Table。除此之外，还有两个大问题：
 

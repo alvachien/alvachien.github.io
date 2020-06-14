@@ -4,7 +4,8 @@ title: "[Office] Customize the Page Footer"
 date: 2010-03-31 20:25
 author: alvachien
 comments: true
-categories: [Office, Windows Platform, Wod, 技术Tips]
+tags: [Office, Windows Platform, Word]
+categories: [技术Tips]
 ---
 Though I have digged inside the Style of MS Office five years ago when I joining SAP, I felt strongly loss when I tried to add a customized page Footer to the document.
  
