@@ -19,14 +19,26 @@ description: >- # this means to ignore newlines until "baseurl:"
   Copyright by Alva Chien, 2020.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alvachien.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  alvachien
 
-# Build settings
-markdown: CommonMarkGhPages
-theme: minima
-encoding: utf-8
-permalink: /:year/:month/:title:output_ext
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%Y-%m-%d %H:%M"
+
+  skin: "dark"
+  
+  # generate social links in footer
+  social_links:
+    github:  alvachien
+    # devto: jekyll
+    # dribbble: jekyll
+    facebook: alva.chien
+    flickr:   alvachien
+    # instagram: jekyll
+    linkedin: alvachien
+    # pinterest: jekyll
 
 # Paginate
 paginate: 10
@@ -48,9 +60,15 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+# Build settings
+markdown: kramdown
+kramdown:
+  html_to_native: true
+  syntax_highlighter: rouge
+
+theme: minima
+encoding: utf-8
+permalink: /:year/:month/:title:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

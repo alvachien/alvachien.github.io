@@ -4,9 +4,8 @@ title: All posts
 permalink: /all/
 ---
 
-<div class="home">
-  
-  <ul class="post-list">
+<div>  
+  <ul>
     {% for post in site.posts %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -16,5 +15,4 @@ permalink: /all/
     </li>
     {% endfor %}
   </ul>
-
 </div>
