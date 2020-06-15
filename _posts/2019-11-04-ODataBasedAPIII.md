@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API， Part II,Project Setup
+title:  创建基于OData的Web API - Knowledge Builder API, Part II,Project Setup
 date:   2019-11-04 16:19:17 +0800
 tags: [OData, Web API]
 categories: [技术Tips]
