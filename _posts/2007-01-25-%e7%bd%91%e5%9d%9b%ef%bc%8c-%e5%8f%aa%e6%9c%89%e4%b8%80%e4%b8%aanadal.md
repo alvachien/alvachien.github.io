@@ -27,6 +27,7 @@ categories: [网球闲话]
 
 我们还有Nadal。
 
-<a href="file:///D:/Downloads/Spaces/Alva's%20space/img/C678F199F470A1FB_996_0.jpg"></a>**<span style="color: #1f497d;">[Updated at 2008.1.25, PeiKing Time, 19:30] </span>**
+![Nadal, Updated at 2008.1.25, PeiKing Time, 19:30](/assets/uploads/2007/01/5e9f7337e45c15c610e758ae6d91af97.jpg)
+
 
 **最新战报：费天王也被横扫出局，老天，你也看过我的文章了？**

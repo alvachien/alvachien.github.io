@@ -4,7 +4,7 @@ title: A Song named 'Clouds of Hometown'
 date: 2005-10-14 15:26
 author: alvachien
 comments: true
-tags: [歌曲]
+tags: [歌曲, 故乡的云]
 categories: [随心随笔]
 ---
 

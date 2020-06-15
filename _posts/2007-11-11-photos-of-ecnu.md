@@ -26,7 +26,8 @@ Just several photos of **East China Normal University** (ECNU):
 
 And, I don't think I will arrange another time to take photos of ECNU in the known future.
 
-All the ECNU's photos which token by me: http://www.flickr.com/photos/alvachien/sets/72157602794086664/
+All the ECNU's photos which token by me: [Link](https://www.flickr.com/photos/alvachien/sets/72157602794086664/)
 
-All the top universities photos token by me: http://www.flickr.com/photos/alvachien/collections/72157602795466493/
+
+All the top universities photos token by me: [Link](https://www.flickr.com/photos/alvachien/collections/72157602795466493/)
 

@@ -12,9 +12,9 @@ As I explained in my articles earily, I have to stop the review process of C++ a
 
 Here, it comes:
 
-(I) [Basic Concepts of .Net Framework and C#](http://blog.csdn.net/alvachien/archive/2005/06/17/396538.aspx)
-(II) [Basic Concepts of ASP.Net, Web Controls and WebService etc.](http://blog.csdn.net/alvachien/archive/2005/06/19/398056.aspx)
-(III) Coming soon...
+1. [Basic Concepts of .Net Framework and C#](http://blog.csdn.net/alvachien/archive/2005/06/17/396538.aspx)
+2. [Basic Concepts of ASP.Net, Web Controls and WebService etc.](http://blog.csdn.net/alvachien/archive/2005/06/19/398056.aspx)
+3. Coming soon...
 
 ====================================
 Postscript:

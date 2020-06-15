@@ -5,6 +5,7 @@ date: 2005-06-16 13:28
 author: alvachien
 comments: true
 categories: [随心随笔]
+tags: [自立歌]
 ---
 
 I'm preparing for the coming next week, to prove myself and to get a new starting.

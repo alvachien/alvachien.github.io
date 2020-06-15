@@ -4,11 +4,12 @@ title: An old album, published in 1996
 date: 2007-06-26 17:36
 author: alvachien
 comments: true
-tags: [歌曲]
+tags: [歌曲, 答应我好好的过]
 categories: [随心随笔]
 ---
-<img src="http://images.sogua.com/album_pic/source/9/4/3/943211.jpg" alt="" />
-The envelope
+
+![The envelope](/assets/uploads/2007/06/27d44b0e901c035ec96caf06496cbacc.jpg)
+
 
 The old album -  **我感觉不到你**, by **巫启贤**, EMI Taiwan published in 1996, which was suddenly been recalled in the deep night, and I can not help searching around the search engine to get all songs downloaded.
  
@@ -32,5 +33,6 @@ Just write down the lyric of my favorite song in this album:
 去占有, 去执着, 去享受, 拥抱那曾失落的自我,
 活得洒脱 活得洒脱...
  
-By the way, according this experience, among the music file aspect of the searching engine, ![Sogua](http://www.sogua.com/) still be the best one, and ![Yahoo Music](http://music.cn.yahoo.com/) will be much better than ![Baidu Map3](http://mp3.baidu.com/) in the old songs.
+
+~~By the way, according this experience, among the music file aspect of the searching engine, [Sogua](http://www.sogua.com/) still be the best one, and [Yahoo Music](http://music.cn.yahoo.com/) will be much better than [Baidu Map3](http://mp3.baidu.com/) in the old songs.~~
 

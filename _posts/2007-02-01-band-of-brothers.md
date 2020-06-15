@@ -12,5 +12,5 @@ This week, I finished to review the classical teleplay - <**Band of Brothers**>;
 I know the American is so smart, because they has shown their bright, brave, patriotic via this product. But they never want to take into the fact in Korean war or Vietnam war. They are the victor and heroes of the Second World War, but they also the loser of Korean war.
  
 Then, when shall domestic product with our real story comes out? We are also the victor of Second World War and Korean War both.
- 
-Snapshot From ![Joyo.com](http://www.joyo.com/):
+
+![Snapshot](/assets/uploads/2007/02/89160869addde93febe328e28c6fbe79.jpg) 

@@ -11,11 +11,9 @@ It seemed that the software giant in Raymond has waken up. So that it only took 
 
 Regarding this, I think we should bring our many thanks to Firefox, though I don't think it is better choice than IE yet.
 
- <img src="http://farm3.static.flickr.com/2006/2313601813_774235f48b_o.gif" alt="" width="600" />
+<img src="http://farm3.static.flickr.com/2006/2313601813_774235f48b_o.gif" alt="" width="600" />
 
- When people has been forced to face with challenges, they always prefer change. Such like Canon, when Nikon fight back in 2007 and take the no. 1 site of DSLK seller from Canon in Japan, Canon decided to change. Though I don't know the exactly models will be released till now, I am quite sure that Canon press the successor of EOS 5D in 2008.
-<div>
+When people has been forced to face with challenges, they always prefer change. Such like Canon, when Nikon fight back in 2007 and take the no. 1 site of DSLK seller from Canon in Japan, Canon decided to change. Though I don't know the exactly models will be released till now, I am quite sure that Canon press the successor of EOS 5D in 2008.
+
 
 However, it's still exists a pity, that is, Real Madrid has been kicked out from Champion League again this morning!
-
-</div>

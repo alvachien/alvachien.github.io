@@ -128,9 +128,3 @@ I think he is one of these people who is a voyeur. He likes to watch other peopl
 
 More Detail of the coach, visit the URL ([Chinese Version Only, from Sina.com](http://sports.sina.com.cn/g/2006-04-18/14352167318.shtml).
 
-
-
- 
-
-
-

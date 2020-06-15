@@ -4,8 +4,8 @@ title: A perfect weekend
 date: 2007-03-19 16:59
 author: alvachien
 comments: true
-tags: [C++, HIH, Microsoft.NET, PIH, Windows Platform, 舒马赫, 随心随笔]
-categories: [技术Tips, 狂飙F1]
+tags: [C++, HIH, Microsoft.NET, PIH, Windows Platform, 舒马赫]
+categories: [技术Tips, 狂飙F1, 随心随笔]
 ---
 1. Ferrari win in Australia, the first F1 race of 2007!
 2. Real Madrid win!
