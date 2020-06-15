@@ -6,7 +6,8 @@ tags: [OData, Web API]
 categories: [技术Tips]
 ---
 本篇为Part II：Project Setup
-查看第一篇 Part I:  Business Scenario
+查看第一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPII.md %}) 
+
 
 ## 第一步，准备步骤
 ### 准备步骤一，准备步骤。

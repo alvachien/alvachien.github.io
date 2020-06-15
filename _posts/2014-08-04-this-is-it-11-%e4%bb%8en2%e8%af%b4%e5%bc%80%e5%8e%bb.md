@@ -13,7 +13,7 @@ tags: [Microsoft, Nokia, This is IT, 大礼包, 职场生涯]
 
 还有一个不能被忽视的事实是，Microsoft这次力度这么狠，跟现任CEO **Satya Nadella** 的strategy密不可分。前任CEO Steve Ballmer诠释Microsoft的发展重点是devices and services,他甚至希望Microsoft要变成一家硬件公司（该改名叫MicroHard?),然而Satya上台之后就变成了productivity and platforms。（Microsoft CEO Satya Nadella Just Rejected Steve Ballmer's Big Plan：[Microsoft CEO Satya Nadella Just Rejected Steve Ballmer's Big Pla](http://finance.yahoo.com/news/microsoft-ceo-satya-nadella-just-173112598.html) ）。这种公司决策层面direction的改变也是造成Nokia大裁员的一个重要组成因素。所以，与其抗议N+2，不如抗议Microsoft决策前后不一致，问题是，这种人走茶凉的故事不是有人烟的地方都在发生么？譬如，Moto的现东家Lenovo，譬如曾经叱咤风云的Snda...</span>
 
-这就是IT, Immediately Terminated。也许郭美美之流可以被掘地三尺般地挖出其干爹以及“十万一夜买新郎”的行径，再通过电视台、新闻门户网站铺天盖地地传播和广而告之。只是那些被大礼包的员工们啊，绝大多数都只是新旧决策的牺牲者，却只能让我们这些IT码农深深地叹息，以及杜撰以上这些文字，以安慰当年写出 [壮士断腕的NOKIA，MOBILE领域的”官渡之战”？](/post/)的我自己。
+这就是IT, Immediately Terminated。也许郭美美之流可以被掘地三尺般地挖出其干爹以及“十万一夜买新郎”的行径，再通过电视台、新闻门户网站铺天盖地地传播和广而告之。只是那些被大礼包的员工们啊，绝大多数都只是新旧决策的牺牲者，却只能让我们这些IT码农深深地叹息，以及杜撰以上这些文字，以安慰当年写出 [壮士断腕的NOKIA，MOBILE领域的”官渡之战”？]({% post_url 2011-02-12-this-is-it-6-%e5%a3%ae%e5%a3%ab%e6%96%ad%e8%85%95%e7%9a%84nokia.md %})的我自己。
 
 是为之记。
 Alva Chien
