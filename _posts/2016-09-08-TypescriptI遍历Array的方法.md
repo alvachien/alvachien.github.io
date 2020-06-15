@@ -6,7 +6,8 @@ tags: [rxjs]
 categories: [技术Tips]
 ---
 
-Typescript的官方文档 Iterators and Geneators [Link](https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html）
+Typescript的官方文档 Iterators and Geneators [Link](https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html)
+
 
 ## 方法一、for..of
 
