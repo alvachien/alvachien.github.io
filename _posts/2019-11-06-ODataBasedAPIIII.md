@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API， Part III, Model
+title:  创建基于OData的Web API - Knowledge Builder API, Part III, Model
 date:   2019-11-06 22:22:22 +0800
 tags: [OData, Web API]
 categories: [技术Tips]
 ---
 
-在前两篇文章查看第一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPII.md %}) 
-和第二篇 [Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPIII.md %}) 
+在前两篇文章查看第一篇 [Part I:  Business Scenario]() 
+和第二篇 [Part II:  Project setup]() 
 后，可以开始真正Model的创建。
 
 步骤如下：

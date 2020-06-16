@@ -58,6 +58,14 @@ defaults:
     values:
       image: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
 plugins:
   - jemoji
   - jekyll-feed

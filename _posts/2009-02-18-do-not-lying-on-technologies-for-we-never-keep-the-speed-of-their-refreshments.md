@@ -10,7 +10,12 @@ categories: [IT业内, 技术Tips]
 ### What programming languages are paying the bills?</h3>
 Survey period: **9 Feb 2009** to **16 Feb 2009**
 
-Which languages are you using for paid work purposes (not hobby purposes) (<em>Suggested by John C</em>)
+Which languages are you using for paid work purposes (not hobby purposes) (**Suggested by John C**)
+
+|Option|Votes|%||
+|---|---|---|---|
+|C#|1689|64.22||
+
 <table border="0" cellspacing="0" cellpadding="0" width="450">
 <tbody>
 <tr>

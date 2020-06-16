@@ -11,9 +11,9 @@ tags: [Microsoft, Nokia, This is IT, 大礼包, 职场生涯]
 
 然而，我的point并不在N+2或是N+6，也不是微信群上流传的Nokia员工叫嚣终生Microsoft黑的自辩信。从财务意义上来说，作为财务实体的企业，都是以盈利为根本目的，这个目的永不因为员工的忠诚和感情所左右。其实，员工忠诚度最高的国度应该在一衣带水的日本，然而，即便在那个被公司裁员就可能自杀的国度，Sony、Panasonic依然屠刀霍霍。所以，对公司的热忱并不能拯救公司的亏损，也不能阻扰公司裁员的步伐。用我LD挂在嘴边的一句话“Be Professional!”。我很同意，用Professional的方式在公司工作，也应该用Professional的方式离开公司。至于，用忠诚度来博同情再来争取N+6，好吧，超出了我的理解范畴了。
 
-还有一个不能被忽视的事实是，Microsoft这次力度这么狠，跟现任CEO **Satya Nadella** 的strategy密不可分。前任CEO Steve Ballmer诠释Microsoft的发展重点是devices and services,他甚至希望Microsoft要变成一家硬件公司（该改名叫MicroHard?),然而Satya上台之后就变成了productivity and platforms。（Microsoft CEO Satya Nadella Just Rejected Steve Ballmer's Big Plan：[Microsoft CEO Satya Nadella Just Rejected Steve Ballmer's Big Pla](http://finance.yahoo.com/news/microsoft-ceo-satya-nadella-just-173112598.html) ）。这种公司决策层面direction的改变也是造成Nokia大裁员的一个重要组成因素。所以，与其抗议N+2，不如抗议Microsoft决策前后不一致，问题是，这种人走茶凉的故事不是有人烟的地方都在发生么？譬如，Moto的现东家Lenovo，譬如曾经叱咤风云的Snda...</span>
+还有一个不能被忽视的事实是，Microsoft这次力度这么狠，跟现任CEO **Satya Nadella** 的strategy密不可分。前任CEO Steve Ballmer诠释Microsoft的发展重点是devices and services,他甚至希望Microsoft要变成一家硬件公司（该改名叫MicroHard?),然而Satya上台之后就变成了productivity and platforms。（Microsoft CEO Satya Nadella Just Rejected Steve Ballmer's Big Plan：[Microsoft CEO Satya Nadella Just Rejected Steve Ballmer's Big Pla](http://finance.yahoo.com/news/microsoft-ceo-satya-nadella-just-173112598.html) ）。这种公司决策层面direction的改变也是造成Nokia大裁员的一个重要组成因素。所以，与其抗议N+2，不如抗议Microsoft决策前后不一致，问题是，这种人走茶凉的故事不是有人烟的地方都在发生么？譬如，Moto的现东家Lenovo，譬如曾经叱咤风云的Snda...
 
-这就是IT, Immediately Terminated。也许郭美美之流可以被掘地三尺般地挖出其干爹以及“十万一夜买新郎”的行径，再通过电视台、新闻门户网站铺天盖地地传播和广而告之。只是那些被大礼包的员工们啊，绝大多数都只是新旧决策的牺牲者，却只能让我们这些IT码农深深地叹息，以及杜撰以上这些文字，以安慰当年写出 [壮士断腕的NOKIA，MOBILE领域的”官渡之战”？]({% post_url 2011-02-12-this-is-it-6-%e5%a3%ae%e5%a3%ab%e6%96%ad%e8%85%95%e7%9a%84nokia.md %})的我自己。
+这就是IT, Immediately Terminated。也许郭美美之流可以被掘地三尺般地挖出其干爹以及“十万一夜买新郎”的行径，再通过电视台、新闻门户网站铺天盖地地传播和广而告之。只是那些被大礼包的员工们啊，绝大多数都只是新旧决策的牺牲者，却只能让我们这些IT码农深深地叹息，以及杜撰以上这些文字，以安慰当年写出 [壮士断腕的NOKIA，MOBILE领域的”官渡之战”？]的我自己。
 
 是为之记。
 Alva Chien

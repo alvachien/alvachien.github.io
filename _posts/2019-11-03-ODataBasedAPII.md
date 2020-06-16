@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API， Part I：Business Scenario
+title:  创建基于OData的Web API - Knowledge Builder API, Part I：Business Scenario
 date:   2019-11-03 16:04:17 +0800
 tags: [OData, Web API]
 categories: [技术Tips]
