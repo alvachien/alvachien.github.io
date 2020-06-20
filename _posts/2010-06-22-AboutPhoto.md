@@ -7,15 +7,15 @@ comments: true
 tags: [Photography, 摄影]
 categories: [红圈白炮]
 ---
-<img src="http://farm4.static.flickr.com/3221/3055757603_72aa25eda6_b.jpg" alt="" />
-打网球的是这张么？
+
+![打网球的是这张么？](http://farm4.static.flickr.com/3221/3055757603_72aa25eda6_b.jpg)
 
 今天接到王老师的电话，说，学校安排高级班同学的作品展，学校一共就开过三个高级班，需要大家都交点作品。又说，我上次交上去的两幅作品被选中了，要我交数码版本以备打印。王老师说，你那两张，一张是网球的，一张是拍花的。末了又说，每张照片打印费20 CNY。
 
 其实，我对这个只展示在学校里面的摄影展兴趣并不大。跟我同一个高级班出来的有军队的老同志，需要一个文凭证明自己；也有自己开工作室的需要证书来撑面子。只是我觉得老师们还是肯教点东西给我这样的学生，而且我也确实学到了点自我陶醉的知识，所以，我决定还是去送一下数码底片，并乖乖交上四十块。
 
-<img src="http://apollo.s.dpool.sina.com.cn/nd/dataent/star/273/4b4fe4e0d692a.jpg" alt="" />
-婴儿肥的张柏芝，Picture from Sina.com.cn
+![婴儿肥的张柏芝](/assets/uploads/2010/06/654a97f0c8cb2e7e099b22f7f442d617.jpg)
+
 
 说到拍照，却又联想到最近到上海来的张柏芝。
 
