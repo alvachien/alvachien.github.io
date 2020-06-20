@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OData UPDATE/PATCH不返回更新后的结果"
-date:   2020-06-12 18:28:37 +0800
+date:   2020-06-20 16:30:27 +0800
 tags: [OData]
 categories: [技术Tips]
 ---
