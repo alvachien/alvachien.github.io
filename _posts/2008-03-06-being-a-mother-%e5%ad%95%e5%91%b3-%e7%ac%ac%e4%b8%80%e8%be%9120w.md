@@ -16,9 +16,12 @@ categories: [随心随笔]
 因为，这种孕味已经是最美；
 
 (点击见大图)
-<a title="Being a mother@20W  孕味 by Alva Chien, on Flickr" href="http://www.flickr.com/photos/alvachien/2314801092/"></a><a title="Being a mother@20W 孕味 by Alva Chien, on Flickr" href="http://www.flickr.com/photos/alvachien/2314802102/"><img src="http://farm3.static.flickr.com/2205/2314802102_8cd6aa1dbe.jpg" alt="Being a mother@20W 孕味" width="500" height="333" /></a>
+![Being a mother@20W 孕味 by Alva Chien, on Flickr](http://farm3.static.flickr.com/2205/2314802102_8cd6aa1dbe.jpg)
 
-<img src="http://farm3.static.flickr.com/2226/2314801092_eae79a0209_b.jpg" alt="Being a mother@20W  孕味" width="683" height="1024" />
+
+![Being a mother@20W  孕味](http://farm3.static.flickr.com/2226/2314801092_eae79a0209_b.jpg)
+
+
 
 Alva Chien
 @2008.03.06

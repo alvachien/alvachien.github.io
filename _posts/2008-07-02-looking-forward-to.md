@@ -26,16 +26,28 @@ Alva Chien
 2008.07.02於上海，家。
 
 Show一下DDP
-<img src="http://farm4.static.flickr.com/3139/2630518169_34e41ef105_b.jpg" alt="" width="600" />
+![Pic](http://farm4.static.flickr.com/3139/2630518169_34e41ef105_b.jpg)
 
-LD眼中的我
-<a title="Look forward to 翘首以待 @36W by Alva Chien, on Flickr" href="http://www.flickr.com/photos/alvachien/2631338806/"><img src="http://farm4.static.flickr.com/3052/2631338806_0979bb2b79_b.jpg" alt="Look forward to 翘首以待 @36W" width="600" /></a>
 
- <hr />
+![Look forward to 翘首以待 @36W](http://farm4.static.flickr.com/3052/2631338806_0979bb2b79_b.jpg)
 
- 第一辑: <a href="http://flickr.com/photos/alvachien/sets/72157604059298633/" target="_blank">Being a mother @20W</a>
-第二辑: <a href="http://flickr.com/photos/alvachien/sets/72157604287435687/" target="_blank">Being a mother @22W</a>
-第三辑: <a href="http://flickr.com/photos/alvachien/sets/72157604379496904/" target="_blank">In your eyes 你的瞳我的影 @24W</a>
-第四辑: <a href="http://flickr.com/photos/alvachien/sets/72157604897618361/" target="_blank">Enjoying Pregnancy 享受孕程@28W</a>
-第五辑: <a href="http://flickr.com/photos/alvachien/sets/72157605446631490/" target="_blank">Growing Fast 快速膨胀@32W</a>
-第六辑: <a href="http://flickr.com/photos/alvachien/sets/72157605935965288/" target="_blank">Look forward to 翘首以待 @36W</a>
+
+
+第一辑: [Being a mother @20W](http://flickr.com/photos/alvachien/sets/72157604059298633/)
+
+
+第二辑: [Being a mother @22W](http://flickr.com/photos/alvachien/sets/72157604287435687/)
+
+
+第三辑: [In your eyes 你的瞳我的影 @24W](http://flickr.com/photos/alvachien/sets/72157604379496904/)
+
+
+第四辑: [Enjoying Pregnancy 享受孕程@28W](http://flickr.com/photos/alvachien/sets/72157604897618361/)
+
+
+第五辑: [Growing Fast 快速膨胀@32W](http://flickr.com/photos/alvachien/sets/72157605446631490/)
+
+
+第六辑: [Look forward to 翘首以待 @36W](http://flickr.com/photos/alvachien/sets/72157605935965288/)
+
+
