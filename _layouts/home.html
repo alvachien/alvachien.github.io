@@ -65,11 +65,20 @@ layout: default
       <h4>Categories</h4>
       <ul>
           {% for category in site.categories %}
-          <li><a href="/categories/{{ category | first }}" title="view all posts">{{ category | first }} ({{ category | last | size }})</a>
+          <li>
+            <a href="/categories/{{ category | first }}" title="view all posts">{{ category | first }} ({{ category | last | size }})</a>
           </li>
           {% endfor %}
-      </ul>      
+      </ul>
+      <hr />
+      <h4>Tags</h4>
+      <div>
+        {% for tag in site.tags %}
+        <a href="/tags/{{ tag | first | slugize }}/" style="font-size: '{{ tag | last | size | times: 100 | divided_by: site.tags.size }} px'">
+          {{ tag | first }} ({{ tag | last | size }})
+        </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
-
