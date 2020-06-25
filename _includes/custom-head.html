@@ -3,7 +3,25 @@
 
 <!-- Mathjax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+      function stripcdata(x) {
+        if (x.startsWith('% <![CDATA[') && x.endsWith('%]]>'))
+          return x.substring(11,x.length-4);
+        return x;
+      }
+      document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + stripcdata(el.textContent) + "\\)";
+      });
+      document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + stripcdata(el.textContent) + "\\]";
+      });
+      var script = document.createElement('script');
+      script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+      document.head.appendChild(script);
+    }, false);
+</script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
