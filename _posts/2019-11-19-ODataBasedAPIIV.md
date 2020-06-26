@@ -6,8 +6,7 @@ tags: [OData, Web API]
 categories: [技术Tips]
 ---
 
-基于上一篇 [Part III:  Model]() 
-，新创建的OData Service已经能够正常显示metadata和读所有记录了，但是最基本的创建，读取单个，修改单个功能还没有。
+基于上一篇 [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPIIII %}) ，新创建的OData Service已经能够正常显示metadata和读所有记录了，但是最基本的创建，读取单个，修改单个功能还没有。
 
 
 本篇就在上一篇的基础上，增强Controller使之能涵盖CRUD的全部功能。

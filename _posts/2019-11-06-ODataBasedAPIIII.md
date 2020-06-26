@@ -6,8 +6,8 @@ tags: [OData, Web API]
 categories: [技术Tips]
 ---
 
-在前两篇文章查看第一篇 [Part I:  Business Scenario]() 
-和第二篇 [Part II:  Project setup]() 
+在前两篇文章查看第一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPII %}) 
+和第二篇 [Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPIII %}) 
 后，可以开始真正Model的创建。
 
 步骤如下：
