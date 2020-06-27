@@ -17,10 +17,14 @@ categories: [五洲足坛]
 套用一句俗话，“莫愁前路无知己，天下何人不识君？”。
  
 Bye Guti!
-<img src="http://i3.sinaimg.cn/ty/g/p/2010-07-25/1280065659_Lsci8D.jpg" alt="" />
+
+![Pic](/assets/uploads/2010/07/1280065659_Lsci8D.jpg)
+
 Guti：一生都是皇马人。(Picture from Sina.com.cn)
 
-<img src="http://i0.sinaimg.cn/ty/g/2010-07-26/U3984P6T12D5120616F44DT20100726043423.jpg" alt="" />
+
+![Pic](/assets/uploads/2010/07/U3984P6T12D5120616F44DT20100726043423.jpg)
+
 再见，指环王；再见，伯纳乌忧郁王子；(Picture from Sina.com.cn)
 
 是为之记。
