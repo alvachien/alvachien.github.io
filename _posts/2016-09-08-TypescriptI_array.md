@@ -78,6 +78,6 @@ list.every((val, idx, array) => {
 });
 ```
 
-是为之记。
-Alva Chien
+是为之记。   
+Alva Chien   
 2016.9.8

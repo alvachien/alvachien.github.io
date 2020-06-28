@@ -276,7 +276,8 @@ dotnet run
 
 如果数据库Connection String已经被正确维护在“KBAPI.ConnectionString”上的话，打开链接： ~/odata/Knowledges 将会看到数据。
 
-是为之记。
-Alva Chien
+
+是为之记。   
+Alva Chien   
 2019.11.06
 

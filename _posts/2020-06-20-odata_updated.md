@@ -58,6 +58,6 @@ OData的Controller影响HTTP verb中UPDATE和Patch时候，如果使用Updated(e
       .append('Prefer', 'return=representation');
 ```
 
-是为之记。
-Alva Chien
+是为之记。   
+Alva Chien   
 2020.06.20
