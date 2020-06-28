@@ -6,7 +6,22 @@ tags: [安安, 多多, 咖啡]
 categories: [Family, 随心随笔]
 ---
 
+
 ![Pic](/assets/uploads/2020/06/20200627203058.jpg)
+
+简易菜单
+
+
+![Pic](/assets/uploads/2020/06/20200628111835.jpg)
+
+菜单
+
+
+![Pic](/assets/uploads/2020/06/20200628111824.jpg)
+
+消费记录
+
+
 
 孩子们终归是聪明伶俐外加总有令人惊叹的想象力的。
 

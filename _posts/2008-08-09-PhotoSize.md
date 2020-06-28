@@ -4,7 +4,7 @@ title: 照片冲印规格
 date: 2008-08-09 13:04
 author: alvachien
 comments: true
-tags: [Photography, 冲印, 摄影]
+tags: [Photography, 摄影]
 categories: [IT业内]
 ---
 该表由俺根据网上冲印店(Kachayu以及Dpnet)等资料整理而来：
