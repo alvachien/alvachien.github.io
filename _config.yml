@@ -45,11 +45,8 @@ minima:
     # pinterest: jekyll
 
 # Paginate
-paginate: 10
+paginate: 20
 paginate_path: '/page:num/'
-pagination:
-  previous: "&larr; Previous"
-  next: "Next &rarr;"
 
 # Upload images
 defaults:
