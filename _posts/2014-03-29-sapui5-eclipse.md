@@ -4,7 +4,7 @@ title: "SAPUI5 学习笔记II: Eclipse的配置"
 date: 2014-03-29 14:25
 author: alvachien
 comments: true
-tags: [Eclipse, SAP, SAP, SAPUI5, TomCat, Web Development]
+tags: [Eclipse, SAP, SAPUI5, TomCat, Web Development]
 categories: [技术Tips]
 ---
 罗列一下自己碰到的Eclipse配置，以为后续：
