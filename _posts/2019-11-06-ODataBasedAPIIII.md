@@ -7,8 +7,7 @@ categories: [技术Tips]
 ---
 
 在前两篇文章查看第一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPII %}) 
-和第二篇 [Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPIII %}) 
-后，可以开始真正Model的创建。
+和第二篇 [Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPIII %}) 后，可以开始真正Model的创建。
 
 步骤如下：
 
@@ -148,6 +147,7 @@ namespace knowledgesbuilderapi.Controllers {
 3. 修改Startup
 
 代码如下：
+
 ```C#
 using System;
 using System.Collections.Generic;
@@ -229,15 +229,18 @@ namespace knowledgebuilderapi
 ```
 
 4. 在项目的根目录下执行
+
 ```powershell
 cd knowledgebuilderapi
 dotnet run
 ```
 
 5. 测试
+
 打开浏览器，访问 http://localhost:5000/odata/$metadata
 
 会成功拿到一下文件：
+
 ```xml
 <edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
     <edmx:DataServices>

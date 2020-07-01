@@ -6,6 +6,8 @@ tags: [OData, Web API]
 categories: [技术Tips]
 ---
 
+#### 背景概要
+
 在.NET Core 刚刚1.0 RC的时候，我就给OData团队创建过Issue让他们支持ASP.NET Core，然而没有任何有意义的答复。
 
 [Roadmap for ASP.NET Core 1.0 RC2? ](https://github.com/OData/WebApi/issues/744)
@@ -28,28 +30,32 @@ categories: [技术Tips]
 
 不幸的是，OData再次走在ASP.NET Core 后面: [Issue](https://github.com/OData/WebApi/issues/1748)，~~所以这个例子只能使用ASP.NET Core 2.2~~。　
 
-所幸的是，自从7.3.0-beta开始支持.NETCore 3.0（更新日期：2019.12.11），后续的博客中使用了该Beta版本以及更高版本。
- 
+所幸的是，自从7.3.0-beta开始支持.NETCore 3.0（更新日期：2019.12.11），~~后续的博客中使用了该Beta版本以及更高版本~~。
 
-本篇为Part I: Business Scenario
+更新于2020.07.01： 使用了OData WebAPI 7.4.1。
+
+
+#### Part I: Business Scenario
 
 
 Knowledge Builder是个用来创建、维护、浏览知识点的Web App，Knowledge Builder API是服务于其需求的API。
 
+它包含这么几种类型的对象：
+- Knowledge Item。知识点。
+- Question Bank Item。题库项。
+
+##### Knowledge Item 知识点
 
 简单来说，Knowlege Item是个复杂文本，外加一些额外的属性。
 
-
 就常见的语数英而言，Knowledge本身要支持各种特殊符号，而且需要支付各种数学公式、数学图形等。
 
-
-这是一个复杂度适中的API， 主要关于rich text的存储，图形文件上传下载等。
-
- 
+这里Content Type只是个占位符。
 
 数据库表定义如下(基于T-SQL)：
+
 ```sql
-CREATE TABLE [dbo].[Knowledge] (
+CREATE TABLE [KnowledgeItem] (
     [ID]          INT            IDENTITY (1, 1) NOT NULL,
     [ContentType] SMALLINT       NULL,
     [Title]       NVARCHAR (50)  NOT NULL,
@@ -59,10 +65,47 @@ CREATE TABLE [dbo].[Knowledge] (
     [ModifiedAt]  DATETIME       DEFAULT (getdate()) NULL,
     PRIMARY KEY CLUSTERED ([ID] ASC)
 );
+
+```
+
+##### Question Bank Item 题库项
+
+题库项是基于Knowledge Item的。
+
+题库项的类型：
+- 问答题
+- 选择题 （题干和选择项目）
+- 阅读理解（使用层次结构达到）
+
+数据库表定义如下(基于T-SQL)：
+
+```sql
+CREATE TABLE [QuestionBankItem] (
+    [ID]                INT            IDENTITY (1, 1) NOT NULL,
+    [KnowledgeItem]     INT            NULL,
+    [ParentID]          INT            NULL,
+    [QBType]            INT            NOT NULL,
+    [Content]           NVARCHAR (MAX) NOT NULL,
+    [CreatedAt]         DATETIME       DEFAULT (getdate()) NULL,
+    [ModifiedAt]        DATETIME       DEFAULT (getdate()) NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
+CREATE TABLE [QuestionBankSubItem] (
+    [ItemID]            INT            NOT NULL,
+    [SubID]             INT            NOT NULL,
+    [QBType]            INT            NOT NULL,
+    [Content]           NVARCHAR (MAX) NOT NULL,
+    [CreatedAt]         DATETIME       DEFAULT (getdate()) NULL,
+    [ModifiedAt]        DATETIME       DEFAULT (getdate()) NULL,
+    PRIMARY KEY ([ItemID] ASC, [SubID] ASC)
+);
+
 ```
 
 
 是为之记。   
 Alva Chien   
-2019.11.03
+2019.11.03   
+Updated on 2020.07.01
 

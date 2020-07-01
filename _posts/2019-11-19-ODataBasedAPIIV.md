@@ -13,6 +13,7 @@ categories: [技术Tips]
 
 
 1. 对于Create操作，通常映射到POST方法，在KnowledgesController中加入如下方法
+
 ```C#
     // POST: /Knowledges
     /// <summary>
