@@ -8,22 +8,23 @@ categories: [技术Tips]
 本篇为Part II：Project Setup
 
 
-查看上一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPII %}) 
+查看上一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
 
 
 ## 第一步，准备步骤
 
 ### 准备步骤一，准备步骤。
 
-准备步骤一，下载.NET Core 2.2 SDK；
+准备步骤一，下载.NET Core ~~2.2~~ 3.1 (或更高版本) SDK； 
 
-官方网址是：[https://dot.net](https://dot.net) (貌似会redirect去[https://dotnet.microsoft.com/](https://dotnet.microsoft.com/) ），选择Download .NET Core 2.2 SDK，并正确安装。
+官方网址是：[https://dot.net](https://dot.net) (貌似会redirect去[https://dotnet.microsoft.com/](https://dotnet.microsoft.com/) ），选择Download .NET Core ~~2.2~~ 3.1 （或更高版本） SDK，并正确安装。
 
 
-### 准备步骤二，下载SQL Server 2017 Express；
+### 准备步骤二，下载SQL Server ~~2017~~ 2019 (或更高版本) Express；
 
-SQL Server的官方网址是：[https://www.microsoft.com/en-us/sql-server/](https://www.microsoft.com/en-us/sql-server/)
-数据库的选择因人而异，这里选择MS免费的SQL Server Express。虽然也有SQL Server 2019 Preview版本，但考虑Preview版本不是RC版本，稳定性上，不建议选择。
+SQL Server的官方网址是：[https://www.microsoft.com/en-us/sql-server/](https://www.microsoft.com/en-us/sql-server/)   
+
+数据库的选择因人而异，这里选择MS免费的SQL Server Express。从稳定性上来说，不建议使用Preview甚至RC版本。
 
 MySQL是另外一个选择。但是选择SQL Server Express 的优点是官方指代的Library就够用了。
 
@@ -37,17 +38,18 @@ MySQL是另外一个选择。但是选择SQL Server Express 的优点是官方�
 
 虽然Visual Studio Community应该更合适，但是考虑到熟悉命令行显然更便于将来切换到non-Windows平台上。
 
-另外，Visual Studio Community 2017的臭名昭著的卸载问题，也是放弃其的一个原因。
+另外，Visual Studio Community ~~2017~~的臭名昭著的卸载问题，也是放弃其的一个原因。
 
  
 
 ## 第二步，创建Project
 
-ASP.NET Core 官方的Tutorial文档：https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.0&tabs=visual-studio-code
+ASP.NET Core 官方的[Tutorial文档](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
 
-EF Core官方Tutorial：https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli
+EF Core官方[Tutorial文档](https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli)
 
-OData官方Getting Started：https://docs.microsoft.com/en-us/odata/webapi/netcore
+OData官方[Getting Started](https://docs.microsoft.com/en-us/odata/webapi/netcore)
+
 
 本文列出的创建步骤综合考虑了上述三大文档，得出整个项目设置流程如下命令（逐一执行）。
 
@@ -59,7 +61,7 @@ dotnet new webapi -o KnowledgeBuilderAPI
 cd KnowledgeBuilderAPI
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
-dotnet add package Microsoft.AspNetCore.OData --version 7.3.0-beta
+dotnet add package Microsoft.AspNetCore.OData --version 7.4.1
 cd ..
 dotnet sln add ./KnowledgeBuilderAPI/KnowledgeBuilderAPI.csproj
 mkdir KnowledgeBuilderAPI.Test
@@ -71,7 +73,7 @@ dotnet sln add ./KnowledgeBuilderAPI.Test/KnowledgeBuilderAPI.Test.csproj
 code -r ../KnowledgeBuilderAPI
 ```
 
-注意， 上述步骤只适用.NET Core 3.0和OData 7.3.0 Beta。因为OData 之前的版本 (7.3.0以前的版本）不支持.NET Core 3.0 (Routing)，在.NETCore 2.2版本下，两个csproj文件分别为：
+注意， 上述步骤只适用.NET Core 3和OData ~~7.3.0 Beta~~ 7.4。因为OData 之前的版本 (7.3.0以前的版本）不支持.NET Core 3.0 (Routing)，在.NETCore 2.2版本下，两个csproj文件分别为：
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -175,10 +177,10 @@ dotnet test
 
  
 
-下一篇将讲述如何开发Model。
+下一篇将讲述如何开发Model： [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPIIII %})。
 
 
 是为之记。   
 Alva Chien   
-2019.11.04
-
+2019.11.04   
+Updated on 2020.07.02

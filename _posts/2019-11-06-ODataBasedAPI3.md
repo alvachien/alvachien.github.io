@@ -6,8 +6,8 @@ tags: [OData, Web API]
 categories: [技术Tips]
 ---
 
-在前两篇文章查看第一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPII %}) 
-和第二篇 [Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPIII %}) 后，可以开始真正Model的创建。
+在前两篇文章查看第一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+和第二篇 [Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPI2 %}) 后，可以开始真正Model的创建。
 
 步骤如下：
 
@@ -39,12 +39,12 @@ namespace knowledgebuilderapi.Models {
         [Column("CreatedAt")]
         public DateTime CreatedAt { get; set; }
         [Column("ModifiedAt")]
-        public DateTime ModifiedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
     }
 }
 ```
 
-Knowledge的Model，代码如下：
+Knowledge Item的Model，代码如下：
 
 ```C#
 using System;
@@ -53,10 +53,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace knowledgebuilderapi.Models
 {
-    [Table("Knowledge")]
-    public class Knowledge : BaseModel
+    [Table("KnowledgeItem")]
+    public class KnowledgeItem : BaseModel
     {
-
         [Key]
         public Int32 ID { get; set; }
         [Required]
@@ -245,7 +244,7 @@ dotnet run
 <edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
     <edmx:DataServices>
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="knowledgebuilderapi.Models">
-            <EntityType Name="Knowledge">
+            <EntityType Name="KnowledgeItem">
                 <Key>
                     <PropertyRef Name="ID"/>
                 </Key>
@@ -262,7 +261,7 @@ dotnet run
                 <Member Name="Formula" Value="1"/>
             </EnumType>
             <EntityContainer Name="Container">
-                <EntitySet Name="Knowledges" EntityType="knowledgebuilderapi.Models.Knowledge">
+                <EntitySet Name="KnowledgeItems" EntityType="knowledgebuilderapi.Models.KnowledgeItem">
                     <Annotation Term="Org.OData.Core.V1.OptimisticConcurrency">
                         <Collection>
                             <PropertyPath>Title</PropertyPath>
@@ -277,7 +276,7 @@ dotnet run
 
 6. 数据库层面校验
 
-如果数据库Connection String已经被正确维护在“KBAPI.ConnectionString”上的话，打开链接： ~/odata/Knowledges 将会看到数据。
+如果数据库Connection String已经被正确维护在“KBAPI.ConnectionString”上的话，打开链接： ~/odata/KnowledgeItems 将会看到数据。
 
 
 是为之记。   

@@ -88,7 +88,8 @@ CREATE TABLE [QuestionBankItem] (
     [Content]           NVARCHAR (MAX) NOT NULL,
     [CreatedAt]         DATETIME       DEFAULT (getdate()) NULL,
     [ModifiedAt]        DATETIME       DEFAULT (getdate()) NULL,
-    PRIMARY KEY CLUSTERED ([ID] ASC)
+    PRIMARY KEY CLUSTERED ([ID] ASC),
+    CONSTRAINT [FK_QBITEM_KITEM] FOREIGN KEY ([KnowledgeItem]) REFERENCES KnowledgeItem ([ID]) ON DELETE SET NULL
 );
 
 CREATE TABLE [QuestionBankSubItem] (
@@ -98,10 +99,13 @@ CREATE TABLE [QuestionBankSubItem] (
     [Content]           NVARCHAR (MAX) NOT NULL,
     [CreatedAt]         DATETIME       DEFAULT (getdate()) NULL,
     [ModifiedAt]        DATETIME       DEFAULT (getdate()) NULL,
-    PRIMARY KEY ([ItemID] ASC, [SubID] ASC)
+    PRIMARY KEY ([ItemID] ASC, [SubID] ASC),
+    CONSTRAINT [FK_QBSUBITEM_QBITEM] FOREIGN KEY ([ItemID]) REFERENCES QuestionBankItem ([ID]) ON DELETE CASCADE ON UPDATE CASCADE 
 );
 
 ```
+
+下一篇介绍如何设置Project：[Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPIII %})
 
 
 是为之记。   

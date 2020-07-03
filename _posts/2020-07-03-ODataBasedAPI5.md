@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API, Part IV, Controller
-date:   2019-11-06 22:22:22 +0800
+title:  创建基于OData的Web API - Knowledge Builder API, Part V, Controller
+date:   2020-07-03 22:22:22 +0800
 tags: [OData, Web API]
 categories: [技术Tips]
 ---
 
-基于上一篇 [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPIIII %}) ，新创建的OData Service已经能够正常显示metadata和读所有记录了，但是最基本的创建，读取单个，修改单个功能还没有。
+基于上两篇 [Part III: Model]({% post_url 2019-11-06-ODataBasedAPI3 %}) 和[Part IV: Data Context]({% post_url 2020-07-02-ODataBasedAPI4 %})，新创建的OData Service已经能够正常显示metadata和读所有记录了，但是最基本的创建，读取单个，修改单个功能还没有。
 
 
 本篇就在上一篇的基础上，增强Controller使之能涵盖CRUD的全部功能。
