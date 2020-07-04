@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API, Part IV, Data Context
+title:  "创建基于OData的Web API - Knowledge Builder API, Part IV, Data Context"
 date:   2019-11-07 21:22:22 +0800
-tags: [OData, Web API]
+tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
 
@@ -115,5 +115,5 @@ namespace knowledgebuilderapi
 
 是为之记。   
 Alva Chien   
-2019.11.06
+2019.11.07
 

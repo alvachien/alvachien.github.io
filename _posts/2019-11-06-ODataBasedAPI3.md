@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API, Part III, Model
+title:  "创建基于OData的Web API - Knowledge Builder API, Part III, Model"
 date:   2019-11-06 22:22:22 +0800
-tags: [OData, Web API]
+tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
 
@@ -135,6 +135,10 @@ namespace knowledgebuilderapi.Models
 }
 ```
 
+下一篇：[实现DataContext]({% post_url 2019-11-07-ODataBasedAPI4 %})。
+
+
+项目Repo： <https://github.com/alvachien/knowledgebuilderapi>
 
 
 是为之记。   

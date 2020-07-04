@@ -1,17 +1,19 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API, Part 6, Controller
-date:   2020-07-03 22:22:22 +0800
-tags: [OData, Web API]
+title:  "创建基于OData的Web API - Knowledge Builder API, Part VI, 为Controller添加CRUD"
+date:   2020-07-03 16:02:22 +0800
+tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
 
-本篇就在[上一篇]({% post_url 2020-07-03-ODataBasedAPI5 %}) 的基础上，增强Controller使之能涵盖CRUD的全部功能。
+本篇就在[上一篇《Controller》]({% post_url 2020-07-03-ODataBasedAPI5 %}) 的基础上，增强Controller使之能涵盖CRUD的全部功能。
 
 
-以下代码只针对KnowledgeItemsController
+以下代码只针对KnowledgeItemsController。
 
-1. 对于Create操作，通常映射到POST方法，在KnowledgeItemsController中加入如下方法
+1. 支持Create操作，通常映射到POST方法。
+
+在KnowledgeItemsController中加入如下方法
 
 ```C#
     // POST: /KnowledgeItems
@@ -42,10 +44,14 @@ categories: [技术Tips]
 
 注意，因为创建KnowledgeItem必须保证数据的完整性（Model中使用Annotation），所以这里需要判断ModelState。
 
+
 在Debug语境下，程序会输出所有错误信息。
  
 
-2. 对于Update操作，对应于PUT方法，则加入如下方法，
+2. 对于Update操作，对应于PUT方法。
+
+加入如下方法：
+
 ```C#
     // PUT: /KnowledgeItems/5
     /// <summary>
@@ -85,9 +91,12 @@ categories: [技术Tips]
 ```
 
 这里省略了与Create操作中一样的错误输出信息。
- 
 
-3. 对于Delete操作，对应于DELETE方法，则加入：
+
+3. 对于Delete操作，对应于DELETE方法。
+
+加入对应方法：   
+
 ```C#
     // DELETE: /KnowledgeItems/5
     /// <summary>
@@ -109,7 +118,10 @@ categories: [技术Tips]
 ```
 
 
-4. 另外一种Update方法，即HTTP PATCH，
+4. 另外一种Update方法，即HTTP PATCH。   
+
+加入对应方法：
+
 ```C#
     // PATCH: /KnowlegeItems
     /// <summary>
@@ -150,7 +162,9 @@ categories: [技术Tips]
     }
 ```
 
-5. 单个读，同样对应于HTTP GET操作，不同的是，它需要指定Key。
+5. 单个读，同样对应于HTTP GET操作。
+
+跟之前的GET方法不同的是，它需要指定Key。
 
 ```C#
     /// GET: /KnowledgeItems(:id)
@@ -168,10 +182,16 @@ categories: [技术Tips]
     }
 ```
 
-6. 至此，这个Controller已经支持了CRUD操作，可以打开Postman等操作进行测试了。
+6. 测试。
+
+至此，这个Controller已经支持了CRUD操作，可以打开Postman等操作进行测试了。
 
 
 同时，可以参阅OData官方文档关于Query Data的方法，使用OData强大的数据检索功能进行读取测试。
+
+
+项目Repo： <https://github.com/alvachien/knowledgebuilderapi>
+
 
 
 是为之记。   

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API, Part II, Project Setup
+title:  "创建基于OData的Web API - Knowledge Builder API, Part II, Project Setup"
 date:   2019-11-04 16:19:17 +0800
-tags: [OData, Web API, SQL Server, Visual Studio]
+tags: [OData, Web API, SQL Server, Visual Studio, Knowledge Builder]
 categories: [技术Tips]
 ---
 本篇为Part II：Project Setup
@@ -178,6 +178,8 @@ dotnet test
  
 
 下一篇将讲述如何开发Model： [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPI3 %})。
+
+项目Repo： https://github.com/alvachien/knowledgebuilderapi
 
 
 是为之记。   

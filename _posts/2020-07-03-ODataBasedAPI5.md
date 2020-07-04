@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API, Part V, Controller
+title:  "创建基于OData的Web API - Knowledge Builder API, Part V, Controller"
 date:   2020-07-03 22:22:22 +0800
-tags: [OData, Web API]
+tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
 
@@ -382,7 +382,11 @@ The entity set 'QuestionBankSubItems' is based on type 'knowledgebuilderapi.Mode
 
 
 下一篇将[增加CRUD的支持]({% post_url 2020-07-04-ODataBasedAPI6 %})
- 
+
+
+项目Repo： <https://github.com/alvachien/knowledgebuilderapi>
+
+
 
 是为之记。   
 Alva Chien   

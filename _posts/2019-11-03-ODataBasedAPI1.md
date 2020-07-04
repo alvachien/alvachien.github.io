@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  创建基于OData的Web API - Knowledge Builder API, Part I：Business Scenario
+title:  "创建基于OData的Web API - Knowledge Builder API, Part I：Business Scenario"
 date:   2019-11-03 16:04:17 +0800
-tags: [OData, Web API]
+tags: [OData, Web API, Knowledge Builder, ASP.NET Core]
 categories: [技术Tips]
 ---
 
@@ -104,6 +104,8 @@ CREATE TABLE [QuestionBankSubItem] (
 ```
 
 下一篇介绍如何设置Project：[Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPI2 %})
+
+项目Repo： <https://github.com/alvachien/knowledgebuilderapi>
 
 
 是为之记。   
