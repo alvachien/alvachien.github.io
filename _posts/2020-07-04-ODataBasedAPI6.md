@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "创建基于OData的Web API - Knowledge Builder API, Part VI, 为Controller添加CRUD"
-date:   2020-07-03 16:02:22 +0800
+date:   2020-07-04 12:02:22 +0800
 tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
