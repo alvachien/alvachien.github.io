@@ -177,7 +177,7 @@ dotnet test
 
  
 
-下一篇将讲述如何开发Model： [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPIIII %})。
+下一篇将讲述如何开发Model： [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPI3 %})。
 
 
 是为之记。   

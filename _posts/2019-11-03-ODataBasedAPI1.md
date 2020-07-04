@@ -94,18 +94,16 @@ CREATE TABLE [QuestionBankItem] (
 
 CREATE TABLE [QuestionBankSubItem] (
     [ItemID]            INT            NOT NULL,
-    [SubID]             INT            NOT NULL,
-    [QBType]            INT            NOT NULL,
+    [SubID]             NVARCHAR(20)   NOT NULL,
     [Content]           NVARCHAR (MAX) NOT NULL,
     [CreatedAt]         DATETIME       DEFAULT (getdate()) NULL,
     [ModifiedAt]        DATETIME       DEFAULT (getdate()) NULL,
     PRIMARY KEY ([ItemID] ASC, [SubID] ASC),
     CONSTRAINT [FK_QBSUBITEM_QBITEM] FOREIGN KEY ([ItemID]) REFERENCES QuestionBankItem ([ID]) ON DELETE CASCADE ON UPDATE CASCADE 
 );
-
 ```
 
-下一篇介绍如何设置Project：[Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPIII %})
+下一篇介绍如何设置Project：[Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPI2 %})
 
 
 是为之记。   
