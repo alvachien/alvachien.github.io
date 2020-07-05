@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "学习React I"
+title:  "学习React.js I"
 date:   2020-07-01 22:12:21 +0800
-tags: [React, Angular]
+tags: [React.js, Angular]
 categories: [技术Tips]
 ---
 
