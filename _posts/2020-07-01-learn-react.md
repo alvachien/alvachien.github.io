@@ -29,7 +29,7 @@ npx create-react-app learn-react
 
 得到下面的截图效果：   
 
-![Pic](/assets/uploads/2020/07/react1.png)
+![Pic](/assets/uploads/2020/07/react1.jpg)
 
 ### 步骤二
 
