@@ -68,7 +68,7 @@ namespace knowledgebuilderapi
                 entity.Property(b => b.Category)
                     .HasConversion(
                         v => (Int16)v,
-                        v => (KnowledgeCategory)v);
+                        v => (KnowledgeItemCategory)v);
             });
 
             modelBuilder.Entity<QuestionBankItem>(entity =>

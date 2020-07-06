@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "学习React.js II: 使用Typescript"
-date:   2020-07-01 22:12:21 +0800
+date:   2020-07-05 22:12:21 +0800
 tags: [React.js, Typescript]
 categories: [技术Tips]
 ---
