@@ -18,6 +18,11 @@ categories: [技术Tips]
 
 准备一个Fixture的类来隔离数据库操作，封装SQLite相关的操作。
 
+其目的在于，如果需要使用别的数据库，可以创建类似的Class来取代。
+
+注意，这里把数据Table和View的创建放在DataSetUtility（稍后介绍）中，虽然导致DataSetUtility也需要注意涵盖数据库版本不同，但是这是为了保证该DatabaseFixture的独立性。
+
+
 ```C#
     public class SqliteDatabaseFixture : IDisposable
     {
@@ -83,12 +88,6 @@ categories: [技术Tips]
             var context = new kbdataContext(options, true);
             return context;
         }
-
-        internal void DeleteKnowledgeItem(kbdataContext context, int kid)
-        {
-            context.Database.ExecuteSqlRaw("DELETE FROM KnowledgeItem WHERE ID = " + kid.ToString());
-
-        }
     }
 ```
 
@@ -139,12 +138,19 @@ categories: [技术Tips]
             // Nothing
         }
         #endregion
+
+        internal static void DeleteKnowledgeItem(kbdataContext context, int kid)
+        {
+            context.Database.ExecuteSqlRaw("DELETE FROM KnowledgeItem WHERE ID = " + kid.ToString());
+        }
     }
 ```
 
 #### 步骤三 创建Test的Collection
 
-创建一个Unit Tests的文件夹。并在文件夹类添加一个Test Collection的类。
+创建一个Unit Tests的文件夹。并在文件夹类添加一个Test Collection的类。该类的目的是为了使得整个Unit Test能够串行化。
+
+串行化的目的是降低Controller Test之间的耦合度。
 
 
 ```C#
@@ -249,7 +255,7 @@ categories: [技术Tips]
             {
                 var context = this.fixture.GetCurrentDataContext();
                 foreach (var kid in objectsCreated)
-                    fixture.DeleteKnowledgeItem(context, kid);
+                    DataSetupUtility.DeleteKnowledgeItem(context, kid);
 
                 objectsCreated.Clear();
                 context.SaveChanges();
