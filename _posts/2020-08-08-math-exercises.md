@@ -4,6 +4,7 @@ title:  "2020年32周数学题"
 date:   2020-08-08 23:56:22 +0800
 tags: [数学题, 小学, 中学]
 categories: [Family]
+math: true
 ---
 
 ### 六年级数学
@@ -65,6 +66,16 @@ $$ \cfrac{1}{1 \times 3} + \cfrac{1}{3 \times 5} + \cdot\cdot\cdot + \cfrac{1}{2
 #### 题目二
 
 60名学生去游园，他们每人想喝1瓶矿泉水．商店买4瓶送1瓶，那么他们只需要付钱买多少瓶？
+
+#### 题目三
+
+已知：   
+<span>&nbsp;&nbsp;&nbsp;&nbsp;大&nbsp;&nbsp;白</span>   
+<span>&nbsp;+&nbsp;大&nbsp;&nbsp;白</span>   
+<span>————</span>   
+<span>&nbsp;&nbsp;白&nbsp;胖&nbsp;胖</span>
+
+求：大、白、胖分别是数字几？   
 
 
 

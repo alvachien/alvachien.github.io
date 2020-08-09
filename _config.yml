@@ -67,8 +67,6 @@ markdown: kramdown
 kramdown:
   html_to_native: true
   syntax_highlighter: rouge
-  math_engine: katex
-  math_engine_opts: {}
 
 theme: minima
 encoding: utf-8

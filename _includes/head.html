@@ -10,5 +10,9 @@
     {%- endif -%}
   
     {%- include custom-head.html -%}
+
+    {%- if page.math == true -%}
+      {%- include katex-head.html -%}
+    {%- endif -%}
     
 </head>
