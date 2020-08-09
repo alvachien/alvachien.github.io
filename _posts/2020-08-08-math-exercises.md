@@ -31,7 +31,7 @@ categories: [Family]
 
 三角形三边的长分别是7,8,9，求面积。
 
-**海伦公式**：<span> $$ S = \sqrt{\smash[b]{P(P-a)(P-b)(P-c)}} $$ </span>
+**海伦公式**： $$ S = \sqrt{P(P-a)(P-b)(P-c)} $$ 
 
 
 #### 题目四
@@ -52,8 +52,7 @@ categories: [Family]
 
 计算值：
 
-
-<span> $$ \cfrac{1}{1 \times 3} + \cfrac{1}{3 \times 5} + \cdot\cdot\cdot + \cfrac{1}{2019 \times 2021} $$ </span>
+$$ \cfrac{1}{1 \times 3} + \cfrac{1}{3 \times 5} + \cdot\cdot\cdot + \cfrac{1}{2019 \times 2021} $$
 
 
 ### 一年级数学
