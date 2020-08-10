@@ -44,7 +44,7 @@ math: true
 
 #### 题目五
 
-下图中，两个等腰直角三角形ABC和DBE。AC = 8; DE = 6：
+下图中，两个等腰直角三角形ABC和DBE。已知AC = 8; DE = 6，求阴影的面积：
 
 ![Img](/assets/uploads/2020/08/Quiz5.png)
 
@@ -76,10 +76,4 @@ $$ \cfrac{1}{1 \times 3} + \cfrac{1}{3 \times 5} + \cdot\cdot\cdot + \cfrac{1}{2
 <span>&nbsp;&nbsp;白&nbsp;胖&nbsp;胖</span>
 
 求：大、白、胖分别是数字几？   
-
-
-
-是为之记。   
-Alva Chien    
-2020.08.08
 

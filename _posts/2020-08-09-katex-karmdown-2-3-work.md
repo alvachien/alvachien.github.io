@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "让Katex在Karmdown 2.3版本上正常显示(Katex)"
+title:  "让Katex在Karmdown 2.3版本上正常工作"
 date:   2020-08-09 21:56:22 +0800
 tags: [Math, Latex, Katex]
 categories: [随心随笔]
@@ -60,9 +60,24 @@ Karmdown官方文档关于[Katex支持](https://kramdown.gettalong.org/math_engi
 ]
 ```
 
+所以，需要做的就是，在需要转载数学公式的页面（Post）上，加上以下这段script：
+
+```javascript
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+          {left: "$", right: "$", display: false},
+          {left: "\\(", right: "\\)", display: false},
+          {left: "\\[", right: "\\]", display: true}
+          ]}
+        );
+    });
+```
+
+
 貌似已经可以完美解决这个问题了。试了试，果然！ :laugh:
 
-搞定！
 
 是为之记。   
 Alva Chien   
