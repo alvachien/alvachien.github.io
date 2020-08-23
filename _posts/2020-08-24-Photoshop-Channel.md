@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Photoshop 通道篇一"
-date:   2020-08-25 06:23:22 +0800
+date:   2020-08-24 16:23:22 +0800
 tags: [Photoshop, Channel]
 categories: [读书笔记]
 ---
