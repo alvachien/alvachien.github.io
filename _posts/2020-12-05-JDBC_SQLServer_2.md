@@ -43,6 +43,16 @@ ds.setDatabaseName("AdventureWorks");
 Connection con = ds.getConnection();
 ```
 
+除了使用Name/Password之外，还可以使用Integrated Security来登陆(注意，需要额外配置才能正常工作，查阅下面内容）：   
+
+
+```java
+ds.setIntegratedSecurity(true);
+ds.setServerName("STUDYPC_201603\\SQLEXPRESS");  
+ds.setDatabaseName(jdbcDatabase);
+```
+
+
 ## TCP/IP 
 
 SQL Server的JDBC Driver需要TCP/IP。
