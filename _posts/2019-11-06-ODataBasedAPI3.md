@@ -1,13 +1,20 @@
 ---
 layout: post
-title:  "创建基于OData的Web API - Knowledge Builder API, Part III, Model"
+title:  "创建基于OData的Web API - Knowledge Builder API, Part III, Model类"
 date:   2019-11-06 22:22:22 +0800
 tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
 
-在前两篇文章查看第一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
-和第二篇 [Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPI2 %}) 后，可以开始真正Model的创建。
+本系列之前的文章：
+
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+
+
+基于前面两篇的基础后，可以开始真正Model的创建。
+
 
 步骤如下：
 
@@ -23,6 +30,7 @@ namespace knowledgebuilderapi.Models {
     }
 }
 ```
+
 
 基类BaseModel，代码如下：
 
@@ -72,7 +80,7 @@ namespace knowledgebuilderapi.Models
         [Column("Tags")]
         public string Tags { get; set; }
 
-        public ICollection<QuestionBankItem> QuestionBankItems { get; set; }
+        public ICollection<ExerciseItem> Exercises { get; set; }
     }
 }
 ```
@@ -84,8 +92,8 @@ namespace knowledgebuilderapi.Models
 ```C#
 namespace knowledgebuilderapi.Models
 {
-    [Table("QuestionBankItem")]
-    public sealed class QuestionBankItem : BaseModel
+    [Table("ExerciseItem")]
+    public sealed class ExerciseItem : BaseModel
     {
         [Key]
         public Int32 ID { get; set; }
@@ -97,40 +105,30 @@ namespace knowledgebuilderapi.Models
         public Int32? ParentID { get; set; }
 
         [Required]
-        [Column("QBType", TypeName = "INT")]
-        public Int32 QBType { get; set; }
+        [Column("ExerciseType", TypeName = "INT")]
+        public Int32 ExerciseType { get; set; }
 
         [Required]
         [Column("Content", TypeName = "TEXT")]
         public string Content { get; set; }
 
         public KnowledgeItem CurrentKnowledgeItem { get; set; }
-
-        public ICollection<QuestionBankSubItem> SubItems { get; set; }
+        public ExerciseItemAnswer Answer { get; set; }
     }
 
 
-    [Table("QuestionBankSubItem")]
-    public sealed class QuestionBankSubItem
+    [Table("ExerciseItemAnswer")]
+    public sealed class ExerciseItemAnswer : BaseModel
     {
-        [Required]
+        [Key]
         [Column("ItemID", TypeName = "INT")]
         public Int32 ItemID { get; set; }
-
-        [Required]
-        [Column("SubID", TypeName = "NVARCHAR(20)")]
-        [StringLength(20)]
-        public String SubID { get; set; }
-
-        [Required]
-        [Column("QBType", TypeName = "INT")]
-        public Int32 QBType { get; set; }
 
         [Required]
         [Column("Content", TypeName = "TEXT")]
         public string Content { get; set; }
 
-        public QuestionBankItem CurrentQuestionBankItem { get; set; }
+        public ExerciseItem ExerciseItem { get; set; }
     }
 }
 ```
@@ -138,10 +136,11 @@ namespace knowledgebuilderapi.Models
 下一篇：[实现DataContext]({% post_url 2019-11-07-ODataBasedAPI4 %})。
 
 
-项目Repo： <https://github.com/alvachien/knowledgebuilderapi>
+项目Github Repo ： [Link](https://github.com/alvachien/knowledgebuilderapi)
 
 
 是为之记。   
 Alva Chien   
-2019.11.06
+完成于 2019.11.06   
+更新于 2020.12.17   
 

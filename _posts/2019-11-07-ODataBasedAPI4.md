@@ -6,7 +6,17 @@ tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
 
-基于上一篇 [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPI3 %}) ，本篇介绍创建Data Context。
+本系列之前的文章：
+
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+
+- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+
+
+本篇介绍创建Data Context。
+
 
 因为支持Unit Test，DataContext引入了额外的Property：TestingMode。
 
@@ -15,6 +25,7 @@ categories: [技术Tips]
 
 
 同时，因为QuestionBankSubItem有多个Key，   
+
 ```C#
     entity.HasKey(e => new { e.ItemID, e.SubID });
 ```
@@ -44,8 +55,8 @@ namespace knowledgebuilderapi
         public Boolean TestingMode { get; private set; }
 
         public DbSet<KnowledgeItem> KnowledgeItems { get; set; }
-        public DbSet<QuestionBankItem> QuestionBankItems { get; set; }
-        public DbSet<QuestionBankSubItem> QuestionBankSubItems { get; set; }
+        public DbSet<ExerciseItem> ExerciseItems { get; set; }
+        public DbSet<ExerciseItemAnswer> ExerciseItemAnswers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -71,7 +82,7 @@ namespace knowledgebuilderapi
                         v => (KnowledgeItemCategory)v);
             });
 
-            modelBuilder.Entity<QuestionBankItem>(entity =>
+            modelBuilder.Entity<ExerciseItem>(entity =>
             {
                 if (!TestingMode)
                 {
@@ -89,21 +100,21 @@ namespace knowledgebuilderapi
                 }
 
                 entity.HasOne(d => d.CurrentKnowledgeItem)
-                    .WithMany(p => p.QuestionBankItems)
+                    .WithMany(p => p.Exercises)
                     .HasForeignKey(d => d.KnowledgeItemID)
                     .OnDelete(DeleteBehavior.SetNull)
-                    .HasConstraintName("FK_QBITEM_KITEM");
+                    .HasConstraintName("FK_EXECITEM_KITEM");
             });
 
-            modelBuilder.Entity<QuestionBankSubItem>(entity =>
+            modelBuilder.Entity<ExerciseItemAnswer>(entity =>
             {
-                entity.HasKey(e => new { e.ItemID, e.SubID });
+                entity.HasKey(e => new { e.ItemID });
 
-                entity.HasOne(d => d.CurrentQuestionBankItem)
-                    .WithMany(p => p.SubItems)
-                    .HasForeignKey(d => d.ItemID)
+                entity.HasOne(d => d.ExerciseItem)
+                    .WithOne(p => p.Answer)
+                    .HasForeignKey<ExerciseItem>(prop => prop.ID)
                     .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK_QBSUBITEM_QBITEM");
+                    .HasConstraintName("FK_EXECAWR_EXECITEM");
             });
         }
     }
@@ -115,5 +126,6 @@ namespace knowledgebuilderapi
 
 是为之记。   
 Alva Chien   
-2019.11.07
+2019.11.07   
+更新于2020.12.17   
 

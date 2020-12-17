@@ -6,9 +6,30 @@ tags: [Angular, Knowledge Builder, OData]
 categories: [技术Tips]
 ---
 
-基于前几篇的基础，尤其是[《用Postman测试》]({% post_url 2020-07-05-ODataBasedAPI7 %})，Knowledge Builder API已经可以使用了。
 
-用[Angular](https://www.angular.io) 写一个简单的Web程序是一个很好的想法。本篇介绍Angular程序的环境准备。
+本系列之前的文章：
+
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+
+- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+
+- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
+
+- 第五篇 [Part V: Controller]({% post_url 2020-07-03-ODataBasedAPI5 %}) 
+
+- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020-07-04-ODataBasedAPI6 %}) 
+
+- 第七篇 [Part VII: 用Postman测试]({% post_url 2020-07-05-ODataBasedAPI7 %}) 
+
+- 第八篇 [Part VIII: Unit Test准备]({% post_url 2020-07-06-ODataBasedAPI8 %}) 
+
+
+现在，一个Web API的框架已经搭建完成。实际环境中，往往是Web程序直接调用该API。
+
+
+那么，用[Angular](https://www.angular.io) 写一个简单的Web程序是一个很好的想法。本篇介绍Angular程序的环境准备。
 
 
 本篇中使用Angular 10。
@@ -67,4 +88,5 @@ chromedriver_cdnurl="https://cdn.npm.taobao.org/dist/chromedriver"
 
 是为之记。   
 Alva Chien    
-2020.07.14 
+2020.07.14    
+更新于2020.12.17

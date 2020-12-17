@@ -6,7 +6,33 @@ tags: [Angular, Knowledge Builder, OData]
 categories: [技术Tips]
 ---
 
-基于前两篇[《完善Angular程序》]({% post_url 2020-07-15-ODataBasedAPI10 %})和[《为API添加CORS支持》]({% post_url 2020-07-16-ODataBasedAPI11 %})，这时候Angular程序可以正常访问我们的Knowledge Builder API。
+本系列之前的文章：
+
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+
+- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+
+- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
+
+- 第五篇 [Part V: Controller]({% post_url 2020-07-03-ODataBasedAPI5 %}) 
+
+- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020-07-04-ODataBasedAPI6 %}) 
+
+- 第七篇 [Part VII: 用Postman测试]({% post_url 2020-07-05-ODataBasedAPI7 %}) 
+
+- 第八篇 [Part VIII: Unit Test准备]({% post_url 2020-07-06-ODataBasedAPI8 %}) 
+
+- 第九篇 [Part IX: Angular程序环境准备]({% post_url 2020-07-14-ODataBasedAPI9 %})
+
+- 第十篇 [Part X: 完善Angular程序]({% post_url 2020-07-15-ODataBasedAPI10 %})
+
+- 第十一篇 [Part XI: 为API添加CORS支持]({% post_url 2020-07-16-ODataBasedAPI11 %})
+
+
+这时候Angular程序可以正常访问我们的Knowledge Builder API。
+
 
 本篇将继续增强Angular程序，为其添加List页面和Detail页面。    
 - List页面显示一个集合；
@@ -329,7 +355,11 @@ export class KnowledgeItemDetailComponent implements OnInit {
 ![DetailPage](/assets/uploads/2020/07/angular_odata_detailpage.jpg)
 
 
+至此，这个Web API 及其相关的Web App已经写完了。
+
 
 是为之记。   
 Alva Chien    
-2020.07.19
+2020.07.19   
+更新于2020.12.17   
+

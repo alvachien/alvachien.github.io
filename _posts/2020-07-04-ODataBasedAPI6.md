@@ -6,7 +6,19 @@ tags: [OData, Web API, Knowledge Builder]
 categories: [技术Tips]
 ---
 
-本篇就在[上一篇《Controller》]({% post_url 2020-07-03-ODataBasedAPI5 %}) 的基础上，增强Controller使之能涵盖CRUD的全部功能。
+本系列之前的文章：
+
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+
+- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+
+- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
+
+- 第五篇 [Part V:Controller]({% post_url 2020-07-03-ODataBasedAPI5 %}) 
+
+在之前的基础上，增强Controller使之能涵盖CRUD的全部功能。
 
 
 以下代码只针对KnowledgeItemsController。
@@ -190,11 +202,12 @@ categories: [技术Tips]
 同时，可以参阅OData官方文档关于Query Data的方法，使用OData强大的数据检索功能进行读取测试。
 
 
-项目Repo： <https://github.com/alvachien/knowledgebuilderapi>
+项目Repo： [Link](https://github.com/alvachien/knowledgebuilderapi)
 
 
 
 是为之记。   
 Alva Chien   
-2020.07.04
+2020.07.04    
+更新于2020.12.17   
 

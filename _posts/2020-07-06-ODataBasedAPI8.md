@@ -6,9 +6,25 @@ tags: [OData, Web API, Knowledge Builder, Unit Test]
 categories: [技术Tips]
 ---
 
-基于前几篇的基础上，这个Knowledge Builder API已经可以测试了。
 
-参考上一篇[《用Postman测试》]({% post_url 2020-07-05-ODataBasedAPI7 %}) 查看用Postman对该API的简单测试。
+本系列之前的文章：
+
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+
+- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+
+- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
+
+- 第五篇 [Part V: Controller]({% post_url 2020-07-03-ODataBasedAPI5 %}) 
+
+- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020-07-04-ODataBasedAPI6 %}) 
+
+- 第七篇 [Part VII: 用Postman测试]({% post_url 2020-07-05-ODataBasedAPI7 %}) 
+
+
+对已经用Postman对该API的手动测试的项目来说，下一步就是用自动化测试来保障产品质量了。
 
 
 基于第二篇[Project_Setup]({% post_url 2019-11-04-ODataBasedAPI2 %})，已经有了一个Test的项目：KnowledgeBuilderAPI.Test。
@@ -111,25 +127,23 @@ categories: [技术Tips]
                 ModifiedAt  DATETIME    NULL   DEFAULT CURRENT_DATE )"
             );
 
-            database.ExecuteSqlRaw(@"CREATE TABLE QuestionBankItem (
+            database.ExecuteSqlRaw(@"CREATE TABLE ExerciseItem (
                 ID INTEGER PRIMARY KEY AUTOINCREMENT,
                 KnowledgeItem     INT            NULL,
                 ParentID          INT            NULL,
-                QBType            INT            NOT NULL,
+                ExerciseType      INT            NOT NULL,
                 Content           TEXT NOT NULL,
                 CreatedAt   DATETIME    NULL   DEFAULT CURRENT_DATE,
                 ModifiedAt  DATETIME    NULL   DEFAULT CURRENT_DATE,    
-                CONSTRAINT FK_QBITEM_KITEM FOREIGN KEY (KnowledgeItem) REFERENCES KnowledgeItem (ID) ON DELETE SET NULL )"
+                CONSTRAINT FK_EXECITEM_KITEM FOREIGN KEY (KnowledgeItem) REFERENCES KnowledgeItem (ID) ON DELETE SET NULL )"
             );
 
-            database.ExecuteSqlRaw(@"CREATE TABLE QuestionBankSubItem (
-                ItemID            INT            NOT NULL,
-                SubID             NVARCHAR(20)   NOT NULL,
+            database.ExecuteSqlRaw(@"CREATE TABLE ExerciseItemAnswer (
+                ItemID            INTERGER PRIMARY KEY,
                 Content           TEXT NOT NULL,
                 CreatedAt   DATETIME    NULL   DEFAULT CURRENT_DATE,
                 ModifiedAt  DATETIME    NULL   DEFAULT CURRENT_DATE,    
-                PRIMARY KEY (ItemID, SubID),
-                CONSTRAINT FK_QBSUBITEM_QBITEM FOREIGN KEY (ItemID) REFERENCES QuestionBankItem (ID) ON DELETE CASCADE ON UPDATE CASCADE )"
+                CONSTRAINT FK_EXECAWR_EXECITEM FOREIGN KEY (ItemID) REFERENCES ExerciseItem (ID) ON DELETE CASCADE ON UPDATE CASCADE )"
             );
         }
 

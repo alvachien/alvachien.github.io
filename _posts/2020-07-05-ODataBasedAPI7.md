@@ -6,7 +6,22 @@ tags: [OData, Web API, Knowledge Builder, Postman]
 categories: [技术Tips]
 ---
 
-基于前几篇的基础上，尤其是[上一篇《为Controller添加CRUD》]({% post_url 2020-07-04-ODataBasedAPI6 %}) 的基础上，可以对该OData API的几个Entity进行测试了。
+本系列之前的文章：
+
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+
+- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+
+- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
+
+- 第五篇 [Part V: Controller]({% post_url 2020-07-03-ODataBasedAPI5 %}) 
+
+- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020-07-04-ODataBasedAPI6 %}) 
+
+
+在之前的基础上，可以对该OData API的几个Entity进行测试了。
 
 
 这里，使用了[Postman](https://www.postman.com/)。
@@ -67,5 +82,5 @@ categories: [技术Tips]
 
 是为之记。   
 Alva Chien    
-2020.07.05
-
+2020.07.05   
+更新于2020.12.17   

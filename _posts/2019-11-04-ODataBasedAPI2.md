@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "创建基于OData的Web API - Knowledge Builder API, Part II, Project Setup"
+title:  "创建基于OData的Web API - Knowledge Builder API, Part II, 开发环境及项目设置"
 date:   2019-11-04 16:19:17 +0800
 tags: [OData, Web API, SQL Server, Visual Studio, Knowledge Builder]
 categories: [技术Tips]
 ---
+
 本篇为Part II：Project Setup
 
 
@@ -13,9 +14,11 @@ categories: [技术Tips]
 
 ## 第一步，准备步骤
 
-### 准备步骤一，准备步骤。
+### 准备步骤一，准备步骤。  
+
 
 准备步骤一，下载.NET Core ~~2.2~~ 3.1 (或更高版本) SDK； 
+
 
 官方网址是：[https://dot.net](https://dot.net) (貌似会redirect去[https://dotnet.microsoft.com/](https://dotnet.microsoft.com/) ），选择Download .NET Core ~~2.2~~ 3.1 （或更高版本） SDK，并正确安装。
 
@@ -24,9 +27,12 @@ categories: [技术Tips]
 
 SQL Server的官方网址是：[https://www.microsoft.com/en-us/sql-server/](https://www.microsoft.com/en-us/sql-server/)   
 
+
 数据库的选择因人而异，这里选择MS免费的SQL Server Express。从稳定性上来说，不建议使用Preview甚至RC版本。
 
+
 MySQL是另外一个选择。但是选择SQL Server Express 的优点是官方指代的Library就够用了。
+
 
 注意，安装数据库时候，默认安装一个instance。
 
@@ -34,7 +40,8 @@ MySQL是另外一个选择。但是选择SQL Server Express 的优点是官方�
 
 ### 准备步骤三，下载Visual Studio Community OR Visual Studio Express
 
-个人推荐Visual Studio Code。
+个人推荐[Visual Studio Code](https://code.visualstudio.com/)。
+
 
 虽然Visual Studio Community应该更合适，但是考虑到熟悉命令行显然更便于将来切换到non-Windows平台上。
 
@@ -73,7 +80,8 @@ dotnet sln add ./KnowledgeBuilderAPI.Test/KnowledgeBuilderAPI.Test.csproj
 code -r ../KnowledgeBuilderAPI
 ```
 
-注意， 上述步骤只适用.NET Core 3和OData ~~7.3.0 Beta~~ 7.4。因为OData 之前的版本 (7.3.0以前的版本）不支持.NET Core 3.0 (Routing)，在.NETCore 2.2版本下，两个csproj文件分别为：
+注意， 上述步骤只适用 .NET Core 3和OData ~~7.3.0 Beta~~ 7.4以及更高版本。因为OData 之前的版本 (7.3.0以前的版本）并不支持 .NET Core 3.0 (Routing)，在.NETCore 2.2版本下，两个csproj文件分别为：
+
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -121,7 +129,8 @@ Test project如下：
 
 ## 第三步，针对开发环境，使用Secret Manager tool
 
-执行命令：
+执行命令：   
+
 ```powershell
 dotnet user-secrets init
 ```
@@ -156,7 +165,8 @@ list - 显示当前所有值
 dotnet user-secrets list
 ```
 
-clear - 清除所有☞
+clear - 清除所有   
+
 ```powershell
 dotnet user-secrets clear
 ```
@@ -179,10 +189,12 @@ dotnet test
 
 下一篇将讲述如何开发Model： [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPI3 %})。
 
-项目Repo： https://github.com/alvachien/knowledgebuilderapi
+
+项目Github Repo： [Link](https://github.com/alvachien/knowledgebuilderapi)
 
 
 是为之记。   
 Alva Chien   
 2019.11.04   
-Updated on 2020.07.02
+Updated on 2020.07.02   
+Updated on 2020.12.17   
