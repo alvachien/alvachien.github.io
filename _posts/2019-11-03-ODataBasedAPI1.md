@@ -127,8 +127,7 @@ CREATE TABLE [KnowledgeItem] (
 CREATE TABLE [ExerciseItem] (
     [ID]                INT            IDENTITY (1, 1) NOT NULL,
     [KnowledgeItem]     INT            NULL,
-    [ParentID]          INT            NULL,
-    [ExerciseType]      INT            NOT NULL,
+    [ExerciseType]      SMALLINT       NOT NULL,
     [Content]           NVARCHAR (MAX) NOT NULL,
     [CreatedAt]         DATETIME       DEFAULT (getdate()) NULL,
     [ModifiedAt]        DATETIME       DEFAULT (getdate()) NULL,
@@ -157,4 +156,4 @@ Alva Chien
 2019.11.03   
 Updated on 2020.07.01   
 Updated on 2020.12.17    
-
+Updated on 2020.12.20: remove ParentID, Update ExerciseType;   

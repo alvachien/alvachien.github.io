@@ -18,15 +18,27 @@ categories: [技术Tips]
 
 步骤如下：
 
-1. 创建Models文件夹，并在该文件夹中加入Knowledge Category定义，代码如下：
+1. Knowledge Item Category 和 Exercise Item Type
+
+虽然在本示例中，Knowledge Item Category和Exercise Item Type都只是占位符，但是将其先定义下来，不失为一个好办法。
+
+创建Models文件夹，并在该文件夹中加入Knowledge Item Category与Exercise Item Type的定义，代码如下：
 
 ```C#
 using System;
 
 namespace knowledgebuilderapi.Models {
-    public enum KnowledgeCategory: Int16 {
+    public enum KnowledgeItemCategory: Int16 {
         Concept     = 0,
         Formula     = 1,
+    }
+
+    public enum ExerciseItemType: Int16 {
+        Question        = 0,
+        SingleChoice    = 1,
+        MultipleChoice  = 2,
+        ShortAnswer     = 3,
+        EssayQuestions  = 4,
     }
 }
 ```
@@ -66,14 +78,17 @@ namespace knowledgebuilderapi.Models
     {
         [Key]
         public Int32 ID { get; set; }
+
         [Required]
         [Column("ContentType")]
-        public KnowledgeCategory Category { get;set; }
+        public KnowledgeItemCategory Category { get;set; }
+
         [Required]
         [MaxLength(50)]
         [ConcurrencyCheck]
         [Column("Title", TypeName = "NVARCHAR(50)")]
         public string Title { get;set; }
+
         [Required]
         [Column("Content")]
         public string Content { get;set; }
@@ -85,7 +100,7 @@ namespace knowledgebuilderapi.Models
 }
 ```
 
-3. Question Bank Item的Model
+3. Exercise Item的Model
 
 代码如下：
 
@@ -101,12 +116,9 @@ namespace knowledgebuilderapi.Models
         [Column("KnowledgeItem", TypeName = "INT")]
         public Int32? KnowledgeItemID { get; set; }
 
-        [Column("ParentID", TypeName = "INT")]
-        public Int32? ParentID { get; set; }
-
         [Required]
         [Column("ExerciseType", TypeName = "INT")]
-        public Int32 ExerciseType { get; set; }
+        public ExerciseItemType ExerciseType { get; set; }
 
         [Required]
         [Column("Content", TypeName = "TEXT")]

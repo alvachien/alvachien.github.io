@@ -6,7 +6,7 @@ tags: [OData, Web API, SQL Server, Visual Studio, Knowledge Builder]
 categories: [技术Tips]
 ---
 
-本篇为Part II：Project Setup
+本篇为Part II：开发环境及项目设置。
 
 
 查看上一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
@@ -197,4 +197,4 @@ dotnet test
 Alva Chien   
 2019.11.04   
 Updated on 2020.07.02   
-Updated on 2020.12.17   
+Updated on 2020.12.17    
