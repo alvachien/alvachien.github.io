@@ -41,7 +41,44 @@ Enum1[1] // 'case2'
 至于手动对enum的项赋值而不是编译时自动赋值，并不影响其编译效果和运行结果。
 
 
-有了这个基础，对于最常见的enum从数值转字符串或者从字符串转数值的问题就迎刃而解了。
+~~有了这个基础，对于最常见的enum从数值转字符串或者从字符串转数值的问题就迎刃而解了。~~
+
+然而，即便有了上述基础，对字符串直接转换enum还是碰到问题(以下示例代码源自Stackoverflow，[原始链接](https://stackoverflow.com/questions/17380845/how-do-i-convert-a-string-to-enum-in-typescript))：
+
+```typescript
+let typedEnum1: Enum1 = Enum1.case1;
+let typedEnum1String: keyof typeof Enum1 = "case1";
+
+// Error "case3 is not assignable ..." (indexing using Color["case3"] will return undefined runtime)
+typedEnum1String = "case3";
+
+// Error "Type 'string' is not assignable ..." (indexing works runtime)
+let letEnum1String = "case3";
+typedEnum1String = letEnum1String;
+
+// Works fine
+typedEnum1String = "case2";
+
+// Works fine
+const constEnum1String = "case2";
+typedEnum1String = constEnum1String
+
+// Works fine
+letEnum1String = "case2";
+typedEnum1String = letEnum1String as keyof typeof Enum1;
+
+typedEnum1 = Color[typedEnum1String];
+```
+
+所以，有一个string，转化为对应的enum：
+
+```typescript
+    if (isNaN(+enumString)) {
+        enumValue = Enum1[enumString as keyof typeof Enum1];
+    } else {
+        enumValue = Enum1[+enumString];
+    }
+```
 
 
 ## string enum
