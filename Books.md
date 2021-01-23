@@ -74,3 +74,7 @@ permalink: /books/
 |基础会计|陈国辉 迟旭升|东北财经大学出版社|教材|东北财大的知名教材||2020.12 第一遍；2020.12 第二遍|||
 |Fundamental Accounting Principles, 16th edition|John J. Wild, Ken W. Shaw|McGraw Hill|教材|||2006.12|||
 |会计学原理 英文版 第23版|John J. Wild, Ken W. Shaw, Barbara Chiappetta|中国人民大学出版社|教材|||2020.12-2021.1 第一遍|||
+|消失的13级台阶|高野和明|Kindle|小说|||2020.12-2021.1 第一遍|||
+|尸人庄谜案|今村昌弘|Kindle|小说|||2021.1-2021.1 第一遍|||
+|剑来|烽火戏诸侯|Kindle|小说|||2021.1-2021.1 第一遍|||
+
