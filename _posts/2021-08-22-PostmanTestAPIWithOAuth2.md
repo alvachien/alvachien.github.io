@@ -2,7 +2,7 @@
 layout: post
 title:  "使用Postman测试OAuth2.0保护的Web API"
 date:   2021-08-22 17:56:22 +0800
-tags: [Angular, Knowledge Builder, OData]
+tags: [Identity Server, Postman, OAuth 2.0]
 categories: [技术Tips]
 ---
 
