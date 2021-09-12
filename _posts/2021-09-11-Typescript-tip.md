@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Typescript Tips
-date:   2021-01-05 14:09:17 +0800
+date:   2021-09-11 18:09:17 +0800
 tags: [typescript]
 categories: [技术Tips]
 ---
