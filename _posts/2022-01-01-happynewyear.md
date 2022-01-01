@@ -18,10 +18,10 @@ categories: [随心随笔]
 只是，当“千里走单骑(ji)”已经被读成了“千里走单骑(qi)”，当“服务器卡(qia)住了”读成了“服务意识卡(ka)住了”，当“说(shui)服”已经读成了“说(shuo)服”，或者说，某种意义上，错误战胜了正确。这是一种飞跃。以前读书的时候，老师说，只有文学大家们，写错了字，后人们不敢纠正他们，只能强行解释为通假字。现在，当大部分人都读错了字，文学大家们即便写对了字、用对了词，将来的人们也会强行解释为通假字吧————或许，在读他们文字的时候，编辑们就已经删减过了？    
 
 
-![Walk](/assets/uploads/2022/01/walk.jpg)    
+![Walk](/assets/uploads/2022/01/Walk.jpg)    
 
 
-![Walk2](/assets/uploads/2022/01/walk2.jpg)    
+![Walk2](/assets/uploads/2022/01/Walk2.jpg)    
 
 
 ![Read](/assets/uploads/2022/01/read.jpg)    
