@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Lamda Expression and Functional Interface in Java
-date:   2022-4-25 21:09:17 +0800
+date:   2022-04-25 21:09:17 +0800
 tags: [Java]
 categories: [技术Tips]
 ---
