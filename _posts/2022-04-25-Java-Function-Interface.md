@@ -46,7 +46,6 @@ There are 43 classes introduced in JDK 8, with four categories:
 
 A **consumer** consumes an object, and doesn't return anything. 
 
-
 ```java
 public interface Consumer<T> {
     public void accept(T t);
@@ -59,7 +58,6 @@ public interface BiConsumer<T, V> {
 #### Suppliers
 
 A **supplier** provides an object, take no parameter. 
-
 
 ```java
 public interface Supplier<T> {
