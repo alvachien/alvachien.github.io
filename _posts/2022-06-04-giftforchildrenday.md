@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  儿童节的礼物
-date:   2022-06-04 21:01:18 +0800
-tags: [儿童节]
+date:   2022-06-04 22:09:17 +0800
+tags: [疫情, 儿童节]
 categories: [随心随笔]
 ---
 
@@ -17,4 +17,5 @@ categories: [随心随笔]
 ![Gift1](/assets/uploads/2022/06/gift1.jpg)
 
 
-![Gift1](/assets/uploads/2022/06/gift2.jpg)
+![Gift2](/assets/uploads/2022/06/gift2.jpg)
+
