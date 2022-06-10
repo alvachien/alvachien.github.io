@@ -92,6 +92,19 @@ SQL Server的Logon可以基于Windows是认证。这时不需要输入用户名�
 
 然后复制上述DLL到*JAVA_HOME\bin*下。
 
+## SSL
+随着网络认证的日趋严格，SSL 验证也被设置为标准了。
+
+下述错误就可能遇到了：
+
+> The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption
+
+行之有效的方法是修改connection string：
+
+```java
+String connectionUrl = "jdbc:sqlserver://localhost;database=classicmodels;integratedSecurity=true;encrypt=true;trustServerCertificate=true";
+```
+
 ## 示例Repo
 
 
