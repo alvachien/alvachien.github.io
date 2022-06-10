@@ -63,6 +63,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Build settings
 markdown: kramdown
@@ -70,7 +71,7 @@ kramdown:
   html_to_native: true
   syntax_highlighter: rouge
 
-theme: architect
+remote_theme: pages-themes/architect@v0.2.0
 encoding: utf-8
 permalink: /:year/:month/:day/:title
 
