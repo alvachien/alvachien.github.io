@@ -26,6 +26,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 collections:
   category:
     output: true
+  tag:
+    output: true
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -68,9 +70,9 @@ kramdown:
   html_to_native: true
   syntax_highlighter: rouge
 
-theme: minima
+theme: architect
 encoding: utf-8
-permalink: /:year/:month/:title:output_ext
+permalink: /:year/:month/:day/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
