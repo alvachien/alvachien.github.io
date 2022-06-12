@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 码一地闲言，蕴一段岁月 | Write Time Done, Align with Heart -- an Alva Chien's Blog
+title: 码一地闲言，蕴一段岁月 | Write Time Done, Alongside with Heart -- an Alva Chien's Blog
 email: alvachien@163.com
 description: >- # this means to ignore newlines until "baseurl:"
   © 2004 - 2022, Alva Chien.
@@ -34,8 +34,6 @@ collections:
 minima:
   date_format: "%Y-%m-%d %H:%M"
 
-#  skin: "dark"
-  
   # generate social links in footer
   social_links:
     github:  alvachien
@@ -71,18 +69,6 @@ kramdown:
   syntax_highlighter: rouge
 
 theme: minima
-# remote_theme: pages-themes/architect@v0.2.0
 encoding: utf-8
 permalink: /:year/:month/:day/:title
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
