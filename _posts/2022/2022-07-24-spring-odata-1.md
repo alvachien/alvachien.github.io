@@ -42,7 +42,7 @@ Library Builder，就是符合上述业务场景的。它是一个用来创建�
 它包含这么几种类型的对象：   
 - Book。图书。
 - Person。人物。
-- Movie。电影。
+- Organization。组织。
 
 ## 存储层设计 Database table design
 
