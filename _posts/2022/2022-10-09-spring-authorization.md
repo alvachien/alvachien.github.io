@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring Authorization Server"
-date:   2022-07-24 16:04:17 +0800
+date:   2022-10-09 21:40:04 +0800
 tags: [Web API, Spring, OAuth]
 categories: [技术Tips]
 ---
