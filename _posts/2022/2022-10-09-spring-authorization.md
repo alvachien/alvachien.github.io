@@ -11,6 +11,11 @@ categories: [技术Tips]
 官方项目中有个Spring Authorization Server： 
 [Spring Authorization Server](https://spring.io/projects/spring-authorization-server)
 
+
+官方的Reference文档：
+[Spring Authorization Server Reference](https://docs.spring.io/spring-authorization-server/docs/current/reference/html/index.html)
+
+
 官方的How to文档其实挺有帮助：
-[How to](https://docs.spring.io/spring-authorization-server/docs/current/reference/html/how-to.html)
+[How to Guides](https://docs.spring.io/spring-authorization-server/docs/current/reference/html/how-to.html)
 
