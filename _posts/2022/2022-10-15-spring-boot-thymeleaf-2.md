@@ -162,3 +162,8 @@ Thymeleaf的语法大致规律如下：
 </html>
 ```
 
+运行程序：
+
+![主页](/assets/uploads/2022/10/spring-boot-thymeleaf-app1.png)
+
+![列表页面](/assets/uploads/2022/10/spring-boot-thymeleaf-app1.png)
