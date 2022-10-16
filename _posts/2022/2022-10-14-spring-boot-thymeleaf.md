@@ -32,7 +32,7 @@ categories: [技术Tips]
 
 ## 更新POM
 
-参考[《JDBC Driver to SQL Server Express》]({% post_url 2020-11-28-JDBC_SQLServer %})，POM文件需要更新以支持SQL Server。
+参考[《JDBC Driver to SQL Server Express》]({% post_url 2020/2020-11-28-JDBC_SQLServer %})，POM文件需要更新以支持SQL Server。
 
 ```xml
 <dependency>
