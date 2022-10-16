@@ -9,13 +9,13 @@ categories: [技术Tips]
 
 本系列之前的文章：
 
-- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019/2019-11-03-ODataBasedAPI1 %}) 
 
-- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019/2019-11-04-ODataBasedAPI2 %}) 
 
-- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+- 第三篇 [Part III:  Model类]({% post_url 2019/2019-11-06-ODataBasedAPI3 %}) 
 
-- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
+- 第四篇 [Part IV: Data Context]({% post_url 2019/2019-11-07-ODataBasedAPI4 %})
 
 
 现在，Project已经有了Model和Data Context，现在该创建Controller了。
@@ -395,7 +395,7 @@ The entity set 'QuestionBankSubItems' is based on type 'knowledgebuilderapi.Mode
 如果数据库Connection String已经被正确维护在“KBAPI.ConnectionString”上的话，可以打开数据库查看数据库表的定义。
 
 
-下一篇将[增加CRUD的支持]({% post_url 2020-07-04-ODataBasedAPI6 %})
+下一篇将[增加CRUD的支持]({% post_url 2020/2020-07-04-ODataBasedAPI6 %})
 
 
 项目Repo： [Link](https://github.com/alvachien/knowledgebuilderapi)

@@ -6,7 +6,7 @@ tags: [Java, SQL Server]
 categories: [技术Tips]
 ---
 
-基于前两篇[《JDBC Driver to SQL Server Express》]({% post_url 2020-11-28-JDBC_SQLServer %})和[《JDBC Driver to SQL Server Express，Part II》]({% post_url 2020-12-05-JDBC_SQLServer_2 %})，已经可以尝试使用SQL Server Express并能执行SQL且返回结果集了。
+基于前两篇[《JDBC Driver to SQL Server Express》]({% post_url 2020/2020-11-28-JDBC_SQLServer %})和[《JDBC Driver to SQL Server Express，Part II》]({% post_url 2020/2020-12-05-JDBC_SQLServer_2 %})，已经可以尝试使用SQL Server Express并能执行SQL且返回结果集了。
 
 
 ## Connection String

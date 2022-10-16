@@ -9,7 +9,7 @@ categories: [技术Tips]
 项目源码寄存在[Github repo](https://github.com/alvachien/learning-notes/tree/master/spring-tutorial/thymeleaf-jpa-demo)
 
 
-继上一篇 [《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2022/2022-10-14-spring-boot-thymeleaf %}) 介绍了项目的初始环境，还有对应的Model，以及对应的Repository之后，这一篇开始涉及具体的Controller和View————这些还是基于MVC概念。
+继上一篇 [《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2020/2022-10-14-spring-boot-thymeleaf %}) 介绍了项目的初始环境，还有对应的Model，以及对应的Repository之后，这一篇开始涉及具体的Controller和View————这些还是基于MVC概念。
 
 
 ## 官方文档   

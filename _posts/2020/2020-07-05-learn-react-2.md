@@ -6,7 +6,7 @@ tags: [React.js, Typescript]
 categories: [技术Tips]
 ---
 
-上一篇[《学习React.js》]({% post_url 2020-07-01-learn-react %})中使用了Javascript，但还是习惯于Typescript的静态检查。
+上一篇[《学习React.js》]({% post_url 2020/2020-07-01-learn-react %})中使用了Javascript，但还是习惯于Typescript的静态检查。
 
 翻看React.js的文档，里面已有使用Typescript的说明。
 

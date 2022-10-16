@@ -6,7 +6,7 @@ tags: [Java, SQL Server]
 categories: [技术Tips]
 ---
 
-基于前一篇[《JDBC Driver to SQL Server Express》]({% post_url 2020-11-28-JDBC_SQLServer %})，已经可以尝试使用SQL Server Express了。
+基于前一篇[《JDBC Driver to SQL Server Express》]({% post_url 2020/2020-11-28-JDBC_SQLServer %})，已经可以尝试使用SQL Server Express了。
 
 
 ## SQLServerDriver VS DriverManager VS DataSource

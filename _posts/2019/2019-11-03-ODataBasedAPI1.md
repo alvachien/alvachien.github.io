@@ -145,7 +145,7 @@ CREATE TABLE [ExerciseItemAnswer] (
 );
 ```
 
-下一篇介绍如何设置Project：[Part II:  Project setup]({% post_url 2019-11-04-ODataBasedAPI2 %})
+下一篇介绍如何设置Project：[Part II:  Project setup]({% post_url 2019/2019-11-04-ODataBasedAPI2 %})
 
 
 项目Repo： <https://github.com/alvachien/knowledgebuilderapi>

@@ -9,7 +9,7 @@ categories: [技术Tips]
 本篇为Part II：开发环境及项目设置。
 
 
-查看上一篇 [Part I:  Business Scenario]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+查看上一篇 [Part I:  Business Scenario]({% post_url 2019/2019-11-03-ODataBasedAPI1 %}) 
 
 
 ## 第一步，准备步骤
@@ -187,7 +187,7 @@ dotnet test
 
  
 
-下一篇将讲述如何开发Model： [Part III:  Model]({% post_url 2019-11-06-ODataBasedAPI3 %})。
+下一篇将讲述如何开发Model： [Part III:  Model]({% post_url 2019/2019-11-06-ODataBasedAPI3 %})。
 
 
 项目Github Repo： [Link](https://github.com/alvachien/knowledgebuilderapi)

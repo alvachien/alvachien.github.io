@@ -8,9 +8,9 @@ categories: [技术Tips]
 
 本系列之前的文章：
 
-- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019/2019-11-03-ODataBasedAPI1 %}) 
 
-- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019/2019-11-04-ODataBasedAPI2 %}) 
 
 
 基于前面两篇的基础后，可以开始真正Model的创建。
@@ -145,7 +145,7 @@ namespace knowledgebuilderapi.Models
 }
 ```
 
-下一篇：[实现DataContext]({% post_url 2019-11-07-ODataBasedAPI4 %})。
+下一篇：[实现DataContext]({% post_url 2019/2019-11-07-ODataBasedAPI4 %})。
 
 
 项目Github Repo ： [Link](https://github.com/alvachien/knowledgebuilderapi)

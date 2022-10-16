@@ -8,17 +8,17 @@ categories: [技术Tips]
 
 本系列之前的文章：
 
-- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019/2019-11-03-ODataBasedAPI1 %}) 
 
-- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019/2019-11-04-ODataBasedAPI2 %}) 
 
-- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
+- 第三篇 [Part III:  Model类]({% post_url 2019/2019-11-06-ODataBasedAPI3 %}) 
 
-- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
+- 第四篇 [Part IV: Data Context]({% post_url 2019/2019-11-07-ODataBasedAPI4 %})
 
-- 第五篇 [Part V: Controller]({% post_url 2020-07-03-ODataBasedAPI5 %}) 
+- 第五篇 [Part V: Controller]({% post_url 2020/2020-07-03-ODataBasedAPI5 %}) 
 
-- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020-07-04-ODataBasedAPI6 %}) 
+- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020/2020-07-04-ODataBasedAPI6 %}) 
 
 
 在之前的基础上，可以对该OData API的几个Entity进行测试了。

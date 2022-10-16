@@ -7,18 +7,18 @@ categories: [技术Tips]
 ---
 
 两三年前，当我开始熟悉.Net Core和基于ASP.NET Core的OData API时，曾经通过实现一个项目的方式来锻炼自己，而且写过一系列文档来详细讲述自己的实现步骤：   
-- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019-11-03-ODataBasedAPI1 %}) 
-- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019-11-04-ODataBasedAPI2 %}) 
-- 第三篇 [Part III:  Model类]({% post_url 2019-11-06-ODataBasedAPI3 %}) 
-- 第四篇 [Part IV: Data Context]({% post_url 2019-11-07-ODataBasedAPI4 %})
-- 第五篇 [Part V: Controller]({% post_url 2020-07-03-ODataBasedAPI5 %}) 
-- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020-07-04-ODataBasedAPI6 %}) 
-- 第七篇 [Part VII: 用Postman测试]({% post_url 2020-07-05-ODataBasedAPI7 %}) 
-- 第八篇 [Part VIII: Unit Test准备]({% post_url 2020-07-06-ODataBasedAPI8 %}) 
-- 第九篇 [Part IX: Angular程序环境准备]({% post_url 2020-07-14-ODataBasedAPI9 %})
-- 第十篇 [Part X: 完善Angular程序]({% post_url 2020-07-15-ODataBasedAPI10 %})
-- 第十一篇 [Part XI: 为API添加CORS支持]({% post_url 2020-07-16-ODataBasedAPI11 %})
-- 第十二篇 [Part XII, Angular程序的List和Detail页面]({% post_url 2020-07-19-ODataBasedAPI12 %})
+- 第一篇 [Part I:  业务场景和存储层设计]({% post_url 2019/2019-11-03-ODataBasedAPI1 %}) 
+- 第二篇 [Part II:  开发环境及项目设置]({% post_url 2019/2019-11-04-ODataBasedAPI2 %}) 
+- 第三篇 [Part III:  Model类]({% post_url 2019/2019-11-06-ODataBasedAPI3 %}) 
+- 第四篇 [Part IV: Data Context]({% post_url 2019/2019-11-07-ODataBasedAPI4 %})
+- 第五篇 [Part V: Controller]({% post_url 2020/2020-07-03-ODataBasedAPI5 %}) 
+- 第六篇 [Part VI: 为Controller添加CRUD]({% post_url 2020/2020-07-04-ODataBasedAPI6 %}) 
+- 第七篇 [Part VII: 用Postman测试]({% post_url 2020/2020-07-05-ODataBasedAPI7 %}) 
+- 第八篇 [Part VIII: Unit Test准备]({% post_url 2020/2020-07-06-ODataBasedAPI8 %}) 
+- 第九篇 [Part IX: Angular程序环境准备]({% post_url 2020/2020-07-14-ODataBasedAPI9 %})
+- 第十篇 [Part X: 完善Angular程序]({% post_url 2020/2020-07-15-ODataBasedAPI10 %})
+- 第十一篇 [Part XI: 为API添加CORS支持]({% post_url 2020/2020-07-16-ODataBasedAPI11 %})
+- 第十二篇 [Part XII, Angular程序的List和Detail页面]({% post_url 2020/2020-07-19-ODataBasedAPI12 %})
 
 这次，开始学习Spring Boot，打算效仿一下当年的自己，也准备通过实现一个项目加一系列文档的方式来记录下进程。
 
