@@ -48,5 +48,6 @@ public interface PagingAndSortingRepository<T, ID extends Serializable>
 然而，这种很便捷的库，要融入一些别的需求，就很麻烦。譬如：权限，数据校验等；
 所以，实际项目中Spring Data REST开发的相对较少。
 
-知乎上有一段评论，写得非常好，就不复制了（版权归于原作者）。
+知乎上有一段评论，写得非常好，就不复制了（版权归于原作者）。    
+
 ![Zhihu](/assets/uploads/2022/09/spring-data-rest-zhihu.png)

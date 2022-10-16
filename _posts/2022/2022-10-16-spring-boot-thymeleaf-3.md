@@ -6,11 +6,14 @@ tags: [Web API, Java, Spring, Spring Boot, Spring MVC, Thymeleaf]
 categories: [技术Tips]
 ---
 
-项目源码寄存在[Github repo](https://github.com/alvachien/learning-notes/tree/master/spring-tutorial/thymeleaf-jpa-demo)
+项目源码寄存在[Github repo](https://github.com/alvachien/learning-notes/tree/master/spring-tutorial/thymeleaf-jpa-demo)。   
 
-第一篇：《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2022-10-14-spring-boot-thymeleaf %})介绍了项目的初始环境，还有对应的Model，以及对应的Repository。
-第二篇：《Step by Step Tutorial for Spring Boot and Thymeleaf: Part II》]({% post_url 2022-10-15-spring-boot-thymeleaf-2 %})介绍了具体的Controller和View，以及Thymeleaf的语法。
-本篇，介绍了Thymeleaf语法下的Enum以及Form的操作。
+
+第一篇：《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2022-10-14-spring-boot-thymeleaf %})介绍了项目的初始环境，还有对应的Model，以及对应的Repository。   
+
+第二篇：《Step by Step Tutorial for Spring Boot and Thymeleaf: Part II》]({% post_url 2022-10-15-spring-boot-thymeleaf-2 %})介绍了具体的Controller和View，以及Thymeleaf的语法。    
+
+本篇，介绍了Thymeleaf语法下的多个View的实现。
 
 
 ## 单条信息的显示
@@ -96,12 +99,14 @@ public class PersonRoleController {
 
 ## 单条信息的新建
 
-单条信息的新建和修改都属于单条信息的编辑。
+单条信息的新建和修改都属于单条信息的编辑。   
+
 其具体的URL为： `localhost:8080/personroles/(roleid)`
+
 
 ### 更新Controller
 
-在之前的`PersonRoleController`添加下列Method来支持单条信息的新建。
+在之前的`PersonRoleController`添加下列Method来支持单条信息的新建。   
 
 ```java
     @GetMapping(value = {"/personroles/add"})
@@ -243,6 +248,7 @@ public class PersonRoleController {
 ### 单条记录的编辑View
 
 这里复用上面的`person-role-edit.html`，所以无需新建额外的View。
+
 
 运行程序：
 
