@@ -23,8 +23,9 @@ categories: [技术Tips]
 ### Controller
 
 这里的Controller其实支持了多个View。这里的两个method：
-- index: 主页面
-- getPersonRoles： 显示Person Role列表
+- index: 主页面 （对应于URL： localhost:8080) ；
+- getPersonRoles： 显示Person Role列表 （对应于URL: localhost:8080/personroles）；
+
 
 ```java
 import java.util.List;
@@ -85,17 +86,38 @@ public class PersonRoleController {
 
 Thymeleaf的语法大致规律如下：
 - 需要在HTML的tag下设置对应XML的namespace：`xmlns:th="http://www.thymeleaf.org"`
-- 通过XML的namespace：
+- 设置HTML中Tag的`th`属性：
     - `th:text`：设置当前元素的文本内容;
     - `th:utext`：设置文本内容。与`th:text`的区别在于，`th:text`不会转义html标签，而`th:utext`会。
     - `th:value`：设置当前元素的value值，类似修改指定属性的还有`th:src`，`th:href`。
     - `th:href`：设置超链接。
     - `th:each`：遍历循环元素，通常和`th:text`或`th:value`一起使用。
-    - `th:if`：条件判断，类似的还有`th:unless`，`th:switch`，`th:case`。
+    - `th:if`：条件判断，类似的还有`th:unless`，`th:switch`，`th:case`。    
     - `th:insert`：代码块。类似的还有`th:replace`，`th:include`，三者的区别较大，若使用不恰当会破坏html结构，常用于公共代码块提取的场景。
     - `th:fragment`：定义代码块，方便被`th:insert`引用。
     - `th:object`：声明变量，一般和`*{}`一起配合使用。
     - `th:attr`：修改任意属性，类似的还有`th:attrappend`，`th:attrprepend`。
+- 表达式语法
+    - `${...}`：变量表达式，通常跟`th:text`联动；
+    ```html
+    <span th:text="${role.name}"> 
+    ```
+    - `*{...}`：选择表达式，它类似于变量表达式，但是它读取一个预先选择的对象，通常跟`th:object`跟`th:text`联用。
+    ```html
+    <div th:object="${role}">
+        <div th:text="name"></div>
+    </div>
+    ```
+    - `#{...}`: 消息/文字表达式，允许读取文字信息。
+    ```html
+    <div th:text="#[message.name]"></div>
+    ```
+    - `@{...}`：链接url表达式，把一个有用的上下文或回话信息添加到URL；
+    ```html
+    <a th:href="@{/main}">Back to index</a>
+    ```
+    - `~{...}`：代码块表达式；
+
 
 #### 主页(index.html)
 
@@ -164,6 +186,8 @@ Thymeleaf的语法大致规律如下：
 
 运行程序：
 
+
 ![主页](/assets/uploads/2022/10/spring-boot-thymeleaf-app1.png)
 
-![列表页面](/assets/uploads/2022/10/spring-boot-thymeleaf-app1.png)
+
+![列表页面](/assets/uploads/2022/10/spring-boot-thymeleaf-app2.png)
