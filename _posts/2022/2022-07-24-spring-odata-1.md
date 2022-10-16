@@ -2,7 +2,7 @@
 layout: post
 title:  "创建基于Spring Boot的OData Web API - Library API, Part I：业务场景和存储层设计"
 date:   2022-07-24 16:04:17 +0800
-tags: [OData, Web API, Spring, Olingo]
+tags: [OData, Web API, Spring, Olingo, Spring Boot, JPA]
 categories: [技术Tips]
 ---
 
