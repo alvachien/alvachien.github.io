@@ -7,10 +7,10 @@ categories: [技术Tips]
 ---
 
 
-第一篇：[《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2022-10-14-spring-boot-thymeleaf %})介绍了项目的初始环境，还有对应的Model，以及对应的Repository。   
+第一篇： [《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2022-10-14-spring-boot-thymeleaf %}) 介绍了项目的初始环境，还有对应的Model，以及对应的Repository。   
 
 
-第二篇：[《Step by Step Tutorial for Spring Boot and Thymeleaf: Part II》]({% post_url 2022-10-15-spring-boot-thymeleaf-2 %})介绍了具体的Controller和View，以及Thymeleaf的语法。    
+第二篇： [《Step by Step Tutorial for Spring Boot and Thymeleaf: Part II》]({% post_url 2022-10-15-spring-boot-thymeleaf-2 %}) 介绍了具体的Controller和View，以及Thymeleaf的语法。    
 
 
 本篇，介绍了Thymeleaf语法下的多个View的实现。
@@ -54,7 +54,6 @@ public class PersonRoleController {
 在`template`目录下，新建文件`person-role-display.html`：
 
 ```html
-<!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8" />
@@ -146,7 +145,6 @@ public class PersonRoleController {
 这里的View，可以用在新建和修改的情形下。
 
 ```html
-<!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
