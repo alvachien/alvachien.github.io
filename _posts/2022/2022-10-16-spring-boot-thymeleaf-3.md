@@ -6,14 +6,17 @@ tags: [Web API, Java, Spring, Spring Boot, Spring MVC, Thymeleaf]
 categories: [技术Tips]
 ---
 
-项目源码寄存在[Github repo](https://github.com/alvachien/learning-notes/tree/master/spring-tutorial/thymeleaf-jpa-demo)。   
+
+第一篇：[《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2022-10-14-spring-boot-thymeleaf %})介绍了项目的初始环境，还有对应的Model，以及对应的Repository。   
 
 
-第一篇：《Step by Step Tutorial for Spring Boot and Thymeleaf: Part I》]({% post_url 2022-10-14-spring-boot-thymeleaf %})介绍了项目的初始环境，还有对应的Model，以及对应的Repository。   
+第二篇：[《Step by Step Tutorial for Spring Boot and Thymeleaf: Part II》]({% post_url 2022-10-15-spring-boot-thymeleaf-2 %})介绍了具体的Controller和View，以及Thymeleaf的语法。    
 
-第二篇：《Step by Step Tutorial for Spring Boot and Thymeleaf: Part II》]({% post_url 2022-10-15-spring-boot-thymeleaf-2 %})介绍了具体的Controller和View，以及Thymeleaf的语法。    
 
 本篇，介绍了Thymeleaf语法下的多个View的实现。
+
+
+项目源码寄存在[Github repo](https://github.com/alvachien/learning-notes/tree/master/spring-tutorial/thymeleaf-jpa-demo)。   
 
 
 ## 单条信息的显示
