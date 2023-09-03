@@ -30,6 +30,7 @@ categories: [随心随笔,读书笔记]
 
 - 分别安装`GCC`, `GDB`和`CMake`
     > pacman -S mingw-w64-ucrt-x86_64-gcc   
+    > pacman -S mingw-w64-ucrt-x86_64-gdb    
     > pacman -S mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja   
 
 注意，这里安装的是现在流行的`CMake`，尽管这个名字容易跟之前`Make`混淆。
@@ -42,6 +43,7 @@ categories: [随心随笔,读书笔记]
     pacman -Ss xx 查询软件xx的信息 
     pacman -S xx 安装软件xx
     pacman -R xx 删除软件xx
+    pacman -Q 查询本地所有已安装软件
 
 配置Visual Studio Code：    
 - Extension: CMake Tools     
@@ -55,19 +57,8 @@ categories: [随心随笔,读书笔记]
 开发流程：
 1. 新建一个项目文件夹。
 2. 使用VSCode打开该文件夹。
-3. 新建`src`子文件夹，并在其中添加`*.c`源代码。
-4. 新建`CMakeLists.txt`文件(这里只添加一个文件`hello.c`并制定最后生成的文件为`helloworld`)：
-```txt
-cmake_minimum_required(VERSION 3.5)
- 
-# 设置项目名称
-project(01-start)
- 
-# 添加源代码文件
-add_executable(helloworld src/hello.c)
-```
-5. 右击`CMakeLists.txt`，可以执行相关命令。
-6. 在VSCode的底部，可以执行`run`和`debug`指令。    
+3. 运行命令`cmake: quick start`。根据提示输入单次，会自动生成一个`CMakeFiles.txt`和一个`main.c`文件。   
+4. 在VSCode的底部，可以执行`run`和`debug`指令。    
 ![Run](/assets/uploads/2023/09/2023-09-03-04.jpg)     
 
 是为之记。   
