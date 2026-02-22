@@ -20,16 +20,20 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  ACTIONS_RUNNER_DEBUG: true
+
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: workflow-${{ github.ref }}
+  group: ${{ github.workflow }}
   cancel-in-progress: true
-
+  
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,6 +55,7 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+      - run: echo "Now Running"
 
   # Deployment job
   deploy:
