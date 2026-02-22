@@ -74,7 +74,7 @@ layout: default
       <h4>Tags</h4>
       <div>
         {% for tag in site.tags %}
-        <a href="/tags/{{ tag | first | slugize }}/" style="font-size: '{{ tag | last | size | times: 100 | divided_by: site.tags.size }} px'">
+        <a href="{{ '/tags/' | append: tag[0] | relative_url }}" style="font-size: '{{ tag | last | size | times: 100 | divided_by: site.tags.size }} px'">
           {{ tag | first }} ({{ tag | last | size }})
         </a>
         {% endfor %}

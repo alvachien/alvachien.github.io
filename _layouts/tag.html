@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="blog list">
-    <h1>Posts of <small>#{{ page.tags }}</small></h1>
+    <h1>Posts tagged with <small>#{{ page.tag }}</small></h1>
 
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <ul class="post-list">

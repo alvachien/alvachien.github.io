@@ -16,7 +16,7 @@
 title: 码一地闲言，蕴一段岁月 | Write Time Done, Alongside with Heart -- an Alva Chien's Blog
 email: alvachien@163.com
 description: >- # this means to ignore newlines until "baseurl:"
-  © 2004 - 2024, Alva Chien.
+  © 2004 - 2026, Alva Chien.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alvachien.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: Asia/Shanghai
@@ -61,12 +61,14 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-commonmark-ghpages
+  - jekyll-octicons
 
 # Build settings
-markdown: kramdown
-kramdown:
-  html_to_native: true
-  syntax_highlighter: rouge
+markdown: CommonMarkGhPages
+commonmark:
+  extensions: ["table", "autolink", "strikethrough", "tasklist"]
+  options: ["unsafe", "footnotes"]
 
 theme: minima
 encoding: utf-8
