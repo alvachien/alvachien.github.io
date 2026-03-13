@@ -46,9 +46,9 @@ jobs:
           mkdir -p .jekyll-cache _site
           # 使用官方 Jekyll builder 镜像进行构建
           docker run --rm \
-            -v ${{ github.workspace }}:/srv/jekyll \
-            -v ${{ github.workspace }}/.jekyll-cache:/srv/jekyll/.jekyll-cache \
-            -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+            --volume="$PWD:/srv/jekyll" \
+            --workdir=/srv/jekyll \
+            -e JEKYLL_ENV=production \
             jekyll/builder:latest \
             /bin/bash -c "bundle install && bundle exec jekyll build --baseurl '${{ steps.pages.outputs.base_path }}' --trace"
       - name: Upload artifact
