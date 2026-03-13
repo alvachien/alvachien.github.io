@@ -40,17 +40,25 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: |
-          # 预创建所需目录，解决容器权限问题 [citation:2]
           mkdir -p .jekyll-cache _site
-          # 使用官方 Jekyll builder 镜像进行构建
+        
+          # 根据分支设置不同的 baseurl
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            # 生产环境：使用配置文件中定义的 baseurl
+            BASEURL_CMD=""
+          else
+            # 预览环境：使用 /preview 作为 baseurl
+            BASEURL_CMD="--baseurl /preview"
+          fi
+        
           docker run --rm \
-            --volume="$PWD:/srv/jekyll" \
-            --workdir=/srv/jekyll \
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -v ${{ github.workspace }}/.jekyll-cache:/srv/jekyll/.jekyll-cache \
+            -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
             -e JEKYLL_ENV=production \
             jekyll/builder:latest \
-            /bin/bash -c "bundle install && bundle exec jekyll build --baseurl '${{ steps.pages.outputs.base_path }}' --trace"
+            /bin/bash -c "bundle install && bundle exec jekyll build $BASEURL_CMD --trace"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
