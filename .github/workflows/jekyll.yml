@@ -36,19 +36,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --incremental --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+        run: |
+          docker run \
+            --rm \
+            --volume="$PWD:/srv/jekyll" \
+            -e JEKYLL_ENV=production \
+            jekyll/jekyll:latest \
+            jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
