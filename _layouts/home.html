@@ -110,6 +110,26 @@ layout: default
     </div>
 
     <div class="col-12 col-md-4 col-lg-4">
+      <h4>搜索</h4>
+      <form id="search-form" action="{{ '/search/' | relative_url }}" method="get">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="search-input" name="query" placeholder="搜索文章...">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="submit">搜索</button>
+          </div>
+        </div>
+      </form>
+      <hr />
+      <h4>年份归档</h4>
+      <ul>
+        {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+        {% for year in postsByYear %}
+        <li>
+          <a href="{{ '/archives/' | append: year.name | relative_url }}">{{ year.name }} ({{ year.items | size }})</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <hr />
       <h4>Categories</h4>
       <ul>
           {% for category in site.categories %}

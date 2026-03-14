@@ -1,0 +1,82 @@
+---
+layout: page
+title: "搜索"
+permalink: /search/
+---
+
+<div class="search-container">
+  <form id="search-form" action="" method="get">
+    <div class="input-group mb-4">
+      <input type="text" class="form-control form-control-lg" id="search-input" name="query" placeholder="输入关键词搜索文章..." value="{{ page.query }}">
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="submit">搜索</button>
+      </div>
+    </div>
+  </form>
+
+  <div id="search-results"></div>
+  <div id="no-results" style="display: none;">
+    <p class="text-muted">没有找到匹配的文章，请尝试其他关键词。</p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var searchInput = document.getElementById('search-input');
+  var resultsContainer = document.getElementById('search-results');
+  var noResults = document.getElementById('no-results');
+
+  function performSearch(query) {
+    if (!query || query.trim() === '') {
+      resultsContainer.innerHTML = '';
+      noResults.style.display = 'none';
+      return;
+    }
+
+    SimpleJekyllSearch({
+      searchInput: searchInput,
+      resultsContainer: resultsContainer,
+      json: '{{ '/search.json' | relative_url }}',
+      searchResultTemplate: '<li class="search-result-item"><a href="{url}"><h5>{title}</h5></a><p class="text-muted small">{date} - {categories}</p><p>{excerpt}</p></li>',
+      noResultsText: '<p class="text-muted">没有找到匹配的文章。</p>',
+      limit: 20,
+      fuzzy: false,
+      exclude: []
+    });
+
+    searchInput.value = query;
+    
+    setTimeout(function() {
+      if (resultsContainer.innerHTML.trim() === '') {
+        noResults.style.display = 'block';
+      } else {
+        noResults.style.display = 'none';
+      }
+    }, 500);
+  }
+
+  document.getElementById('search-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    performSearch(searchInput.value);
+  });
+
+  var urlParams = new URLSearchParams(window.location.search);
+  var query = urlParams.get('query');
+  if (query) {
+    performSearch(query);
+  }
+</script>
+
+<style>
+.search-result-item {
+  list-style: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+.search-result-item h5 {
+  margin-bottom: 0.25rem;
+}
+.search-result-item p {
+  margin-bottom: 0;
+}
+</style>

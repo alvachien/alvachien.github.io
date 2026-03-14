@@ -4,7 +4,7 @@ title: "[WPF] TreeViewItem, DataGridRow的UI因Field而异的解决方法"
 date: 2010-10-14 23:42
 author: alvachien
 comments: true
-tags: [Microsoft.NET, Windows Platform, WPF]
+tags: [Microsoft.NET, Windows, WPF]
 categories: [技术Tips]
 ---
 这个一个很拗口的标题，其实，我需要的是一个很简单的功能。为了把这个需求解释清楚，用一个小的案例说明：

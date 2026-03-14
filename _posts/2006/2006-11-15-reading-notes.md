@@ -4,7 +4,7 @@ title: Reading Notes
 date: 2006-11-15 16:48
 author: alvachien
 comments: true
-tags: [Microsoft.NET, Windows Platform, SQL Server]
+tags: [Microsoft.NET, Windows, SQL Server]
 categories: [技术Tips, 读书笔记]
 ---
 
