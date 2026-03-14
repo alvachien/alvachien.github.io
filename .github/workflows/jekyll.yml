@@ -43,32 +43,25 @@ jobs:
         run: |
           mkdir -p .jekyll-cache _site
           
-          # 先在一个临时容器中安装依赖，不挂载 Gemfile.lock
-          docker run --rm \
-            -v ${{ github.workspace }}:/srv/jekyll \
-            -v ${{ github.workspace }}/.jekyll-cache:/srv/jekyll/.jekyll-cache \
-            -e JEKYLL_ENV=production \
-            --entrypoint /bin/bash \
-            jekyll/builder:latest \
-            -c "bundle config set --local path 'vendor/bundle' && bundle install"
-    
-          # 然后构建站点
+          # 获取当前用户的 UID 和 GID
+          USER_ID=$(id -u)
+          GROUP_ID=$(id -g)
+          
+          # 根据分支设置不同的 baseurl
           if [ "${{ github.ref }}" = "refs/heads/main" ]; then
             BASEURL_CMD=""
           else
             BASEURL_CMD="--baseurl /preview"
           fi
-    
+          
           docker run --rm \
+            -u $USER_ID:$GROUP_ID \
             -v ${{ github.workspace }}:/srv/jekyll \
             -v ${{ github.workspace }}/.jekyll-cache:/srv/jekyll/.jekyll-cache \
             -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
             -e JEKYLL_ENV=production \
             jekyll/builder:latest \
-            /bin/bash -c "bundle exec jekyll build $BASEURL_CMD --trace"
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+            /bin/bash -c "bundle install && bundle exec jekyll build $BASEURL_CMD --trace"
 
   # Deployment job
   deploy:
