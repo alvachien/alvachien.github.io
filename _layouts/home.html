@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: base
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-<div class="container-fluid mx-1">
+<div class="container-fluid mx-1" style="padding-top: 80px;">
   <div class="row mx-1">
     <div class="col-12 col-md-8 col-lg-8">
       <div class="home">
@@ -131,10 +131,15 @@ layout: default
           {% endunless %}
         {% endfor %}
         {% for yearItem in years %}
-        {% assign yearInt = yearItem | plus: 0 %}
-        {% assign year_posts = site.posts | where_exp: "post", "post.date.year == yearInt" %}
+        {% assign count = 0 %}
+        {% for post in site.posts %}
+          {% assign postYear = post.date | date: "%Y" %}
+          {% if postYear == yearItem %}
+            {% assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
         <li>
-          <a href="{{ '/archives/' | append: yearItem | relative_url }}">{{ yearItem }} ({{ year_posts | size }})</a>
+          <a href="{{ '/archives/' | append: yearItem | relative_url }}">{{ yearItem }} ({{ count }})</a>
         </li>
         {% endfor %}
       </ul>
