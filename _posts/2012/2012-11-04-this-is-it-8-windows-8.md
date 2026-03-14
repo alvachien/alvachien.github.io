@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: This is IT (8) —— Windows 8的时代
 date: 2012-11-04 23:16
 author: alvachien

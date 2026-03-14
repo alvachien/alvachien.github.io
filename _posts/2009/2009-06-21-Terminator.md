@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: “I’ll be back”. by 《Terminator SALVATION》
 date: 2009-06-21 15:22
 author: alvachien

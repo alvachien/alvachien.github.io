@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: Travelling
 permalink: /travelling/
+author_profile: true
 ---
 
 |目的地|国家或地区|日期|记录|

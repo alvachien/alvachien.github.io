@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Happy New Year to everyone!
 date:   2022-01-01 11:09:17 +0800
 tags: [元旦, 过节]

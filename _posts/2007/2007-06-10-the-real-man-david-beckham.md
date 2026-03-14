@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: The real man_David Beckham
 date: 2007-06-10 17:33
 author: alvachien

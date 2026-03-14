@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 这些跑步的日子之四：当我跑步时我在想什么
 date: 2013-08-10 21:29
 author: alvachien

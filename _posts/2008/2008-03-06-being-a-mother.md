@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Being a mother 孕味 (第一辑@20W)
 date: 2008-03-06 20:59
 author: alvachien

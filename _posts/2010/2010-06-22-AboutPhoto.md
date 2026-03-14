@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 拍照二三事
 date: 2010-06-22 21:43
 author: alvachien

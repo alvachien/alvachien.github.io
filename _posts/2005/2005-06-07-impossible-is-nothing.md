@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Impossible is Nothing!
 date: 2005-06-07 13:26
 author: alvachien

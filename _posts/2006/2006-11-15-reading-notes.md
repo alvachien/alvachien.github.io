@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Reading Notes
 date: 2006-11-15 16:48
 author: alvachien

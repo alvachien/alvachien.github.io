@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Honda Quit! Who’ll be the next?
 date: 2008-12-06 13:57
 author: alvachien

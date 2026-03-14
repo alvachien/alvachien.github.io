@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: MySQL Stored Procedure Practice
 date: 2015-02-22 15:51
 author: alvachien

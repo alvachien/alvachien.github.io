@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: On the way to the 10th Champion League Cup
 date: 2006-09-27 16:38
 author: alvachien

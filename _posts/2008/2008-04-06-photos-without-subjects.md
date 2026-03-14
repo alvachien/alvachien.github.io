@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Photos without Subjects
 date: 2008-04-06 10:18
 author: alvachien

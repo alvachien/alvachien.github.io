@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: BEYOND, Good bye and Good luck!
 date: 2005-05-27 13:25
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "我的大学I: 复旦书店、同济书店"
 date: 2009-03-26 14:56
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "让Katex在Karmdown 2.3版本上正常工作"
 date:   2020-08-09 21:56:22 +0800
 tags: [Math, Latex, Katex]

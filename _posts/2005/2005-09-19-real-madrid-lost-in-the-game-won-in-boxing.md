@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Real Madrid, lost in the game, won in boxing...
 date: 2005-09-19 15:21
 author: alvachien

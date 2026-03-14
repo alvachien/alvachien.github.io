@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: New style, new begining
 date: 2005-08-02 13:31
 author: alvachien

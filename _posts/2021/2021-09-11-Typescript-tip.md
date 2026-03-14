@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Typescript Tips
 date:   2021-09-11 18:09:17 +0800
 tags: [typescript]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "爱国融入了娱乐"
 date:   2023-01-28 19:52:21 +0800
 tags: [满江红]

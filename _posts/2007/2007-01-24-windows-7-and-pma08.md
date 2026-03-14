@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Windows 7 and PMA08
 date: 2007-01-24 17:55
 author: alvachien

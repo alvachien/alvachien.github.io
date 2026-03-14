@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Give up the offer from ShanDa
 date: 2005-05-25 13:24
 author: alvachien

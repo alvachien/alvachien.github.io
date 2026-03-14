@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "读书日的借书小记"
 date:   2023-04-23 20:12:21 +0800
 tags: [读书日,图书馆]

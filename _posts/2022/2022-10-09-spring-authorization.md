@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Spring Authorization Server"
 date:   2022-10-09 21:40:04 +0800
 tags: [Web API, Java, Spring, Spring Boot, OAuth]

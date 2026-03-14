@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Spring Boot: Spring Data Rest"
 date:   2022-09-18 22:27:20 +0800
 tags: [Web API, Java, Spring, Spring Boot]

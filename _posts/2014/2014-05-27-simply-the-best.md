@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Simply The Best
 date: 2014-05-27 22:55
 author: alvachien

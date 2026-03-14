@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: An old album, published in 1996
 date: 2007-06-26 17:36
 author: alvachien

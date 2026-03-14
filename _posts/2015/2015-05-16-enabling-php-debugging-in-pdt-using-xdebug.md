@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Enabling PHP Debugging in PDT (Using XDebug)
 date: 2015-05-16 21:25
 author: alvachien

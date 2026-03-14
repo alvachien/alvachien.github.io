@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Do NOT lying on technologies for we NEVER keep the speed of their refreshments!
 date: 2009-02-18 14:17
 author: alvachien

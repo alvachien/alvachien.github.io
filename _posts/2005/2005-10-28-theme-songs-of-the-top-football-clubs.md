@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Theme songs of the top football clubs
 date: 2005-10-28 15:28
 author: alvachien

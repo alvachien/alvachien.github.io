@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Angular中Input输入值修改的监听
 date:   2021-09-19 09:09:17 +0800
 tags: [Angular,typescript]

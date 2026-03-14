@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: The ERP of Century -- A song about SAP
 date: 2006-11-11 16:47
 author: alvachien

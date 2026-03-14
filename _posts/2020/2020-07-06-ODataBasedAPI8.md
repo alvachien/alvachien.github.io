@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "创建基于OData的Web API - Knowledge Builder API, Part VIII, Unit Test准备"
 date:   2020-07-06 23:17:22 +0800
 tags: [OData, Web API, Knowledge Builder, Unit Test]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Thanksgiving
 date: 2008-08-06 13:02
 author: alvachien

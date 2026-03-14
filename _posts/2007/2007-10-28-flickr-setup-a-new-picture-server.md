@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Flickr setup a new picture server!
 date: 2007-10-28 17:47
 author: alvachien

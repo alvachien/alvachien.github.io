@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: SQL Server Compact Edition 3.5 SP1
 date: 2008-08-31 13:11
 author: alvachien

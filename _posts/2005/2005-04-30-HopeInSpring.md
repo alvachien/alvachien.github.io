@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 在春天里继续燃烧希望
 date: 2005-04-30 11:46
 author: alvachien

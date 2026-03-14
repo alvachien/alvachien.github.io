@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: On the way home
 date: 2009-04-14 15:03
 author: alvachien

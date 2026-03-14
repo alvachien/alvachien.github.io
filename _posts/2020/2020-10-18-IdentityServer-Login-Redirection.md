@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Identity Server的Login之后的redirection不能正常工作"
 date:   2020-10-18 11:47:20 +0800
 tags: [IdentityServer,Login,Redirection]

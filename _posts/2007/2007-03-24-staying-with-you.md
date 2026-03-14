@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Staying with you...
 date: 2007-03-24 17:00
 author: alvachien

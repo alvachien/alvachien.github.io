@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Merry Christmas and Happy New Year!
 date: 2005-12-24 15:35
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  My SQL 转SQL Server的一些常见问题
 date:   2022-06-09 16:09:27 +0800
 tags: [MySQL, SQL Server]

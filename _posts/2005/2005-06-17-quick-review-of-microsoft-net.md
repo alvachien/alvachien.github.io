@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Quick Review of Microsoft.Net
 date: 2005-06-17 15:12
 author: alvachien

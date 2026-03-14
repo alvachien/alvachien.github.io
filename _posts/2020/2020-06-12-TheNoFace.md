@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "The No Face"
 date:   2020-06-12 14:09:17 +0800
 categories: [随心随笔]

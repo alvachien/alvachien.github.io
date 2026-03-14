@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Ways Towards Photography
 date: 2009-04-29 15:14
 author: alvachien

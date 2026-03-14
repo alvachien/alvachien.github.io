@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Sunday, Shanghai Wildlife Park
 date: 2006-09-10 16:34
 author: alvachien

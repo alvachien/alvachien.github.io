@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Centenary Celebration of TongJi University
 date: 2007-05-06 17:02
 author: alvachien

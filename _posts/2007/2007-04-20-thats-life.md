@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: That's life!
 date: 2007-04-20 17:01
 author: alvachien

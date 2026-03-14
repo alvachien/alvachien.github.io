@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Excel plus VBA Tip 2: DateTimePicker控件和User Form的返回值"
 date: 2013-12-17 19:57
 author: alvachien

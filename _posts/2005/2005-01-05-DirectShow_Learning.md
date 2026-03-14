@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: DirectShow 学习系列
 date: 2005-01-05 11:42
 author: alvachien

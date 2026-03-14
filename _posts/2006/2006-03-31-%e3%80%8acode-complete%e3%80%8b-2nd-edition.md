@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 《Code Complete》 2nd Edition
 date: 2006-03-31 15:46
 author: alvachien

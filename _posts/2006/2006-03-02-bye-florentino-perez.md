@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Bye, Florentino Pérez!
 date: 2006-03-02 15:43
 author: alvachien

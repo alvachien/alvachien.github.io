@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 世纪公园，梅花
 date: 2008-02-10 20:49
 author: alvachien

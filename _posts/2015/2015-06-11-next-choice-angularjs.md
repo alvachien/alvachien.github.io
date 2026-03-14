@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Next choice: AngularJS?"
 date: 2015-06-11 17:36
 author: alvachien

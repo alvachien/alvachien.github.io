@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 冬天来了
 date: 2008-10-14 13:41
 author: alvachien

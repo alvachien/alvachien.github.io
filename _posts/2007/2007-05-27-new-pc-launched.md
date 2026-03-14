@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: New PC launched!
 date: 2007-05-27 17:04
 author: alvachien

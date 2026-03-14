@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 我的大学II：烙印
 date: 2009-03-26 20:56
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 32 Campeones！
 date: 2012-05-04 22:24
 author: alvachien

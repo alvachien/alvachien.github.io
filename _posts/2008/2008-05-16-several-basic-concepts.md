@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Several basic Concepts
 date: 2008-05-16 12:38
 author: alvachien

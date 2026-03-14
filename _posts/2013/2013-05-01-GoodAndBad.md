@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 这是一个最好的时代，这是一个最坏的时代
 date: 2013-05-01 15:30
 author: alvachien

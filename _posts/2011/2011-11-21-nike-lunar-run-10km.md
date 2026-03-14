@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Nike Lunar Run 10KM
 date: 2011-11-21 13:55
 author: alvachien

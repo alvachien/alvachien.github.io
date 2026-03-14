@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Victory is in sight!
 date: 2007-06-14 17:34
 author: alvachien

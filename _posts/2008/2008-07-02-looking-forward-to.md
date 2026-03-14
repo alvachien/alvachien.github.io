@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Looking forward to 翘首以待 （第六辑 @36W）
 date: 2008-07-02 12:53
 author: alvachien

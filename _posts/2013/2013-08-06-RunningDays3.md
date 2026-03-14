@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 这些跑步的日子之三：习惯
 date: 2013-08-06 10:53
 author: alvachien

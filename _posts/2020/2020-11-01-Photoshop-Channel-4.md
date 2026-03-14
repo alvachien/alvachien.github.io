@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Photoshop 通道篇四"
 date:   2020-11-01 22:23:22 +0800
 tags: [Photoshop, Channel, 通道]

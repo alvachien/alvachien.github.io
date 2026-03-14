@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Basic Concept of UML
 date: 2005-08-05 15:14
 author: alvachien

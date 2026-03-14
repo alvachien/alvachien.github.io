@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "学习React.js II: 使用Typescript"
 date:   2020-07-05 22:12:21 +0800
 tags: [React.js, Typescript]

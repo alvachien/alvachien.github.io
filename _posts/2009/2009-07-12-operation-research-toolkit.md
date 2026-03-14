@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Operation Research Toolkit: 汽车开销问题"
 date: 2009-07-12 15:39
 author: alvachien

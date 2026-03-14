@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 多多的一个下午
 date: 2011-10-17 16:35
 author: alvachien

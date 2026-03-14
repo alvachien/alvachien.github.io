@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Do you IE8 today?
 date: 2008-03-06 20:57
 author: alvachien

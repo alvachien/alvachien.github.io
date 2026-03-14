@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "创建基于OData的Web API - Knowledge Builder API, Part V, Controller"
 date:   2020-07-03 22:22:22 +0800
 tags: [OData, Web API, Knowledge Builder]

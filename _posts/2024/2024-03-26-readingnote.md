@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 浅谈世界观——我的《平凡的世界》读书笔记3
 date: 2024-03-26 12:34 +0800
 tags: [平凡的世界]

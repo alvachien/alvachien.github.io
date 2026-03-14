@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "创建基于OData的Web API - Knowledge Builder API, Part VII, 用Postman测试"
 date:   2020-07-05 20:17:22 +0800
 tags: [OData, Web API, Knowledge Builder, Postman]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "jQuery vs Angular JS: 遍历数组"
 date: 2015-07-02 22:51
 author: alvachien

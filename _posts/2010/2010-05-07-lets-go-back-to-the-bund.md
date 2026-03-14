@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Let's go back to the Bund!
 date: 2010-05-07 21:04
 author: alvachien

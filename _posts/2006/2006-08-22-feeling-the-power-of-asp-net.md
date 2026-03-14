@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Feeling the power of ASP.Net
 date: 2006-08-22 15:53
 author: alvachien

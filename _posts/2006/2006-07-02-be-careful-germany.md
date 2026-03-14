@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Be careful, Germany!
 date: 2006-07-02 15:49
 author: alvachien

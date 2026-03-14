@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Symbian? NO!
 date: 2009-04-10 15:01
 author: alvachien

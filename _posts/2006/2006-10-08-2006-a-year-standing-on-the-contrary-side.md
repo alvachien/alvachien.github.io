@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 2006, a year standing on the contrary side
 date: 2006-10-08 16:42
 author: alvachien

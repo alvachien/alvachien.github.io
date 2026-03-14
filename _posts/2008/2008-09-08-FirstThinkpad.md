@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 第N台本本，第一台ThinkPad
 date: 2008-09-08 13:30
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 安安养成记之：说话
 date: 2014-02-21 21:52
 author: alvachien

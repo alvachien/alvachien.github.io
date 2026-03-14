@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 该拿什么拯救皇马？
 date: 2004-12-29 17:39
 author: alvachien

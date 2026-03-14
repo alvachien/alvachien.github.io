@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Say bye to past and say hello to furture...
 date: 2005-12-24 22:36
 author: alvachien

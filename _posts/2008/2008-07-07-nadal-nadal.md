@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Nadal! Nadal!
 date: 2008-07-07 12:55
 author: alvachien

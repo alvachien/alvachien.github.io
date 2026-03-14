@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Tools: Adjust Timeline of SRT file"
 date: 2010-01-03 17:30
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Merry Spring Festival!
 date: 2006-01-20 15:37
 author: alvachien

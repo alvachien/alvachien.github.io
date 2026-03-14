@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 2006, A year to say good bye...
 date: 2006-09-10 21:58
 author: alvachien

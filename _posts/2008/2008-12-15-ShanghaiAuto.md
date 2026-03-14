@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 自编号牌号码规则&流程 (上海)
 date: 2008-12-15 14:04
 author: alvachien

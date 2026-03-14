@@ -4,7 +4,7 @@ This repo is the source of [My Blog](https://alvachien.github.io)
 
 ## 主题
 
-本站使用 [beautiful-jekyll-theme](https://github.com/daattali/beautiful-jekyll) 主题。
+本站使用 [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) 主题。
 
 ## 插件
 
@@ -20,31 +20,7 @@ This repo is the source of [My Blog](https://alvachien.github.io)
 | jekyll-octicons | GitHub 图标支持 |
 | jekyll-seo-tag | SEO 标签优化 |
 | jekyll-feed | RSS 订阅支持 |
-
-### 自定义插件 (`_plugins`)
-
-`_plugins/generator.rb` 自动生成以下页面：
-
-- **标签页**: 自动为每个 tag 生成独立页面，布局使用 `tag.html`
-- **分类页**: 自动为每个 category 生成独立页面，布局使用 `category.html`
-- **归档页**: 按年份生成归档页面，布局使用 `archive.html`
-
-## 布局
-
-`_layouts/` 目录包含以下布局文件：
-
-| 布局 | 用途 |
-|------|------|
-| `home.html` | 首页布局 |
-| `post.html` | 文章详情页布局 |
-| `page.html` | 普通页面布局 |
-| `tag.html` | 标签聚合页布局 |
-| `category.html` | 分类聚合页布局 |
-| `archive.html` | 年度归档页布局 |
-
-## 自定义包含
-
-`_includes/head_custom.html` - 用于在 `<head>` 标签中添加自定义内容。
+| jekyll-include-cache | 缓存包含文件以提升性能 |
 
 ## 本地运行
 
@@ -71,5 +47,3 @@ categories: [分类]
 tags: [标签1, 标签2]
 ---
 ```
-
-

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 饮水思源
 date: 2005-05-19 11:50
 author: alvachien

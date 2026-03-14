@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Let’s Photoshop I
 date: 2009-08-16 16:22
 author: alvachien

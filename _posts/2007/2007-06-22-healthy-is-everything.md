@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Healthy is everything
 date: 2007-06-22 17:35
 author: alvachien

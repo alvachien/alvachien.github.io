@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
 
-gem "beautiful-jekyll-theme", "~> 6.0"
+gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1"
@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem "jekyll-octicons", "~> 19.0"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-include-cache"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

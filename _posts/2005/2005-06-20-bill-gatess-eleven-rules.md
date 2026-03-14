@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Bill Gates's Eleven Rules
 date: 2005-06-20 13:29
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: TongJi University Century Celebration
 date: 2006-03-30 15:45
 author: alvachien

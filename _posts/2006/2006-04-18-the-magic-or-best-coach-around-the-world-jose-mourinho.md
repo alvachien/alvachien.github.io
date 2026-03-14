@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: The Magic (or best?) Coach around the World - José Mourinho
 date: 2006-04-18 15:48
 author: alvachien

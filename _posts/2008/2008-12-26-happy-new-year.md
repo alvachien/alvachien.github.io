@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Happy New Year!
 date: 2008-12-26 14:05
 author: alvachien

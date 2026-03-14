@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Champion Heart
 date: 2010-04-20 20:55
 author: alvachien

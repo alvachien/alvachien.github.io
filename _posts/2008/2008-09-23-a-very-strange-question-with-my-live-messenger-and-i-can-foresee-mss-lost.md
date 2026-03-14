@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: A very strange question with my Live Messenger, and I can foresee MS's lost
 date: 2008-09-23 13:38
 author: alvachien

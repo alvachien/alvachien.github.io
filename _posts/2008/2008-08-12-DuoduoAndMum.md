@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 三周的多多和妈妈合影留念
 date: 2008-08-12 13:07
 author: alvachien

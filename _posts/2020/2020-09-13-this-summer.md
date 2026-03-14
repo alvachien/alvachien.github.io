@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "绝代双骄最后的辉煌夏窗"
 date:   2020-09-13 19:32:57 +0800
 tags: [皇家马德里,英超,西甲,梅西]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Step by Step Tutorial for Spring Boot and Thymeleaf: Part I"
 date:   2022-10-14 21:30:20 +0800
 tags: [Web API, Java, Spring, Spring Boot, Spring MVC, Thymeleaf]

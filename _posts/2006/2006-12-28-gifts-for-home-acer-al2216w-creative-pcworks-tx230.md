@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Gifts for Home_Acer AL2216W & Creative PCWorks TX230
 date: 2006-12-28 16:49
 author: alvachien

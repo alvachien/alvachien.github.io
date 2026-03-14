@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Chosen of Family
 date: 2010-04-13 20:44
 author: alvachien

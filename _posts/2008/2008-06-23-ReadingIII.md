@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 反思录(三)：团结的力量就是一切
 date: 2008-06-23 12:49
 author: alvachien

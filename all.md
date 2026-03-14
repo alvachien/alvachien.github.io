@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: archive
 title: All posts
 permalink: /all/
+author_profile: true
 ---
 
 <div>  

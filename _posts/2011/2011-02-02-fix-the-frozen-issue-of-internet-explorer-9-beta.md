@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Fix the Frozen issue of Internet Explorer 9 Beta 
 date: 2011-02-02 13:14
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Trip of WuXi City
 date: 2005-12-13 15:30
 author: alvachien

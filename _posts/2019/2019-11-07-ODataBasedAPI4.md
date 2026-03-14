@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "创建基于OData的Web API - Knowledge Builder API, Part IV, Data Context"
 date:   2019-11-07 21:22:22 +0800
 tags: [OData, Web API, Knowledge Builder]

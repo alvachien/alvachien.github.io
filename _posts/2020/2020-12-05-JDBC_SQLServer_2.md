@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "JDBC Driver to SQL Server Express, Part II"
 date:   2020-12-05 23:44:22 +0800
 tags: [Java, SQL Server]

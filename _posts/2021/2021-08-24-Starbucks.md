@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "魔都Starbucks"
 date:   2021-08-24 19:47:20 +0800
 tags: [咖啡,Starbucks,魔都]

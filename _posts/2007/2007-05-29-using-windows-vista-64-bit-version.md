@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Using Windows Vista 64-bit Version
 date: 2007-05-29 17:05
 author: alvachien

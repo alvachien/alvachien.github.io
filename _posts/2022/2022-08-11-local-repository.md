@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Maven浅窥四：将本地archetype添加到Repository"
 date:   2022-08-11 21:41:17 +0800
 tags: [Maven]

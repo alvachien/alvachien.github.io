@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 多多之“开车”记 II
 date: 2010-04-11 20:43
 author: alvachien

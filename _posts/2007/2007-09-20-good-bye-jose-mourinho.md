@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Good bye, Jose Mourinho
 date: 2007-09-20 17:46
 author: alvachien

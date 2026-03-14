@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  儿童节的礼物
 date:   2022-06-04 22:09:17 +0800
 tags: [疫情, 儿童节]

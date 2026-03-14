@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 难说再见 —— Bye Guti! Bye Raul!
 date: 2010-07-26 21:53
 author: alvachien

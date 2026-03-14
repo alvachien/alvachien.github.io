@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 城乡差别
 date: 2008-05-04 12:33
 author: alvachien

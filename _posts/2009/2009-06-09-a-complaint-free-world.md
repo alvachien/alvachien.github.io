@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: A Complaint Free World
 date: 2009-06-09 15:18
 author: alvachien

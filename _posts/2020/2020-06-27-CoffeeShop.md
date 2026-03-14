@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "孩子们的咖啡屋"
 date:   2020-06-27 20:32:57 +0800
 tags: [安安, 多多, 咖啡, Duoduo, Anan]

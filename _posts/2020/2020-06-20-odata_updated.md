@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "OData UPDATE/PATCH不返回更新后的结果"
 date:   2020-06-20 16:30:27 +0800
 tags: [OData]

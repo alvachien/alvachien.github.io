@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Typescript II Enums
 date:   2021-01-05 14:09:17 +0800
 tags: [rxjs, typescript]

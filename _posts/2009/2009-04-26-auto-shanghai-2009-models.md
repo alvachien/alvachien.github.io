@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Auto Shanghai 2009: Models"
 date: 2009-04-26 20:10
 author: alvachien

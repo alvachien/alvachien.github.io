@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 摄影 
 date: 2008-08-18 13:10
 author: alvachien

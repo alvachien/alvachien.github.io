@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: How to install Photoshop CS3 on Vista 64bit
 date: 2007-09-12 17:43
 author: alvachien

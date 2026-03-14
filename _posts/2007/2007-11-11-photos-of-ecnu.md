@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Photos of ECNU
 date: 2007-11-11 17:51
 author: alvachien

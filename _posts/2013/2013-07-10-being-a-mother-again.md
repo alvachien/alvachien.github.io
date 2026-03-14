@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Being a Mother Again
 date: 2013-07-10 11:18
 author: alvachien

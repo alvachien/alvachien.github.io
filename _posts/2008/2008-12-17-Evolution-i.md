@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 势在必行的Evolution I
 date: 2008-12-17 14:03
 author: alvachien

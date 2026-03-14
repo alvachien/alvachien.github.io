@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "重回办公室"
 date:   2020-03-23 09:05:01 +0800
 tags: [办公室, 疫情, SAP]

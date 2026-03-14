@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Typescript I 遍历Array的方法
 date:   2016-09-08 22:09:17 +0800
 tags: [rxjs, typescript]

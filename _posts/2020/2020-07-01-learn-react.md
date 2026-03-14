@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "学习React.js I"
 date:   2020-07-01 22:12:21 +0800
 tags: [React.js, Angular]

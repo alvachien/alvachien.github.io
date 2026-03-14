@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Embrace Life
 date: 2010-10-27 14:19
 author: alvachien

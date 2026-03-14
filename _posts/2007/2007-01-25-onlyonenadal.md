@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 网坛， 只有一个Nadal
 date: 2007-01-25 17:56
 author: alvachien

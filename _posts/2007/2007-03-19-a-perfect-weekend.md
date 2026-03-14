@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: A perfect weekend
 date: 2007-03-19 16:59
 author: alvachien

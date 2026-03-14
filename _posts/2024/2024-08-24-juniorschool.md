@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 又一个四年开始
 date: 2024-08-24 15:34 +0800
 tags: [初中,建平西校,安安]

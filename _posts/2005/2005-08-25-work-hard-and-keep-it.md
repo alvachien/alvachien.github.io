@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Work hard and keep it!
 date: 2005-08-25 15:16
 author: alvachien

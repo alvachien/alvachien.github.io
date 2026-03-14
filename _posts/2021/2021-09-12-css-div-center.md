@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  CSS Tips - 使得控件居中
 date:   2021-09-12 23:09:17 +0800
 tags: [javascript,css]

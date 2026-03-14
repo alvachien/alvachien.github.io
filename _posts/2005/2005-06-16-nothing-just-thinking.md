@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Nothing just thinking
 date: 2005-06-16 13:28
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[WPF] TreeViewItem, DataGridRow的UI因Field而异的解决方法"
 date: 2010-10-14 23:42
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: A Song named 'Clouds of Hometown'
 date: 2005-10-14 15:26
 author: alvachien

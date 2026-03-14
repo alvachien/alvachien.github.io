@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Windows平台搭建C语言开发环境（基于GCC）"
 date:   2023-07-30 10:12:21 +0800
 tags: [Windows,开发环境,GCC]

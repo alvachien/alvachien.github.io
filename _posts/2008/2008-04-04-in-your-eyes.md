@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: In your eyes 你的瞳我的影 (第二辑 @24W)
 date: 2008-04-04 21:13
 author: alvachien

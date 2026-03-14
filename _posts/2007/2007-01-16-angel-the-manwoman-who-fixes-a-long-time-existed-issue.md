@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Angel_The man/woman who fixes a long-time existed issue
 date: 2007-01-16 16:50
 author: alvachien

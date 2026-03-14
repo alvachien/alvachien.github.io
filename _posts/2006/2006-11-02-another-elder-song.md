@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Another elder song
 date: 2006-11-02 16:45
 author: alvachien

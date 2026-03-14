@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "创建基于OData的Web API - Knowledge Builder API, Part XI, 添加CORS"
 date:   2020-07-16 22:26:22 +0800
 tags: [Angular, Knowledge Builder, OData]

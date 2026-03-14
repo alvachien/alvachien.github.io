@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Band of Brothers
 date: 2007-02-01 16:53
 author: alvachien

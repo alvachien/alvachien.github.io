@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "创建基于OData的Web API - Knowledge Builder API, Part X, 完善Angular程序"
 date:   2020-07-15 14:16:22 +0800
 tags: [Angular, Knowledge Builder, OData]

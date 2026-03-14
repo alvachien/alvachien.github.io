@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Bye, Zidane!
 date: 2006-07-26 15:50
 author: alvachien

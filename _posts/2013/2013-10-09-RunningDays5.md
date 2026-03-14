@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 这些跑步的日子之五：受伤
 date: 2013-10-09 00:36
 author: alvachien

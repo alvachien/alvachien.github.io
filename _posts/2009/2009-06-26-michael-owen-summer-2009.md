@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Michael Owen Summer 2009
 date: 2009-06-26 15:29
 author: alvachien

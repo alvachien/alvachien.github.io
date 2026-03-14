@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "创建基于OData的Web API - Knowledge Builder API, Part II, 开发环境及项目设置"
 date:   2019-11-04 16:19:17 +0800
 tags: [OData, Web API, SQL Server, Visual Studio, Knowledge Builder]

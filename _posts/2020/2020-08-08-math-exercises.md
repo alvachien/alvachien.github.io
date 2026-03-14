@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: single
 title:  "2020年32周数学题"
 date:   2020-08-08 23:56:22 +0800
 tags: [数学题, 小学, 中学]
 categories: [Family]
-mathjax: true
+math: true
 ---
 
 ### 六年级数学

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: WHITE is greatest for merging colors, RED/BLUE just part of it
 date: 2008-04-30 12:32
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[转载] 3 Types of Programmers: Zerg, Terran, Protoss"
 date: 2011-01-02 20:31
 author: alvachien

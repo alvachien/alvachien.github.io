@@ -1,43 +1,49 @@
 title: 码一地闲言，蕴一段岁月 | Write Time Down, Alongside with Heart
 author: Alva Chien
 email: alvachien@163.com
-description: >-
-  © 2004 - 2026, Alva Chien.
+description: © 2004 - 2026, Alva Chien.
 baseurl: ""
 url: "https://alvachien.github.io"
 timezone: Asia/Shanghai
 
-navbar-links:
-  About Me: "about"
+theme: minimal-mistakes-jekyll
 
-social-network-links:
-  email: "alvachien@163.com"
-  github: alvachien
-  facebook: alva.chien
-  flickr: alvachien
-  linkedin: alvachien
+locale: zh-CN
+name: Alva Chien
 
-rss-description: Alva Chien's Blog
+comments:
+  provider: false
 
-share-links-active:
-  twitter: false
-  facebook: true
-  linkedin: true
+atom_feed:
+  path: atom.xml
+
+search: true
 
 permalink: /:year/:month/:day/:title
 paginate: 20
+paginate_path: /page:num/
 
 excerpt_length: 50
-feed_show_excerpt: true
-feed_show_tags: true
 
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  math_engine: mathjax
 
-theme: beautiful-jekyll-theme
 encoding: utf-8
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
 
 plugins:
   - jemoji
@@ -46,4 +52,4 @@ plugins:
   - jekyll-octicons
   - jekyll-seo-tag
   - jekyll-feed
-
+  - jekyll-include-cache

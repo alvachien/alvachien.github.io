@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 曾经跑步的日子 II：装备
 date: 2010-07-30 21:57
 author: alvachien

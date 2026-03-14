@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Great, Schumi!
 date: 2006-10-06 16:40
 author: alvachien

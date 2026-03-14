@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 1:6, Discreditable!
 date: 2006-02-10 15:40
 author: alvachien

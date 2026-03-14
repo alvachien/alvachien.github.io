@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 2007/08 League Champions - 31st league title!
 date: 2008-05-05 12:35
 author: alvachien

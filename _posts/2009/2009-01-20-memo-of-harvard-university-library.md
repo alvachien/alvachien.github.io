@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Memo of Harvard University Library
 date: 2009-01-20 14:09
 author: alvachien

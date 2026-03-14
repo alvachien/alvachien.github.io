@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: C++ Review Series
 date: 2005-08-05 18:15
 author: alvachien

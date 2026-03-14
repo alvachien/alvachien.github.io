@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 购物在香港
 date: 2014-02-23 22:26
 author: alvachien

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: Songs
 permalink: /songs/
+author_profile: true
 ---
 
 |曲名|演唱|语言|年份|类别|Post|

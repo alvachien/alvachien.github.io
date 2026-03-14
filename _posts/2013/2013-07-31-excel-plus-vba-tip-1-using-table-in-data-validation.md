@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Excel plus VBA Tip 1: Using Table in Data Validation"
 date: 2013-07-31 12:54
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Real Madrid C.F. 2:0 FC Barcelona
 date: 2006-10-23 16:43
 author: alvachien

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 船长登舰！No.1 of Real Madrid!
 date: 2010-06-01 21:23
 author: alvachien

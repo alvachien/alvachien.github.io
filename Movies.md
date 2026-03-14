@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: Movies
 permalink: /movies/
+author_profile: true
 ---
 
 |片名|类型|观看记录|观影笔记|

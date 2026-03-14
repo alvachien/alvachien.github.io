@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 这些跑步的日子之二 ABC
 date: 2013-03-18 13:47
 author: alvachien

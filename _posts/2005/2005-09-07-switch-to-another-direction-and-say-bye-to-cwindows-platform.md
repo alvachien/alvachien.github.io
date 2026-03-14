@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Switch to another direction, and say bye to C++/Windows platform
 date: 2005-09-07 15:19
 author: alvachien

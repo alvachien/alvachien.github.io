@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Good bye, Schumi; Good bye, Beckham!
 date: 2006-10-25 16:45
 author: alvachien

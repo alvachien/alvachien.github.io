@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "成功的一半是计划 - 我的《平凡的世界》读书笔记1"
 date: 2012-03-11 23:51:20 +0800
 tags: [平凡的世界]

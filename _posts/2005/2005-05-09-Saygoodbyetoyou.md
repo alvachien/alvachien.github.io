@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 小猪，Say goodbye to you!
 date: 2005-05-09 11:49
 author: alvachien
