@@ -1,15 +1,26 @@
-Jekyll::Hooks.register :site, :pre_render do |site|
-  generate_tags(site)
-  generate_archives(site)
+Jekyll::Hooks.register :site, :after_init do |site|
+  tags_dir = File.join(site.source, 'tags')
+  archives_dir = File.join(site.source, 'archives')
+  
+  FileUtils.mkdir_p(tags_dir) unless File.directory?(tags_dir)
+  FileUtils.mkdir_p(archives_dir) unless File.directory?(archives_dir)
+
+  existing_tags = Dir.glob(File.join(tags_dir, '*.md'))
+  existing_tags.each { |f| File.delete(f) }
+
+  existing_archives = Dir.glob(File.join(archives_dir, '*.md'))
+  existing_archives.each { |f| File.delete(f) }
+
+  FileUtils.touch(File.join(tags_dir, '.gitkeep'))
+  FileUtils.touch(File.join(archives_dir, '.gitkeep'))
 end
 
-def generate_tags(site)
-  tags_dir = File.join(site.source, 'tags')
-  FileUtils.mkdir_p(tags_dir) unless File.directory?(tags_dir)
+Jekyll::Hooks.register :site, :post_read do |site|
+  generate_tag_pages(site)
+  generate_archive_pages(site)
+end
 
-  existing_files = Dir.glob(File.join(tags_dir, '*.md'))
-  existing_files.each { |f| File.delete(f) }
-
+def generate_tag_pages(site)
   tag_pages = {}
   site.posts.docs.each do |post|
     post.data['tags']&.each do |tag|
@@ -23,37 +34,32 @@ def generate_tags(site)
     filename = tag.gsub(/[<>:"\/\\|?*]/, '_').strip
     filename = "tag-#{Digest::MD5.hexdigest(tag)}" if filename.empty?
 
-    filepath = File.join(tags_dir, "#{filename}.md")
-    content = <<~CONTENT
-      ---
-      layout: tag
-      tag: #{tag}
-      permalink: "/tags/#{tag}"
-      ---
-    CONTENT
-    File.write(filepath, content)
+    page = Jekyll::PageWithoutAFile.new(site, site.source, 'tags', "#{filename}.md")
+    page.content = ''
+    page.data = {
+      'layout' => 'tag',
+      'tag' => tag,
+      'permalink' => "/tags/#{tag}/"
+    }
+    site.pages << page
   end
 
   Jekyll.logger.info "Tags:", "Generated #{tag_pages.size} tag pages"
 end
 
-def generate_archives(site)
-  archives_dir = File.join(site.source, 'archives')
-  FileUtils.mkdir_p(archives_dir) unless File.directory?(archives_dir)
-
+def generate_archive_pages(site)
   years = site.posts.docs.map { |post| post.date.year }.uniq
 
   years.each do |year|
-    filepath = File.join(archives_dir, "#{year}.md")
-    content = <<~CONTENT
-      ---
-      layout: archive
-      title: "#{year} 年归档"
-      permalink: /archives/#{year}/
-      year: #{year}
-      ---
-    CONTENT
-    File.write(filepath, content)
+    page = Jekyll::PageWithoutAFile.new(site, site.source, 'archives', "#{year}.md")
+    page.content = ''
+    page.data = {
+      'layout' => 'archive',
+      'title' => "#{year} 年归档",
+      'permalink' => "/archives/#{year}/",
+      'year' => year
+    }
+    site.pages << page
   end
 
   Jekyll.logger.info "Archives:", "Generated #{years.size} year archive pages"

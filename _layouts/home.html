@@ -35,7 +35,7 @@ layout: default
                 </a>
               </h3>
               <div class="post-excerpt">
-                {{ post.excerpt }}
+                {{ post.excerpt | strip_html | truncate: 200 }}
                 <p class="excerpt-more"><a href="{{ post.url | relative_url }}">阅读更多...</a></p>
               </div>
             </li>
