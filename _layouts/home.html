@@ -131,8 +131,10 @@ layout: default
           {% endunless %}
         {% endfor %}
         {% for yearItem in years %}
+        {% assign yearInt = yearItem | plus: 0 %}
+        {% assign year_posts = site.posts | where_exp: "post", "post.date.year == yearInt" %}
         <li>
-          <a href="{{ '/archives/' | append: yearItem | relative_url }}">{{ yearItem }}</a>
+          <a href="{{ '/archives/' | append: yearItem | relative_url }}">{{ yearItem }} ({{ year_posts | size }})</a>
         </li>
         {% endfor %}
       </ul>

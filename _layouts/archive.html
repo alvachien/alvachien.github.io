@@ -8,12 +8,13 @@ layout: default
   {{ content }}
   
   {% if page.year %}
-    {% assign yearStr = page.year | string %}
-    <h2>{{ page.year }}年</h2>
+    {% assign yearStr = page.year | append: "" %}
+    {% assign count = 0 %}
     <ul class="post-list">
       {% for post in site.posts %}
         {% assign postYear = post.date | date: "%Y" %}
         {% if postYear == yearStr %}
+          {% assign count = count | plus: 1 %}
         <li>
           <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -21,6 +22,7 @@ layout: default
         {% endif %}
       {% endfor %}
     </ul>
+    <h2>{{ page.year }}年 ({{ count }} 篇)</h2>
   {% else %}
     {% assign years = "" | split: "" %}
     {% for post in site.posts %}
@@ -31,11 +33,12 @@ layout: default
     {% endfor %}
     
     {% for yearItem in years %}
-      <h2>{{ yearItem }}年</h2>
+      {% assign yearCount = 0 %}
       <ul class="post-list">
         {% for post in site.posts %}
           {% assign postYear = post.date | date: "%Y" %}
           {% if postYear == yearItem %}
+            {% assign yearCount = yearCount | plus: 1 %}
           <li>
             <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -43,6 +46,7 @@ layout: default
           {% endif %}
         {% endfor %}
       </ul>
+      <h2>{{ yearItem }}年 ({{ yearCount }} 篇)</h2>
     {% endfor %}
   {% endif %}
 </div>
