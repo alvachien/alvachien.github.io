@@ -56,12 +56,8 @@ defaults:
     values:
       image: true
 
-feed:
-  posts_limit: 50
-
 plugins:
   - jemoji
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-commonmark-ghpages
