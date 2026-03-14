@@ -13,8 +13,9 @@ def generate_tags(site)
   tag_pages = {}
   site.posts.docs.each do |post|
     post.data['tags']&.each do |tag|
-      normalized = tag.downcase
-      tag_pages[normalized] ||= tag
+      tag_str = tag.to_s
+      normalized = tag_str.downcase
+      tag_pages[normalized] ||= tag_str
     end
   end
 
