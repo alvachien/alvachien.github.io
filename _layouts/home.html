@@ -23,7 +23,7 @@ layout: default
           <h2 class="post-list-heading">{{ page.list_title }}</h2>
           {%- endif -%}
           <ul class="post-list">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {%- assign date_format = "%Y-%m-%d" -%}
             {%- for post in posts -%}
             <li>
               <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -32,9 +32,6 @@ layout: default
                   {{ post.title | escape }}
                 </a>
               </h3>
-              {%- if site.show_excerpts -%}
-                {{ post.excerpt }}
-              {%- endif -%}
             </li>
             {%- endfor -%}
           </ul>
@@ -74,7 +71,7 @@ layout: default
       <h4>Tags</h4>
       <div>
         {% for tag in site.tags %}
-        <a href="{{ '/tags/' | append: tag[0] | relative_url }}" style="font-size: '{{ tag | last | size | times: 100 | divided_by: site.tags.size }} px'">
+        <a href="{{ '/tags/' | append: tag[0] | relative_url }}">
           {{ tag | first }} ({{ tag | last | size }})
         </a>
         {% endfor %}

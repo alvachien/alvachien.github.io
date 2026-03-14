@@ -5,7 +5,7 @@ layout: default
 <div class="blog list">
     <h1>Posts of <small>#{{ page.category }}</small></h1>
 
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = "%Y-%m-%d" -%}
     <ul class="post-list">
         {% for post in site.categories[page.category] %}
         <li>
@@ -15,10 +15,6 @@ layout: default
                     {{ post.title | escape }}
                 </a>
             </h3>
-        
-            {%- if site.show_excerpts -%}
-                {{ post.excerpt }}
-            {%- endif -%}
         </li>
         {%- endfor -%}
     </ul>

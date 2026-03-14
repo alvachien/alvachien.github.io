@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="bg-transparent  clearfix">
+<div class="bg-transparent clearfix">
   {% if page.previous.url %}
     <a type="button" href="{{site.baseurl}}{{page.previous.url}}" class="btn btn-secondary float-left">{{page.previous.title}}</a>
   {% endif %}
@@ -16,7 +16,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- assign date_format = "%Y-%m-%d" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
@@ -68,7 +68,7 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<div class="bg-transparent  clearfix">
+<div class="bg-transparent clearfix">
   {% if page.previous.url %}
     <a type="button" href="{{site.baseurl}}{{page.previous.url}}" class="btn btn-secondary float-left">{{page.previous.title}}</a>
   {% endif %}

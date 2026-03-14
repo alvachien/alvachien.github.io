@@ -8,7 +8,7 @@ url: "https://alvachien.github.io"
 timezone: Asia/Shanghai
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "about"
 
 social-network-links:
   email: "alvachien@163.com"
@@ -44,4 +44,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-octicons
+  - jekyll-seo-tag
+  - jekyll-feed
 

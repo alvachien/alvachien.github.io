@@ -4,7 +4,7 @@ title:  "2020年33周数学题"
 date:   2020-08-10 10:20:22 +0800
 tags: [数学题, 小学, 中学]
 categories: [Family]
-math: true
+mathjax: true
 ---
 
 ### 六年级数学
