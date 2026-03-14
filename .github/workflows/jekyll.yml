@@ -36,32 +36,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+    
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
+    
       - name: Build with Jekyll
         run: |
-          mkdir -p .jekyll-cache _site
-          
-          # 获取当前用户的 UID 和 GID
-          USER_ID=$(id -u)
-          GROUP_ID=$(id -g)
-          
-          # 根据分支设置不同的 baseurl
-          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
-            BASEURL_CMD=""
-          else
-            BASEURL_CMD="--baseurl /preview"
-          fi
-          
-          docker run --rm \
-            -u $USER_ID:$GROUP_ID \
-            -v ${{ github.workspace }}:/srv/jekyll \
-            -v ${{ github.workspace }}/.jekyll-cache:/srv/jekyll/.jekyll-cache \
-            -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-            -e JEKYLL_ENV=production \
-            jekyll/builder:latest \
-            /bin/bash -c "bundle install && bundle exec jekyll build $BASEURL_CMD --trace"
+          # 使用 Pages 提供的 baseurl
+          bundle exec jekyll build \
+            --baseurl "${{ steps.pages.outputs.base_path }}" \
+            --trace
+        env:
+          JEKYLL_ENV: production
+    
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
