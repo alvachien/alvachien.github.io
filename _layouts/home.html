@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 <div class="container-fluid mx-1">
   <div class="row mx-1">
     <div class="col-12 col-md-8 col-lg-8">
@@ -32,24 +34,86 @@ layout: default
                   {{ post.title | escape }}
                 </a>
               </h3>
+              <div class="post-excerpt">
+                {%- assign content_lines = post.content | strip_html | split: '
+' -%}
+                {%- assign line_count = 0 -%}
+                {%- for line in content_lines -%}
+                  {%- if line_count < 10 -%}
+                    {%- assign trimmed_line = line | strip -%}
+                    {%- if trimmed_line != '' -%}
+                      <p class="excerpt-line">{{ line | strip }}</p>
+                      {%- assign line_count = line_count | plus: 1 -%}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endfor -%}
+                {%- if line_count >= 10 -%}
+                  <p class="excerpt-more"><a href="{{ post.url | relative_url }}">阅读更多...</a></p>
+                {%- endif -%}
+              </div>
             </li>
             {%- endfor -%}
           </ul>
       
           {% if site.paginate %}
             <div class="pager">
+              <div class="pagination-info">
+                <span class="total-info">共 {{ paginator.total_pages }} 页 / {{ paginator.total_posts }} 篇文章</span>
+                <span class="current-info">当前第 {{ paginator.page }} 页</span>
+              </div>
               <ul class="pagination">
-              {%- if paginator.previous_page %}
-                <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-              {%- else %}
-                <li><div class="pager-edge">•</div></li>
-              {%- endif %}
-                <li><div class="current-page">{{ paginator.page }}</div></li>
-              {%- if paginator.next_page %}
-                <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-              {%- else %}
-                <li><div class="pager-edge">•</div></li>
-              {%- endif %}
+                {%- if paginator.previous_page %}
+                  <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page" title="上一页">&laquo;</a></li>
+                {%- else %}
+                  <li class="disabled"><span>&laquo;</span></li>
+                {%- endif %}
+
+                {%- assign current = paginator.page %}
+                {%- assign total = paginator.total_pages %}
+                {%- assign start_page = current | minus: 2 %}
+                {%- assign end_page = current | plus: 2 %}
+
+                {%- if start_page < 1 %}
+                  {%- assign start_page = 1 %}
+                {%- endif %}
+
+                {%- if end_page > total %}
+                  {%- assign end_page = total %}
+                {%- endif %}
+
+                {%- if start_page > 1 %}
+                  <li><a href="{{ '/' | relative_url }}" class="page-link">1</a></li>
+                  {%- if start_page > 2 %}
+                    <li class="ellipsis"><span>...</span></li>
+                  {%- endif %}
+                {%- endif %}
+
+                {%- for i in (start_page..end_page) %}
+                  {%- if i == current %}
+                    <li class="active"><span>{{ i }}</span></li>
+                  {%- else %}
+                    {%- if i == 1 %}
+                      <li><a href="{{ '/' | relative_url }}" class="page-link">{{ i }}</a></li>
+                    {%- else %}
+                      {%- assign path = '/page' | append: i | append: '/' %}
+                      <li><a href="{{ path | relative_url }}" class="page-link">{{ i }}</a></li>
+                    {%- endif %}
+                  {%- endif %}
+                {%- endfor %}
+
+                {%- if end_page < total %}
+                  {%- if end_page < total | minus: 1 %}
+                    <li class="ellipsis"><span>...</span></li>
+                  {%- endif %}
+                  {%- assign last_path = '/page' | append: total | append: '/' %}
+                  <li><a href="{{ last_path | relative_url }}" class="page-link">{{ total }}</a></li>
+                {%- endif %}
+
+                {%- if paginator.next_page %}
+                  <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page" title="下一页">&raquo;</a></li>
+                {%- else %}
+                  <li class="disabled"><span>&raquo;</span></li>
+                {%- endif %}
               </ul>
             </div>
           {%- endif %}

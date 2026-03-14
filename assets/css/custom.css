@@ -1,0 +1,139 @@
+.pager {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.pagination-info {
+  margin-bottom: 1rem;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.pagination-info .total-info {
+  margin-right: 1rem;
+}
+
+.pagination-info .current-info {
+  font-weight: 500;
+}
+
+.pagination {
+  display: inline-flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+  margin: 0;
+}
+
+.pagination li {
+  margin: 0 2px;
+}
+
+.pagination li a,
+.pagination li span {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination li a:hover {
+  z-index: 2;
+  color: #0056b3;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.pagination li.active span {
+  z-index: 3;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.pagination li.disabled span {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.pagination li.ellipsis span {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: default;
+  padding: 0.5rem 0.4rem;
+}
+
+.pagination li a.previous-page,
+.pagination li a.next-page {
+  font-weight: bold;
+  padding: 0.5rem 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .pagination-info {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pagination-info .total-info {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 0.25rem;
+  }
+  
+  .pagination li a,
+  .pagination li span {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+  }
+}
+
+.post-list li {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+.post-excerpt {
+  margin-top: 0.5rem;
+  color: #495057;
+  font-size: 0.95rem;
+}
+
+.post-excerpt .excerpt-line {
+  margin-bottom: 0.3rem;
+  line-height: 1.6;
+}
+
+.post-excerpt .excerpt-more {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.post-excerpt .excerpt-more a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.post-excerpt .excerpt-more a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
