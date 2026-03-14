@@ -7,30 +7,40 @@ layout: default
   
   {{ content }}
   
-  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-  
   {% if page.year %}
-    {% assign year = page.year %}
-    {% assign yearPosts = site.posts | where_exp: "post", "post.date | date: '%Y' == year" %}
-    
-    <h2>{{ year }}年 ({{ yearPosts | size }} 篇文章)</h2>
+    {% assign yearStr = page.year | string %}
+    <h2>{{ page.year }}年</h2>
     <ul class="post-list">
-      {% for post in yearPosts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    {% for year in postsByYear %}
-      <h2>{{ year.name }}年 ({{ year.items | size }} 篇文章)</h2>
-      <ul class="post-list">
-        {% for post in year.items %}
+      {% for post in site.posts %}
+        {% assign postYear = post.date | date: "%Y" %}
+        {% if postYear == yearStr %}
         <li>
           <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% else %}
+    {% assign years = "" | split: "" %}
+    {% for post in site.posts %}
+      {% assign postYear = post.date | date: "%Y" %}
+      {% unless years contains postYear %}
+        {% assign years = years | push: postYear %}
+      {% endunless %}
+    {% endfor %}
+    
+    {% for yearItem in years %}
+      <h2>{{ yearItem }}年</h2>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% assign postYear = post.date | date: "%Y" %}
+          {% if postYear == yearItem %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </li>
+          {% endif %}
         {% endfor %}
       </ul>
     {% endfor %}

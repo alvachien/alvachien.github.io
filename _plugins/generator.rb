@@ -1,22 +1,6 @@
-Jekyll::Hooks.register :site, :after_init do |site|
-  tags_dir = File.join(site.source, 'tags')
-  archives_dir = File.join(site.source, 'archives')
-  
-  FileUtils.mkdir_p(tags_dir) unless File.directory?(tags_dir)
-  FileUtils.mkdir_p(archives_dir) unless File.directory?(archives_dir)
-
-  existing_tags = Dir.glob(File.join(tags_dir, '*.md'))
-  existing_tags.each { |f| File.delete(f) }
-
-  existing_archives = Dir.glob(File.join(archives_dir, '*.md'))
-  existing_archives.each { |f| File.delete(f) }
-
-  FileUtils.touch(File.join(tags_dir, '.gitkeep'))
-  FileUtils.touch(File.join(archives_dir, '.gitkeep'))
-end
-
 Jekyll::Hooks.register :site, :post_read do |site|
   generate_tag_pages(site)
+  generate_category_pages(site)
   generate_archive_pages(site)
 end
 
@@ -45,6 +29,33 @@ def generate_tag_pages(site)
   end
 
   Jekyll.logger.info "Tags:", "Generated #{tag_pages.size} tag pages"
+end
+
+def generate_category_pages(site)
+  category_pages = {}
+  site.posts.docs.each do |post|
+    post.data['categories']&.each do |category|
+      cat_str = category.to_s
+      normalized = cat_str.downcase
+      category_pages[normalized] ||= cat_str
+    end
+  end
+
+  category_pages.each_value do |category|
+    filename = category.gsub(/[<>:"\/\\|?*]/, '_').strip
+    filename = "cat-#{Digest::MD5.hexdigest(category)}" if filename.empty?
+
+    page = Jekyll::PageWithoutAFile.new(site, site.source, 'categories', "#{filename}.md")
+    page.content = ''
+    page.data = {
+      'layout' => 'category',
+      'category' => category,
+      'permalink' => "/categories/#{category}/"
+    }
+    site.pages << page
+  end
+
+  Jekyll.logger.info "Categories:", "Generated #{category_pages.size} category pages"
 end
 
 def generate_archive_pages(site)

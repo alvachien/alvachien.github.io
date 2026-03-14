@@ -89,7 +89,8 @@ layout: default
                 {%- endfor %}
 
                 {%- if end_page < total %}
-                  {%- if end_page < total | minus: 1 %}
+                  {%- assign total_minus_1 = total | minus: 1 %}
+                  {%- if end_page < total_minus_1 %}
                     <li class="ellipsis"><span>...</span></li>
                   {%- endif %}
                   {%- assign last_path = '/page' | append: total | append: '/' %}
@@ -122,10 +123,16 @@ layout: default
       <hr />
       <h4>年份归档</h4>
       <ul>
-        {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-        {% for year in postsByYear %}
+        {% assign years = "" | split: "" %}
+        {% for post in site.posts %}
+          {% assign postYear = post.date | date: "%Y" %}
+          {% unless years contains postYear %}
+            {% assign years = years | push: postYear %}
+          {% endunless %}
+        {% endfor %}
+        {% for yearItem in years %}
         <li>
-          <a href="{{ '/archives/' | append: year.name | relative_url }}">{{ year.name }} ({{ year.items | size }})</a>
+          <a href="{{ '/archives/' | append: yearItem | relative_url }}">{{ yearItem }}</a>
         </li>
         {% endfor %}
       </ul>
@@ -134,7 +141,7 @@ layout: default
       <ul>
           {% for category in site.categories %}
           <li>
-            <a href="/categories/{{ category | first }}" title="view all posts">{{ category | first }} ({{ category | last | size }})</a>
+            <a href="{{ '/categories/' | append: category[0] | relative_url }}">{{ category | first }} ({{ category | last | size }})</a>
           </li>
           {% endfor %}
       </ul>
