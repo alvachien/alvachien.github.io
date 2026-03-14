@@ -60,14 +60,13 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-commonmark-ghpages
   - jekyll-octicons
 
 # Build settings
-markdown: CommonMarkGhPages
-commonmark:
-  extensions: ["table", "autolink", "strikethrough", "tasklist"]
-  options: ["unsafe", "footnotes"]
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 theme: minima
 encoding: utf-8
