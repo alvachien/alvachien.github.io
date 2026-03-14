@@ -1,74 +1,47 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 码一地闲言，蕴一段岁月 | Write Time Done, Alongside with Heart -- an Alva Chien's Blog
+title: 码一地闲言，蕴一段岁月
+author: Alva Chien
 email: alvachien@163.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   © 2004 - 2026, Alva Chien.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://alvachien.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://alvachien.github.io"
 timezone: Asia/Shanghai
 
-show_excerpts: true # set to true to show excerpts on the homepage
+navbar-links:
+  About Me: "aboutme"
 
-collections:
-  category:
-    output: true
-  tag:
-    output: true
+social-network-links:
+  email: "alvachien@163.com"
+  github: alvachien
+  facebook: alva.chien
+  flickr: alvachien
+  linkedin: alvachien
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%Y-%m-%d %H:%M"
+rss-description: Alva Chien's Blog
 
-  # generate social links in footer
-  social_links:
-    github:  alvachien
-    # devto: jekyll
-    # dribbble: jekyll
-    facebook: alva.chien
-    flickr:   alvachien
-    # instagram: jekyll
-    linkedin: alvachien
-    # pinterest: jekyll
+share-links-active:
+  twitter: false
+  facebook: true
+  linkedin: true
 
-# Paginate
+permalink: /:year/:month/:day/:title
 paginate: 20
-paginate_path: '/page:num/'
 
-# Upload images
-defaults:
-  - scope:
-      path: "assets/uploads"
-    values:
-      image: true
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+theme: beautiful-jekyll-theme
+encoding: utf-8
 
 plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-octicons
-
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-theme: minima
-encoding: utf-8
-permalink: /:year/:month/:day/:title
 
