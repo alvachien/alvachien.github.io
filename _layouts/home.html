@@ -35,21 +35,8 @@ layout: default
                 </a>
               </h3>
               <div class="post-excerpt">
-                {%- assign content_lines = post.content | strip_html | split: '
-' -%}
-                {%- assign line_count = 0 -%}
-                {%- for line in content_lines -%}
-                  {%- if line_count < 10 -%}
-                    {%- assign trimmed_line = line | strip -%}
-                    {%- if trimmed_line != '' -%}
-                      <p class="excerpt-line">{{ line | strip }}</p>
-                      {%- assign line_count = line_count | plus: 1 -%}
-                    {%- endif -%}
-                  {%- endif -%}
-                {%- endfor -%}
-                {%- if line_count >= 10 -%}
-                  <p class="excerpt-more"><a href="{{ post.url | relative_url }}">阅读更多...</a></p>
-                {%- endif -%}
+                {{ post.excerpt }}
+                <p class="excerpt-more"><a href="{{ post.url | relative_url }}">阅读更多...</a></p>
               </div>
             </li>
             {%- endfor -%}
