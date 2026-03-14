@@ -7,7 +7,7 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-commonmark-ghpages", "~> 0.4"
   gem "jekyll-paginate", "~> 1.1"
-  gem "jemoji", "~> 1.1"
+  gem "jemoji", "~> 0.13.0"
   gem "jekyll-sitemap", "~> 1.4"
   gem "jekyll-octicons", "~> 19.0"
 end
