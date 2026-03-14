@@ -40,10 +40,33 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+        run: |
+          mkdir -p .jekyll-cache _site
+          
+          # 先在一个临时容器中安装依赖，不挂载 Gemfile.lock
+          docker run --rm \
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -v ${{ github.workspace }}/.jekyll-cache:/srv/jekyll/.jekyll-cache \
+            -e JEKYLL_ENV=production \
+            --entrypoint /bin/bash \
+            jekyll/builder:latest \
+            -c "bundle config set --local path 'vendor/bundle' && bundle install"
+    
+          # 然后构建站点
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            BASEURL_CMD=""
+          else
+            BASEURL_CMD="--baseurl /preview"
+          fi
+    
+          docker run --rm \
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -v ${{ github.workspace }}/.jekyll-cache:/srv/jekyll/.jekyll-cache \
+            -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+            -e JEKYLL_ENV=production \
+            jekyll/builder:latest \
+            /bin/bash -c "bundle exec jekyll build $BASEURL_CMD --trace"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
