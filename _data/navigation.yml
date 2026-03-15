@@ -9,6 +9,8 @@ main:
     url: /tags/
   - title: "分类"
     url: /categories/
+
+sidebar-year:
   - title: "书籍"
     url: /books/
   - title: "电影"
@@ -17,8 +19,6 @@ main:
     url: /songs/
   - title: "旅行"
     url: /travelling/
-
-sidebar-year:
   - title: "归档"
     url: /year-archive/
   - title: "2026"
