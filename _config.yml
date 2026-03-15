@@ -4,26 +4,33 @@ email: alvachien@163.com
 description: © 2004 - 2026, Alva Chien.
 baseurl: ""
 url: "https://alvachien.github.io"
-timezone: Asia/Shanghai
-
-theme: minimal-mistakes-jekyll
-
 locale: zh-CN
 name: Alva Chien
+encoding: utf-8
+words_per_minute         : 200
+enable_copy_code_button  : true
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dirt"
 
 comments:
   provider: false
 
 atom_feed:
-  path: atom.xml
+  hide: true
 
-search: true
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 
+# Outputting
 permalink: /:year/:month/:day/:title
+timezone: Asia/Shanghai
+
 paginate: 20
 paginate_path: /page:num/
 
 excerpt_length: 50
+date_format: "%Y-%m-%d"
 
 markdown: kramdown
 kramdown:
@@ -31,7 +38,19 @@ kramdown:
   syntax_highlighter: rouge
   math_engine: mathjax
 
-encoding: utf-8
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/alvachien"
+      rel: "me"
 
 defaults:
   - scope:
@@ -43,6 +62,7 @@ defaults:
       read_time: true
       comments: false
       share: true
+      show_date: true
       related: true
 
 plugins:
@@ -53,3 +73,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-include-cache
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

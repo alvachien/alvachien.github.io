@@ -1,5 +1,6 @@
 ---
+title: "Posts by Tag"
+permalink: /tags/
 layout: tags
-title: 标签
 author_profile: true
 ---

@@ -1,5 +1,6 @@
 ---
-layout: archive
-title: 文章归档
+title: "Posts by Year"
+permalink: /year-archive/
+layout: posts
 author_profile: true
 ---
