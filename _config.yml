@@ -65,6 +65,9 @@ defaults:
       show_date: true
       related: true
 
+include:
+  - _pages
+
 plugins:
   - jemoji
   - jekyll-paginate
