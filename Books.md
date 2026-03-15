@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: Books
 permalink: /books/
+author_profile: true
 ---
 
 |书名|作者|出版社|类型|ISBN|简介|购买记录|读书记录|读书笔记|
