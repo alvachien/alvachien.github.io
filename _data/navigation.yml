@@ -9,3 +9,35 @@ main:
     url: /tags/
   - title: "分类"
     url: /categories/
+
+sidebar-year:
+  - title: "归档"
+    url: /year-archive/
+  - title: "2026"
+    url: /year-archive/#2026
+  - title: "2025"
+    url: /year-archive/#2025
+  - title: "2024"
+    url: /year-archive/#2024
+  - title: "2023"
+    url: /year-archive/#2023
+  - title: "2022"
+    url: /year-archive/#2022
+  - title: "2021"
+    url: /year-archive/#2021
+  - title: "2014"
+    url: /year-archive/#2014
+  - title: "2013"
+    url: /year-archive/#2013
+  - title: "2012"
+    url: /year-archive/#2012
+  - title: "2011"
+    url: /year-archive/#2011
+  - title: "2010"
+    url: /year-archive/#2010
+  - title: "2009"
+    url: /year-archive/#2009
+  - title: "2008"
+    url: /year-archive/#2008
+  - title: "2004"
+    url: /year-archive/#2004
