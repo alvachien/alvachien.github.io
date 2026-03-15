@@ -11,41 +11,59 @@ main:
     url: /categories/
 
 sidebar-year:
-  - title: "书籍"
+  - title: "读过的书（部分）"
     url: /books/
-  - title: "电影"
+  - title: "看过的电影（部分）"
     url: /movies/
-  - title: "歌曲"
+  - title: "听过的歌（部分）"
     url: /songs/
-  - title: "旅行"
+  - title: "走过的路（部分）"
     url: /travelling/
-  - title: "归档"
+  - title: "写过的字（部分）"
     url: /year-archive/
-  - title: "2026"
+  - title: "写过的字 - 2026"
     url: /year-archive/#2026
-  - title: "2025"
+  - title: "写过的字 - 2025"
     url: /year-archive/#2025
-  - title: "2024"
+  - title: "写过的字 - 2024"
     url: /year-archive/#2024
-  - title: "2023"
+  - title: "写过的字 - 2023"
     url: /year-archive/#2023
-  - title: "2022"
+  - title: "写过的字 - 2022"
     url: /year-archive/#2022
-  - title: "2021"
+  - title: "写过的字 - 2021"
     url: /year-archive/#2021
-  - title: "2014"
+  - title: "写过的字 - 2020"
+    url: /year-archive/#2020
+  - title: "写过的字 - 2019"
+    url: /year-archive/#2019
+  - title: "写过的字 - 2018"
+    url: /year-archive/#2018
+  - title: "写过的字 - 2017"
+    url: /year-archive/#2017
+  - title: "写过的字 - 2016"
+    url: /year-archive/#2016
+  - title: "写过的字 - 2015"
+    url: /year-archive/#2015
+  - title: "写过的字 - 2014"
     url: /year-archive/#2014
-  - title: "2013"
+  - title: "写过的字 - 2013"
     url: /year-archive/#2013
-  - title: "2012"
+  - title: "写过的字 - 2012"
     url: /year-archive/#2012
-  - title: "2011"
+  - title: "写过的字 - 2011"
     url: /year-archive/#2011
-  - title: "2010"
+  - title: "写过的字 - 2010"
     url: /year-archive/#2010
-  - title: "2009"
+  - title: "写过的字 - 2009"
     url: /year-archive/#2009
-  - title: "2008"
+  - title: "写过的字 - 2008"  
     url: /year-archive/#2008
-  - title: "2004"
+  - title: "写过的字 - 2007"  
+    url: /year-archive/#2007
+  - title: "写过的字 - 2006"  
+    url: /year-archive/#2006
+  - title: "写过的字 - 2005"  
+    url: /year-archive/#2005
+  - title: "写过的字 - 2004"
     url: /year-archive/#2004
