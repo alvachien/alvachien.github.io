@@ -2,7 +2,7 @@
 layout: single
 title:  Java泛型
 date:   2021-12-06 21:09:17 +0800
-tags: [Java, .Net]
+tags: [Java, Microsoft.NET]
 categories: [技术Tips]
 ---
 
