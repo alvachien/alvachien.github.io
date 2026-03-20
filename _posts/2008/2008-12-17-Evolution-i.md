@@ -19,6 +19,6 @@ categories: [职场生涯, 随心随笔]
 
 无论如何，对我而言，看来Evolution势在必行了。
 
-是为之记。
-Alva Chien
+是为之记。    
+Alva Chien    
 2008-12-17於上海

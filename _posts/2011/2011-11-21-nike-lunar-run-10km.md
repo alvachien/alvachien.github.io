@@ -16,6 +16,6 @@ categories: [随心随笔]
 ![到达后，东方体育中心](/assets/uploads/2011/11/DSCF1307-Small.jpg)
 
 
-是为之记。
+是为之记。      
 Alva Chien
 2011.11.21

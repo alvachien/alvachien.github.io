@@ -13,7 +13,7 @@ categories: [技术Tips]
 
 Microsoft官方Office 2010关于Table Name的说明页：[Using structured references with Excel tables](http://office.microsoft.com/en-us/excel-help/using-structured-references-with-excel-tables-HA010342999.aspx?CTT=1)
 
-是为之记。
+是为之记。      
 Alva Chien
 2013.7.31
 

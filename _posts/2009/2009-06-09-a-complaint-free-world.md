@@ -31,8 +31,8 @@ Blue Screen频频，感谢万能的Baidu加俺一知半解的Windows知识，那
 
 等记录一下这段艰难的CPU故障和Blue Screen Error： <a href="http://blog.csdn.net/alvachien/archive/2009/05/23/4211362.aspx">http://blog.csdn.net/alvachien/archive/2009/05/23/4211362.aspx</a>
  
-是为之记。
-Alva Chien
+是为之记。    
+Alva Chien    
 2009.06.09
  
 PS. 俺的Level III顺利通过，可惜Level II必须等两年，这就是顶撞那位满口脏话监考的下场。Nevertheless，教训就是：<a href="http://www.acomplaintfreeworld.org/" target="_blank">A Complain Free World</a>.

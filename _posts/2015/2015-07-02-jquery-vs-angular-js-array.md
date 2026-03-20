@@ -40,8 +40,6 @@ if (angular.isArray(arData)) {
 
 
 
-是为之记。
-
-Alva Chien
-
+是为之记。     
+Alva Chien    
 2015.7.2

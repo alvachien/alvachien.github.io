@@ -24,6 +24,6 @@ categories: [IT业内]
 
 Windows 8的年代，写在我的This is IT第八篇，那就一起八吧。
 
-是为之记。
+是为之记。      
 Alva Chien
 2012.11.3~2012.11.4

@@ -16,7 +16,7 @@ categories: [技术Tips, 随心随笔]
 难怪Google脑袋一拍就能开发出一个Andriod，而且一呼百应，虽然这个系统其实基于Linux。
 只可怜我老人家，刚刚跳出M8的火坑，又入Symbian的狼群。。。
  
-是为之记。
-Alva Chien
-2009.04.10於上海
+是为之记。    
+Alva Chien    
+2009.04.10於上海    
 

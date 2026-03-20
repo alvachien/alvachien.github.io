@@ -30,8 +30,6 @@ xdebug.remote_port=9000
 
 Then, go to set the PDT.
 
-是为之记。
-
-Alva Chien
-
+是为之记。    
+Alva Chien    
 2015.5.16

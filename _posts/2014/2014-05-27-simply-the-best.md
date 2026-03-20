@@ -15,6 +15,6 @@ categories: [五洲足坛]
 
 套用一下蓝军在斯坦福桥献给魔力鸟的条幅，Simply The Best。白衣军团，欧洲之王，Simply The Best。追逐着冠军的路上，有酣畅淋漓的大胜，也有痛彻心扉地被蹂躏，然而，无论输赢和成败，白色带给这家俱乐部的只是，Simply The Best。
 
-是为之记。
+是为之记。      
 Alva Chien
 2014.5.27

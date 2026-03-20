@@ -12,6 +12,6 @@ categories: [IT业内]
 
 Too fast to catch it up.
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.03.24

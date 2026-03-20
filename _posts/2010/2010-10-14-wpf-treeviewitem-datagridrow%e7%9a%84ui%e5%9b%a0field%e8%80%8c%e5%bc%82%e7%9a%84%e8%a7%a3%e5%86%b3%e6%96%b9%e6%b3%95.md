@@ -37,6 +37,6 @@ DataGridRow定义了RowDetailTemplate, RowDetailTemplateSelector;
 
 由此衍生去StyleSelector和DataTemplateSelector两个Class。至于怎么从这两个类去派生，怎么写对应的XAML，不值一哂，更何况MSDN还有个强大的搜索框。
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.10.14

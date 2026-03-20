@@ -13,6 +13,6 @@ categories: [Family, 红圈白炮, 随心随笔]
 <a title="多多“开车”记 Duoduo's &quot;Driving&quot; by Alva Chien, on Flickr" href="http://www.flickr.com/photos/alvachien/4504814787/sizes/o/"><img src="http://farm5.static.flickr.com/4064/4504814787_6f6169be12_b.jpg" alt="多多“开车”记 Duoduo's &quot;Driving&quot;" width="600" /></a>
 (点击图片至Original Size)
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.04.09

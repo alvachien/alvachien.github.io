@@ -15,6 +15,6 @@ categories: [红圈白炮, Family, 红圈白炮, 随心随笔]
 ![后视镜中的多多](http://farm3.static.flickr.com/2757/4508414725_a4e7dab04f_b.jpg)
 
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.04.11

@@ -18,6 +18,6 @@ categories: [行万里路, 红圈白炮]
 ![地铁站内的色彩](/assets/uploads/2014/02/d31b0ef41bd5ad6e2d4db5a083cb39dbb7fd3cc0.jpg)
 
 
-是为之记。
+是为之记。      
 Alva Chien
 2014.2.23

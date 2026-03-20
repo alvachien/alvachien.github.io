@@ -67,7 +67,7 @@ End If
 
 一个非常好的VBA中处理时间数据的资源： http://dmcritchie.mvps.org/excel/datetime.htm
 
-是为之记。
+是为之记。      
 Alva Chien
 2013.12.11于CSDN
 2013.12.17

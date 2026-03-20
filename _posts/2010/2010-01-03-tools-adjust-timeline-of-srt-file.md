@@ -16,6 +16,6 @@ categories: [技术Tips]
 ![IMAGE 8](/assets/uploads/2010/10/IMAGE_8.png)
 
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.01.03

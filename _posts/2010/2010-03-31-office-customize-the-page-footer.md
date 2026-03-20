@@ -33,7 +33,7 @@ Finally, I got the my result out:
 
 Cheers!
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.03.31
 

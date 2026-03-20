@@ -21,6 +21,6 @@ SQL Server Compact Edition Home Page:
 
 BTW，IE8 Beta 2也很不错，起码比IE8 Beta 1好很多。对俺们这种把Maxthon划入BlackList、Firefox划入GreyList的企业来说，适合的就是最好的。
 
-是为之记。
-Alva Chien
+是为之记。    
+Alva Chien    
 2008.08.31於家, 上海, CHINA

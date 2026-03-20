@@ -29,6 +29,6 @@ categories: [技术Tips]
 - RecurrencePattern 在TaskItem和AppointmentItem上是不同的--AppointmentItem有Series的概念，而TaskItem没有。换言之，TaskItem定义Recurrence Pattern会创建一堆独立的Task Item。这也是GetOccurrence只能返回AppointmentItem的原因。
 - 创建RecurrencePattern的Exception时，必须保证新的不能在同一个自然日里面。
 
-是为之记。
+是为之记。      
 Alva Chien
 2013.12.16 - 2013.12.20

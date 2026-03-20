@@ -27,6 +27,6 @@ Guti：一生都是皇马人。(Picture from Sina.com.cn)
 
 再见，指环王；再见，伯纳乌忧郁王子；(Picture from Sina.com.cn)
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.07.26

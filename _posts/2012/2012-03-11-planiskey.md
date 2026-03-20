@@ -26,7 +26,7 @@ categories: [读书笔记]
 
 那就扯到这儿吧。
 
-是为之记。
+是为之记。      
 Alva Chien
 Started: 2011.10.28
 Finished 2012.3.11

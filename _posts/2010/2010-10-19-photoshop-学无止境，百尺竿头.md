@@ -16,6 +16,6 @@ Photoshop修色圣典, Link: <a href="http://product.dangdang.com/product.aspx?p
 李涛：Photoshop CS2高手之路，Link:<a href="http://www.verycd.com/topics/2719750/">http://www.verycd.com/topics/2719750/</a>，本来一直对这种网络视频教程不感冒，而且听过这套教程的前两集，感觉这两集其实就是《Photoshop修色圣典》的第一章的一小半内容。然而，这次我耐心全部看完一遍之后，我彻底改变了我的看法，这套教程值得反复多看几遍——当然，有些地方可以跳过。
 李涛：Photoshop CS5的新功能，Link：<a href="http://www.verycd.com/topics/2857080/">http://www.verycd.com/topics/2857080/</a>，这是我下一个计划，冲着李涛的名字。
 
-是为之记。
+是为之记。      
 Alva Chien
 2010.10.19

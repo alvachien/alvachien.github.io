@@ -26,6 +26,6 @@ categories: [五洲足坛]
 
 欧文简历：<a title="http://sports.163.com/photoset/00D80005/43617.html" href="http://sports.163.com/photoset/00D80005/43617.html">http://sports.163.com/photoset/00D80005/43617.html</a>
 
-是为之记。
-Alva Chien
+是为之记。    
+Alva Chien    
 2009.06.26

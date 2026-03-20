@@ -34,8 +34,6 @@ $cfg['Servers'][$i]['extension'] = 'mysqli';
 $cfg['Servers'][$i]['AllowNoPassword'] = true; /* 修改*/
 ```
 
-是为之记。
-
-Alva Chien
-
+是为之记。    
+Alva Chien    
 2015.6.25

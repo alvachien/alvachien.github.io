@@ -21,6 +21,6 @@ categories: [红圈白炮]
 ![Plum Blossom 梅花](http://farm4.static.flickr.com/3645/3315676431_718ae05087_b.jpg)
 
 
-是为之记。
-Alva Chien/大Q
+是为之记。    
+Alva Chien/大Q     
 2009.02.28

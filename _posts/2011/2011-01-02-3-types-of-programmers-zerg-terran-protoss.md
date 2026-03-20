@@ -40,6 +40,6 @@ If we ignore (or worse argue) about differences, then we miss out on the potenti
 
 Then, happy new year to all Zerg programmers.
 
-是为之记。
+是为之记。      
 Alva Chien
 2011.01.02

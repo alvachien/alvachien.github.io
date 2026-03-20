@@ -19,6 +19,6 @@ categories: [红圈白炮, 随心随笔]
 ![多多 Yeah by Alva Chien, on Flickr](http://farm7.static.flickr.com/6170/6190160546_32e42c690d_b.jpg)
 
 
-是为之记。
+是为之记。      
 Alva Chien
 2011.10.17

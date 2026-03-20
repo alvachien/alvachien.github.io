@@ -38,6 +38,6 @@ http://services.odata.org/OData/OData.svc/Products?$skip=2&$top=2
 - $expand: 将有association关系的entity一同取出。注意，这种方式可能会性能有较大影响。
 
 
-是为之记。
+是为之记。      
 Alva Chien
 2014.4.26

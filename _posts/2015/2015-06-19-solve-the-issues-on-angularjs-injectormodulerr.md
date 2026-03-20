@@ -27,8 +27,6 @@ var app = angular.module('aApp', ["ngRoute"]);
 include Angular-router.js。
 ```
 
-是为之记。
-
-Alva Chien
-
+是为之记。     
+Alva Chien     
 2015.6.19

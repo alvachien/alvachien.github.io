@@ -20,6 +20,6 @@ categories: [技术Tips, 红圈白炮]
 
 hosts文件地址(Windows)：C:\WINDOWS\system32\drivers\etc
 
-是为之记。
+是为之记。      
 Alva Chien
 2014.8.3
