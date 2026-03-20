@@ -51,6 +51,10 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alvachien"
       rel: "me"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/alvachien"
+      rel: "me"
 
 defaults:
   - scope:
