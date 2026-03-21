@@ -47,6 +47,10 @@ tag_archive:
 
 footer:
   links:
+    - label: "Linked in"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/alvaachien"
+      rel: "me"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alvachien"
