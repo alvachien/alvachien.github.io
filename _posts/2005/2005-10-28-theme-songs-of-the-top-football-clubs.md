@@ -3,7 +3,6 @@ layout: single
 title: Theme songs of the top football clubs
 date: 2005-10-28 15:28
 author: alvachien
-comments: true
 categories: [五洲足坛]
 tags: [Real Madrid, 歌曲, 皇家马德里]
 ---

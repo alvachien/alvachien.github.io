@@ -3,7 +3,6 @@ layout: single
 title: 这些跑步的日子之五：受伤
 date: 2013-10-09 00:36
 author: alvachien
-comments: true
 tags: [跑步]
 categories: [随心随笔]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: 2006, a year standing on the contrary side
 date: 2006-10-08 16:42
 author: alvachien
-comments: true
 tags: [Beckham, World Cup, Zidane, 世界杯, 贝克汉姆, 齐达内]
 categories: [五洲足坛]
 ---

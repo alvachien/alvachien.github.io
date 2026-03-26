@@ -3,7 +3,6 @@ layout: single
 title: Quick Review of Microsoft.Net
 date: 2005-06-17 15:12
 author: alvachien
-comments: true
 tags: [Microsoft.NET, Windows, STL]
 categories: [技术Tips]
 ---

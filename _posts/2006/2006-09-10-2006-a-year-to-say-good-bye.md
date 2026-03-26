@@ -3,7 +3,6 @@ layout: single
 title: 2006, A year to say good bye...
 date: 2006-09-10 21:58
 author: alvachien
-comments: true
 categories: [五洲足坛, 狂飙F1]
 tags: [Zidane, 舒马赫, 齐达内]
 ---

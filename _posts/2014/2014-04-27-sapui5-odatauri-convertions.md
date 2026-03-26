@@ -3,7 +3,6 @@ layout: single
 title: SAPUI5 学习笔记III：oData的URI Convertions
 date: 2014-04-27 21:45
 author: alvachien
-comments: true
 tags: [Microsoft, OData, SAP, SAPUI5]
 categories: [技术Tips]
 ---

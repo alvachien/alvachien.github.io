@@ -3,7 +3,6 @@ layout: single
 title: Looking forward to 翘首以待 （第六辑 @36W）
 date: 2008-07-02 12:53
 author: alvachien
-comments: true
 tags: [Duoduo, LD, 多多, 孕期]
 categories: [Family, 红圈白炮, 随心随笔]
 ---

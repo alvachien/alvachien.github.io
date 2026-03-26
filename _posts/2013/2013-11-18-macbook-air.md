@@ -3,7 +3,6 @@ layout: single
 title: MacBook Air安装Windows 8虚拟机实录
 date: 2013-11-18 14:44
 author: alvachien
-comments: true
 tags: [Google, MacBook Air, Microsoft, Windows 8, 虚拟机]
 categories: [技术Tips]
 ---

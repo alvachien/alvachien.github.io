@@ -3,7 +3,6 @@ layout: single
 title: 瓶颈
 date: 2014-03-29 11:08
 author: alvachien
-comments: true
 tags: [世纪公园, 梅花]
 categories: [红圈白炮]
 ---

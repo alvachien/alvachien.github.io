@@ -3,7 +3,6 @@ layout: single
 title: 小猪，Say goodbye to you!
 date: 2005-05-09 11:49
 author: alvachien
-comments: true
 categories: [随心随笔]
 ---
 很难下这样的决定，毕竟小猪从变成我家的一员到现在离开不过短短一个月都不到。我无法预测小猪将来的生活是什么样子，可能变成别人餐桌美食，可能遇到更惨的境地，但是我无能为力，除了内疚之外。

@@ -3,7 +3,6 @@ layout: single
 title: Bye, Zidane!
 date: 2006-07-26 15:50
 author: alvachien
-comments: true
 categories: [五洲足坛]
 tags: [World Cup, Zidane, 世界杯, 齐达内]
 ---

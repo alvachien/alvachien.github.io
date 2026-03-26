@@ -3,7 +3,6 @@ layout: single
 title: Merry Spring Festival!
 date: 2006-01-20 15:37
 author: alvachien
-comments: true
 tags: [Spring Festvial, 春节]
 categories: [随心随笔]
 ---

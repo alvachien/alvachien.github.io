@@ -3,7 +3,6 @@ layout: single
 title: WHITE is greatest for merging colors, RED/BLUE just part of it
 date: 2008-04-30 12:32
 author: alvachien
-comments: true
 tags: [Real Madrid, 皇家马德里]
 categories: [五洲足坛]
 ---

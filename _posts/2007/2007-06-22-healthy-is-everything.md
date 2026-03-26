@@ -3,7 +3,6 @@ layout: single
 title: Healthy is everything
 date: 2007-06-22 17:35
 author: alvachien
-comments: true
 categories: [Family, 随心随笔]
 ---
 

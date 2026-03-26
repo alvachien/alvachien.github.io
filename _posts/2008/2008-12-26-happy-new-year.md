@@ -3,7 +3,6 @@ layout: single
 title: Happy New Year!
 date: 2008-12-26 14:05
 author: alvachien
-comments: true
 categories: [随心随笔]
 ---
 旧的一年过去，新的一年到来。

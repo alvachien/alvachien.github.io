@@ -3,7 +3,6 @@ layout: single
 title: Be careful, Germany!
 date: 2006-07-02 15:49
 author: alvachien
-comments: true
 tags: [World Cup, 世界杯]
 categories: [五洲足坛]
 ---

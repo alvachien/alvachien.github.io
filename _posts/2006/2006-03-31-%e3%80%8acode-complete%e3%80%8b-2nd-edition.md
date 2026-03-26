@@ -3,7 +3,6 @@ layout: single
 title: 《Code Complete》 2nd Edition
 date: 2006-03-31 15:46
 author: alvachien
-comments: true
 categories: [读书笔记]
 tags: [Code Complete]
 ---

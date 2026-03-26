@@ -3,7 +3,6 @@ layout: single
 title: That's life!
 date: 2007-04-20 17:01
 author: alvachien
-comments: true
 categories: [随心随笔]
 ---
 Last weekend, (Sat.: 14.04.07/Sun.: 15.04.07), I put lots of time at the hospital, suffering the smells and waiting for the day that the doctor allow us to leave.

@@ -3,7 +3,6 @@ layout: single
 title: 多多的一个下午
 date: 2011-10-17 16:35
 author: alvachien
-comments: true
 tags: [85L, Duoduo, Family, 多多, 摄影]
 categories: [红圈白炮, 随心随笔]
 ---

@@ -3,9 +3,8 @@ layout: single
 title: Another elder song
 date: 2006-11-02 16:45
 author: alvachien
-comments: true
 categories: [随心随笔]
-tags: [歌曲, 想要飞]
+tags: [歌曲]
 ---
 
 A song always stands for a meory of the past, the story, thinking, old friends, etc.

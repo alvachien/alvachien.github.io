@@ -3,7 +3,6 @@ layout: single
 title: 我的大学III：没有再见，再没有见
 date: 2009-04-08 15:00
 author: alvachien
-comments: true
 tags: [同济, 我的大学]
 categories: [随心随笔]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: Symbian? NO!
 date: 2009-04-10 15:01
 author: alvachien
-comments: true
 tags: [E71, IT业内, Nokia, Symbian]
 categories: [技术Tips, 随心随笔]
 ---

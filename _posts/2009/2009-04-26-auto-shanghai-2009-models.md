@@ -3,7 +3,6 @@ layout: single
 title: "Auto Shanghai 2009: Models"
 date: 2009-04-26 20:10
 author: alvachien
-comments: true
 tags: [Model, 模特, 爱车一族, 车展]
 categories: [行万里路, 红圈白炮]
 ---

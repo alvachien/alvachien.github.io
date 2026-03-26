@@ -3,7 +3,6 @@ layout: single
 title: In your eyes 你的瞳我的影 (第二辑 @24W)
 date: 2008-04-04 21:13
 author: alvachien
-comments: true
 tags: [Duoduo, Family, 多多, 孕期]
 categories: [Family, 红圈白炮, 随心随笔]
 ---

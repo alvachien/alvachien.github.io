@@ -3,7 +3,6 @@ layout: single
 title: Do you IE8 today?
 date: 2008-03-06 20:57
 author: alvachien
-comments: true
 tags: [IE, Windows, Windows Platform]
 categories: [IT业内, 技术Tips]
 ---

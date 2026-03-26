@@ -3,7 +3,6 @@ layout: single
 title: New PC launched!
 date: 2007-05-27 17:04
 author: alvachien
-comments: true
 categories: [Family, 随心随笔]
 ---
 After 54 months, we decided to buy a new PC, because current used PC has become unstabled and has been confirmed as a hardware issue.

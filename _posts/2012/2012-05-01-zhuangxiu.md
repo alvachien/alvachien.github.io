@@ -3,7 +3,6 @@ layout: single
 title: 那些装修的日子
 date: 2012-05-01 22:24
 author: alvachien
-comments: true
 tags: [装修]
 categories: [Family, 随心随笔]
 ---

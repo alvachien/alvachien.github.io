@@ -3,7 +3,6 @@ layout: single
 title: 自我总结：我个人的这几年读书经历
 date: 2004-12-29 15:35
 author: alvachien
-comments: true
 categories: [读书笔记]
 tags: [C++, MFC, STL, Windows Programming]
 ---

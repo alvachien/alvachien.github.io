@@ -3,7 +3,6 @@ layout: single
 title: "Solve the issues on AngularJS: [$injector:modulerr]"
 date: 2015-06-19 23:29
 author: alvachien
-comments: true
 tags: [AngularJS, JavaScript, Web Development]
 categories: [技术Tips]
 ---

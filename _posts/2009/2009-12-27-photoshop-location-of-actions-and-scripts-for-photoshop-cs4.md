@@ -3,7 +3,6 @@ layout: single
 title: "[Photoshop] Location of Actions and Scripts for Photoshop CS4"
 date: 2009-12-27 17:22
 author: alvachien
-comments: true
 tags: [Photoshop]
 categories: [技术Tips]
 ---

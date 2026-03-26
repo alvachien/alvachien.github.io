@@ -3,7 +3,6 @@ layout: single
 title: 购物在香港
 date: 2014-02-23 22:26
 author: alvachien
-comments: true
 tags: [Hong Kong, 香港]
 categories: [行万里路, 红圈白炮]
 ---

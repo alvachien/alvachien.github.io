@@ -3,7 +3,6 @@ layout: single
 title: A pretty girl @ 2 years old
 date: 2007-11-30 17:52
 author: alvachien
-comments: true
 tags: [茜茜]
 categories: [红圈白炮]
 ---

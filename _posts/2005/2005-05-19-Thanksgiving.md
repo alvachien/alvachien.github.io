@@ -3,7 +3,6 @@ layout: single
 title: 饮水思源
 date: 2005-05-19 11:50
 author: alvachien
-comments: true
 tags: [Real Madrid, 五洲足坛, 埃托奥, 皇家马德里]
 categories: [五洲足坛]
 ---

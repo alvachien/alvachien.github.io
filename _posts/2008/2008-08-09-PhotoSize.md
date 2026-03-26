@@ -3,7 +3,6 @@ layout: single
 title: 照片冲印规格
 date: 2008-08-09 13:04
 author: alvachien
-comments: true
 tags: [Photography, 摄影]
 categories: [IT业内]
 ---

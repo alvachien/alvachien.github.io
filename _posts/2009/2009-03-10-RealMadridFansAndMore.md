@@ -3,7 +3,6 @@ layout: single
 title: 最小皇马球迷、Adidas牌尿布以及盛放的梅花
 date: 2009-03-10 14:53
 author: alvachien
-comments: true
 tags: [Duoduo, Family, Real Madrid, 世纪公园, 多多, 皇家马德里]
 categories: [Family, 红圈白炮, 随心随笔]
 ---

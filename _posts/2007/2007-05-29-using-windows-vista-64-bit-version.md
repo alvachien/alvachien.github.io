@@ -3,7 +3,6 @@ layout: single
 title: Using Windows Vista 64-bit Version
 date: 2007-05-29 17:05
 author: alvachien
-comments: true
 tags: [64bit, C++, Vista, Windows, Windows Platform]
 categories: [技术Tips]
 ---

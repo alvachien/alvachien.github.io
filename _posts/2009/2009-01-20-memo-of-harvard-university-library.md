@@ -3,7 +3,6 @@ layout: single
 title: Memo of Harvard University Library
 date: 2009-01-20 14:09
 author: alvachien
-comments: true
 categories: [随心随笔]
 ---
 <div id="bp-5CD1AA99D25FD840_316-content">

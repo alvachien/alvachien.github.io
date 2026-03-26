@@ -3,7 +3,6 @@ layout: single
 title: 这是一个最好的时代，这是一个最坏的时代
 date: 2013-05-01 15:30
 author: alvachien
-comments: true
 tags: [Real Madrid, 皇家马德里, 穆里尼奥]
 categories: [五洲足坛]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: “I’ll be back”. by 《Terminator SALVATION》
 date: 2009-06-21 15:22
 author: alvachien
-comments: true
 tags: [电影, 终结者]
 categories: [观影乱谈]
 ---

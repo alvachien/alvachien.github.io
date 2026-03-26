@@ -3,7 +3,6 @@ layout: single
 title: "Auto Shanghai 2009: Auto"
 date: 2009-04-26 15:06
 author: alvachien
-comments: true
 tags: [Automobile, 汽车, 爱车一族, 车展]
 categories: [行万里路, 红圈白炮]
 ---

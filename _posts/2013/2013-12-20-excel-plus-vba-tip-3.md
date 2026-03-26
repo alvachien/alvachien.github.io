@@ -3,7 +3,6 @@ layout: single
 title: "Excel plus VBA Tip 3: Outlook中Recurrence Pattern的Exception"
 date: 2013-12-20 18:35
 author: alvachien
-comments: true
 tags: [Excel, Microsoft, Office, Outlook, VBA, Windows Platform]
 categories: [技术Tips]
 ---

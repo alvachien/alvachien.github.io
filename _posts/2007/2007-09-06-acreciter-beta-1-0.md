@@ -3,7 +3,6 @@ layout: single
 title: ACReciter Beta 1.0
 date: 2007-09-06 17:42
 author: alvachien
-comments: true
 tags: [ACReciter, C++, Microsoft.NET]
 categories: [技术Tips]
 ---

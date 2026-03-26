@@ -3,7 +3,6 @@ layout: single
 title: Enabling PHP Debugging in PDT (Using XDebug)
 date: 2015-05-16 21:25
 author: alvachien
-comments: true
 categories: [技术Tips]
 tags: [Eclipse, PDT, PHP, Web Development, XDebug]
 ---

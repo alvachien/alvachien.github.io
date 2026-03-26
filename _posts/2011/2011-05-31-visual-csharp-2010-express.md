@@ -3,7 +3,6 @@ layout: single
 title: "Visual C# 2010 Express 切换Configuration和Platform: Debug/Release, Any CPU/X86/X64/Itanium"
 date: 2011-05-31 22:52
 author: alvachien
-comments: true
 tags: [Visual C# Express, Visual Studio, Windows Platform]
 categories: [技术Tips]
 ---

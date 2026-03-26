@@ -3,7 +3,6 @@ layout: single
 title: "[Photoshop] 学无止境，百尺竿头"
 date: 2010-10-19 12:47
 author: alvachien
-comments: true
 tags: [Photoshop]
 categories: [技术Tips]
 ---

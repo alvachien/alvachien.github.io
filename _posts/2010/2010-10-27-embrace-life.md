@@ -3,7 +3,6 @@ layout: single
 title: Embrace Life
 date: 2010-10-27 14:19
 author: alvachien
-comments: true
 categories: [行万里路]
 ---
 英国的创意公益广告，震撼之余，更多的是感触。

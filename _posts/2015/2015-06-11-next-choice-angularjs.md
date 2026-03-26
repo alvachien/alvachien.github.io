@@ -3,7 +3,6 @@ layout: single
 title: "Next choice: AngularJS?"
 date: 2015-06-11 17:36
 author: alvachien
-comments: true
 categories: [技术Tips]
 tags: [AngularJS, AngularUI, JavaScript, Web Development]
 ---

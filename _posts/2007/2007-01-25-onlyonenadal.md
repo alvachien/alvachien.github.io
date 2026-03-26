@@ -3,7 +3,6 @@ layout: single
 title: 网坛， 只有一个Nadal
 date: 2007-01-25 17:56
 author: alvachien
-comments: true
 tags: [Federer, Nadal, 纳达尔, 费德勒]
 categories: [网球闲话]
 ---

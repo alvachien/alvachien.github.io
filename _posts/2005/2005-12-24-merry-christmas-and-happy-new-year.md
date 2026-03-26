@@ -3,7 +3,6 @@ layout: single
 title: Merry Christmas and Happy New Year!
 date: 2005-12-24 15:35
 author: alvachien
-comments: true
 tags: [Christmas, New Year, 元旦, 圣诞]
 categories: [随心随笔]
 ---

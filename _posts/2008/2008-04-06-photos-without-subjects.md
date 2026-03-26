@@ -3,7 +3,6 @@ layout: single
 title: Photos without Subjects
 date: 2008-04-06 10:18
 author: alvachien
-comments: true
 tags: [世纪公园]
 categories: [红圈白炮, 随心随笔]
 ---

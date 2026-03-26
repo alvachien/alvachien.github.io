@@ -3,7 +3,6 @@ layout: single
 title: The Speed of Adobe
 date: 2010-03-24 20:22
 author: alvachien
-comments: true
 tags: [Photoshop]
 categories: [IT业内]
 ---

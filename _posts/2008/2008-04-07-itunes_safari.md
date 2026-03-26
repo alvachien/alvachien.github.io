@@ -3,7 +3,6 @@ layout: single
 title: 依旧恶心的iTunes，还是超烂的Safari
 date: 2008-04-07 12:13
 author: alvachien
-comments: true
 tags: [Apple, iTunes, Safari]
 categories: [IT业内, 技术Tips]
 ---

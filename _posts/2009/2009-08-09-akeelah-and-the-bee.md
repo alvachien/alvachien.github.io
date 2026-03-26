@@ -3,7 +3,6 @@ layout: single
 title: Akeelah and the Bee 阿基拉和拼字大赛
 date: 2009-08-09 16:02
 author: alvachien
-comments: true
 categories: [观影乱谈]
 ---
 

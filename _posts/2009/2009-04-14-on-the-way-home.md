@@ -3,7 +3,6 @@ layout: single
 title: On the way home
 date: 2009-04-14 15:03
 author: alvachien
-comments: true
 tags: [Duoduo, Family, 多多]
 categories: [Family, 随心随笔]
 ---

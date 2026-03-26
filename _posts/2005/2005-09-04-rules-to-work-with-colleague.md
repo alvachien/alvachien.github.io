@@ -3,7 +3,6 @@ layout: single
 title: Rules to work with colleague
 date: 2005-09-04 15:17
 author: alvachien
-comments: true
 categories: [职场生涯]
 ---
 

@@ -3,7 +3,6 @@ layout: single
 title: Simply The Best
 date: 2014-05-27 22:55
 author: alvachien
-comments: true
 tags: [Real Madrid, 冠军, 皇家马德里]
 categories: [五洲足坛]
 ---

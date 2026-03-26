@@ -3,7 +3,6 @@ layout: single
 title: Feel sorry about Real Madrid
 date: 2005-09-14 15:20
 author: alvachien
-comments: true
 categories: [五洲足坛]
 tags: [Real Madrid, 皇家马德里]
 ---

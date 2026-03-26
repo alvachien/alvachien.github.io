@@ -3,7 +3,6 @@ layout: single
 title: The real man_David Beckham
 date: 2007-06-10 17:33
 author: alvachien
-comments: true
 tags: [Beckham, David Beckham, 贝克汉姆]
 categories: [五洲足坛]
 ---

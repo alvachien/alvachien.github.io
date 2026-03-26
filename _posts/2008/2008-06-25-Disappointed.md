@@ -3,7 +3,6 @@ layout: single
 title: 失望！11.28-14.98？你当真以为抢钱这么容易么！？
 date: 2008-06-25 12:50
 author: alvachien
-comments: true
 categories: [行万里路]
 tags: [Automobile, 朗逸, 汽车, 爱车一族]
 ---

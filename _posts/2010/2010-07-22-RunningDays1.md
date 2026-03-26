@@ -3,7 +3,6 @@ layout: single
 title: "曾经跑步的日子 I: 一二九操场"
 date: 2010-07-22 21:49
 author: alvachien
-comments: true
 tags: [同济, 跑步]
 categories: [随心随笔]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: Let's talking about Tencent and it's QQ again
 date: 2008-06-15 12:47
 author: alvachien
-comments: true
 tags: [QQ, Tencent, 腾讯]
 categories: [IT业内, 随心随笔]
 ---

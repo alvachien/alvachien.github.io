@@ -3,7 +3,6 @@ layout: single
 title: Honda Quit! Who’ll be the next?
 date: 2008-12-06 13:57
 author: alvachien
-comments: true
 categories: [狂飙F1]
 ---
 <div id="bp-5CD1AA99D25FD840_253-content">

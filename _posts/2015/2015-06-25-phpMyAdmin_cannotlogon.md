@@ -3,7 +3,6 @@ layout: single
 title: phpMyAdmin无法登录之解决方案
 date: 2015-06-25 20:42
 author: alvachien
-comments: true
 categories: [技术Tips]
 tags: [MySql, PHP, phpMyAdmin, Web Development]
 ---

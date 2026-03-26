@@ -3,7 +3,6 @@ layout: single
 title: Give up the offer from ShanDa
 date: 2005-05-25 13:24
 author: alvachien
-comments: true
 categories: [职场生涯]
 tags: [Offer, 盛大]
 ---

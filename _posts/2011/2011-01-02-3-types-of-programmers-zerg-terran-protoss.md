@@ -3,7 +3,6 @@ layout: single
 title: "[转载] 3 Types of Programmers: Zerg, Terran, Protoss"
 date: 2011-01-02 20:31
 author: alvachien
-comments: true
 categories: [IT业内]
 ---
 江湖规矩，转帖先贴地址：<a href="http://blog.mathgladiator.com/2010/12/3-types-of-programmers-zerg-terran.html">http://blog.mathgladiator.com/2010/12/3-types-of-programmers-zerg-terran.html</a>，中文版：<a href="http://www.pcpop.com/doc/0/617/617801.shtml">http://www.pcpop.com/doc/0/617/617801.shtml</a>。

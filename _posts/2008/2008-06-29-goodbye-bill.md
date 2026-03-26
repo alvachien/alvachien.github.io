@@ -3,7 +3,6 @@ layout: single
 title: Goodbye, Bill!
 date: 2008-06-29 12:52
 author: alvachien
-comments: true
 categories: [IT业内]
 tags: [Bill Gates]
 ---

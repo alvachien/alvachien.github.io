@@ -3,7 +3,6 @@ layout: single
 title: Nothing just thinking
 date: 2005-06-16 13:28
 author: alvachien
-comments: true
 categories: [随心随笔]
 tags: [自立歌]
 ---

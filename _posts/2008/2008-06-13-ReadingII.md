@@ -3,7 +3,6 @@ layout: single
 title: 反思录(二)：适度YY有益健康，过度YY伤身劳神
 date: 2008-06-13 12:45
 author: alvachien
-comments: true
 categories: [随心随笔]
 tags: [反思录]
 ---

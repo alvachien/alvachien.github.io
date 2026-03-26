@@ -3,7 +3,6 @@ layout: single
 title: Impossible is nothing, and, Regret is nothing, too.
 date: 2005-09-29 15:22
 author: alvachien
-comments: true
 tags: [SAP]
 categories: [职场生涯, 随心随笔]
 ---

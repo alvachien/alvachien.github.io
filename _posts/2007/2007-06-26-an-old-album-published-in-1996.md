@@ -3,7 +3,6 @@ layout: single
 title: An old album, published in 1996
 date: 2007-06-26 17:36
 author: alvachien
-comments: true
 tags: [歌曲, 答应我好好的过]
 categories: [随心随笔]
 ---

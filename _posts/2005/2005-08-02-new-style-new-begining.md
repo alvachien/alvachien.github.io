@@ -3,7 +3,6 @@ layout: single
 title: New style, new begining
 date: 2005-08-02 13:31
 author: alvachien
-comments: true
 categories: [五洲足坛, 随心随笔]
 tags: [David Beckham, Real Madrid, 随心随笔]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: Work hard and keep it!
 date: 2005-08-25 15:16
 author: alvachien
-comments: true
 categories: [职场生涯, IT业内]
 tags: [HP, Interview]
 ---

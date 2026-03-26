@@ -3,7 +3,6 @@ layout: single
 title: Good bye, Jose Mourinho
 date: 2007-09-20 17:46
 author: alvachien
-comments: true
 tags: [Mourinho, 穆里尼奥]
 categories: [五洲足坛]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: 多多之“开车”记 II
 date: 2010-04-11 20:43
 author: alvachien
-comments: true
 tags: [Automobile, Duoduo, Family, 多多, 汽车]
 categories: [红圈白炮, Family, 红圈白炮, 随心随笔]
 ---

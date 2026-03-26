@@ -3,7 +3,6 @@ layout: single
 title: Band of Brothers
 date: 2007-02-01 16:53
 author: alvachien
-comments: true
 tags: [Band of Brothers]
 categories: [观影乱谈]
 ---

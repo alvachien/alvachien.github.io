@@ -3,7 +3,6 @@ layout: single
 title: 不是每个Ending都需要Happy ——《华尔街：金钱永不眠》
 date: 2011-02-02 00:31
 author: alvachien
-comments: true
 tags: [华尔街]
 categories: [观影乱谈]
 ---

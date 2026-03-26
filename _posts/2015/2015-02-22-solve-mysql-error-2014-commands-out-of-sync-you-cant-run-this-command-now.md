@@ -3,7 +3,6 @@ layout: single
 title: "Solve MySQL error 2014: Commands out of sync; you can't run this command now"
 date: 2015-02-22 16:05
 author: alvachien
-comments: true
 tags: [MySql, mysqli, PHP, Web Development]
 categories: [技术Tips]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: TongJi University Century Celebration
 date: 2006-03-30 15:45
 author: alvachien
-comments: true
 categories: [随心随笔]
 tags: [同济, 百年校庆]
 ---

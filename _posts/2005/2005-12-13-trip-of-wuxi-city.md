@@ -3,7 +3,6 @@ layout: single
 title: Trip of WuXi City
 date: 2005-12-13 15:30
 author: alvachien
-comments: true
 tags: [旅游, 无锡]
 categories: [行万里路]
 ---

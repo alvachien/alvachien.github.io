@@ -3,7 +3,6 @@ layout: single
 title: 势在必行的Evolution I
 date: 2008-12-17 14:03
 author: alvachien
-comments: true
 tags: [SAP]
 categories: [职场生涯, 随心随笔]
 ---

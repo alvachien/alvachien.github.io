@@ -3,7 +3,6 @@ layout: single
 title: 把时间遗忘 VS 被时间遗忘
 date: 2008-12-13 13:58
 author: alvachien
-comments: true
 categories: [随心随笔]
 ---
 <div id="bp-5CD1AA99D25FD840_260-content">

@@ -3,7 +3,6 @@ layout: single
 title: A perfect weekend
 date: 2007-03-19 16:59
 author: alvachien
-comments: true
 tags: [C++, HIH, Microsoft.NET, PIH, Windows, 舒马赫]
 categories: [技术Tips, 狂飙F1, 随心随笔]
 ---

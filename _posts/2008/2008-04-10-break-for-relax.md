@@ -3,7 +3,6 @@ layout: single
 title: Break for Relax
 date: 2008-04-10 12:21
 author: alvachien
-comments: true
 categories: [红圈白炮]
 ---
 

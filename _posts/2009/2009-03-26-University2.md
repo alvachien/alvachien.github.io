@@ -3,7 +3,6 @@ layout: single
 title: 我的大学II：烙印
 date: 2009-03-26 20:56
 author: alvachien
-comments: true
 tags: [同济, 复旦, 我的大学]
 categories: [随心随笔]
 ---

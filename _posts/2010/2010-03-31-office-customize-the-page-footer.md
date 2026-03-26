@@ -3,7 +3,6 @@ layout: single
 title: "[Office] Customize the Page Footer"
 date: 2010-03-31 20:25
 author: alvachien
-comments: true
 tags: [Office, Windows Platform, Word]
 categories: [技术Tips]
 ---

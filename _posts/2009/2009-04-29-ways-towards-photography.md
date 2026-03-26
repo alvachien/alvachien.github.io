@@ -3,7 +3,6 @@ layout: single
 title: Ways Towards Photography
 date: 2009-04-29 15:14
 author: alvachien
-comments: true
 tags: [Photography, 摄影]
 categories: [红圈白炮]
 ---

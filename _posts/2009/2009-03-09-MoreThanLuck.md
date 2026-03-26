@@ -3,7 +3,6 @@ layout: single
 title: 不止欠缺运气
 date: 2009-03-09 14:52
 author: alvachien
-comments: true
 tags: [上海, 房价, 理财]
 categories: [随心随笔]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: C++ Review Series
 date: 2005-08-05 18:15
 author: alvachien
-comments: true
 tags: [C++, STL]
 categories: [技术Tips]
 ---

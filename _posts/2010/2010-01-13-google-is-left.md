@@ -3,7 +3,6 @@ layout: single
 title: Google，走好，不送！
 date: 2010-01-13 17:35
 author: alvachien
-comments: true
 tags: [Google]
 categories: [IT业内]
 ---

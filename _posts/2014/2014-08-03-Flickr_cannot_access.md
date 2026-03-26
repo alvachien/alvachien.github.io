@@ -3,7 +3,6 @@ layout: single
 title: 当Flickr又无法访问时
 date: 2014-08-03 20:43
 author: alvachien
-comments: true
 tags: [Flickr, Windows Platform]
 categories: [技术Tips, 红圈白炮]
 ---

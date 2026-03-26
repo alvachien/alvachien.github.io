@@ -3,7 +3,6 @@ layout: single
 title: Several basic Concepts
 date: 2008-05-16 12:38
 author: alvachien
-comments: true
 tags: [Automobile, 汽车, 爱车一族]
 categories: [行万里路]
 ---

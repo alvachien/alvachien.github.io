@@ -3,7 +3,6 @@ layout: single
 title: Flickr setup a new picture server!
 date: 2007-10-28 17:47
 author: alvachien
-comments: true
 tags: [Flickr, 三亚, 刘德华, 演唱会, 羽毛球]
 categories: [红圈白炮, 随心随笔]
 ---

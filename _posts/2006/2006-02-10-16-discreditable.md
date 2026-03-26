@@ -3,7 +3,6 @@ layout: single
 title: 1:6, Discreditable!
 date: 2006-02-10 15:40
 author: alvachien
-comments: true
 categories: [五洲足坛]
 tags: [Real Madrid, 欧冠, 皇家马德里]
 ---

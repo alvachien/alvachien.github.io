@@ -3,7 +3,6 @@ layout: single
 title: Nadal! Nadal!
 date: 2008-07-07 12:55
 author: alvachien
-comments: true
 tags: [Nadal, 纳达尔]
 categories: [网球闲话]
 ---

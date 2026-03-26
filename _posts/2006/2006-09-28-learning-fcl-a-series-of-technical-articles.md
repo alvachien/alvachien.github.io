@@ -3,7 +3,6 @@ layout: single
 title: Learning FCL – A series of technical articles
 date: 2006-09-28 16:39
 author: alvachien
-comments: true
 tags: [FCL, Microsoft.NET, Windows]
 categories: [技术Tips]
 ---

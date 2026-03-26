@@ -3,7 +3,6 @@ layout: single
 title: Influence Power ——《德川家康》读后感之三
 date: 2008-03-11 21:00
 author: alvachien
-comments: true
 tags: [德川家康]
 categories: [读书笔记]
 ---

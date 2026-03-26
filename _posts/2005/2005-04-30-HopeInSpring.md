@@ -3,7 +3,6 @@ layout: single
 title: 在春天里继续燃烧希望
 date: 2005-04-30 11:46
 author: alvachien
-comments: true
 categories: [随心随笔]
 ---
 4月的上海，尽管天气温度时常逼近30度，不过，这依然是上海的春天，上海的4月，一个春意盎然的时节。

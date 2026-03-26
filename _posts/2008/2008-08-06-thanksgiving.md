@@ -3,7 +3,6 @@ layout: single
 title: Thanksgiving
 date: 2008-08-06 13:02
 author: alvachien
-comments: true
 tags: [Duoduo, Family, 多多]
 categories: [Family, 随心随笔]
 ---

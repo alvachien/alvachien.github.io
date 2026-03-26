@@ -3,7 +3,6 @@ layout: single
 title: Websites for WIC/XMP, EXIF, IPTC
 date: 2010-04-16 20:54
 author: alvachien
-comments: true
 tags: [EXIF, XMP]
 categories: [技术Tips]
 ---

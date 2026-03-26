@@ -3,7 +3,6 @@ layout: single
 title: Creative Intelligence from Sirga (ZTE)
 date: 2009-02-28 14:50
 author: alvachien
-comments: true
 tags: [Photoshop]
 categories: [红圈白炮]
 ---

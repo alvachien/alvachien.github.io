@@ -3,7 +3,6 @@ layout: single
 title: Good bye, Schumi; Good bye, Beckham!
 date: 2006-10-25 16:45
 author: alvachien
-comments: true
 tags: [Beckham, 舒马赫, 贝克汉姆]
 categories: [五洲足坛, 狂飙F1]
 ---

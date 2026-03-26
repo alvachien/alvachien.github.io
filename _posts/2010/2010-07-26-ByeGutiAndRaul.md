@@ -3,7 +3,6 @@ layout: single
 title: 难说再见 —— Bye Guti! Bye Raul!
 date: 2010-07-26 21:53
 author: alvachien
-comments: true
 tags: [Real Madrid, 皇家马德里]
 categories: [五洲足坛]
 ---

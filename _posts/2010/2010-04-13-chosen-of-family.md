@@ -3,7 +3,6 @@ layout: single
 title: Chosen of Family
 date: 2010-04-13 20:44
 author: alvachien
-comments: true
 tags: [Duoduo, Family, Flickr, LD, Photography, 多多, 摄影]
 categories: [Family, 红圈白炮, 随心随笔]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: 这些跑步的日子之一 风雨交加
 date: 2013-03-16 20:30
 author: alvachien
-comments: true
 tags: [Running, 跑步]
 categories: [随心随笔]
 ---

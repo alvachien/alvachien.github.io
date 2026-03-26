@@ -3,7 +3,6 @@ layout: single
 title: 2007/08 League Champions - 31st league title!
 date: 2008-05-05 12:35
 author: alvachien
-comments: true
 tags: [Real Madrid, 皇家马德里]
 categories: [五洲足坛]
 ---

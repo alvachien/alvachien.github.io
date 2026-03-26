@@ -3,7 +3,6 @@ layout: single
 title: Genius cannot avoid the consenescence
 date: 2006-08-16 15:52
 author: alvachien
-comments: true
 categories: [五洲足坛]
 tags: [Beckham, Zidane, 贝克汉姆, 齐达内]
 ---

@@ -3,7 +3,6 @@ layout: single
 title: 摄影 
 date: 2008-08-18 13:10
 author: alvachien
-comments: true
 tags: [Photography, Photoshop, 摄影]
 categories: [红圈白炮, 随心随笔]
 ---

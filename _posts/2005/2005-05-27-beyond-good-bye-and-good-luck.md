@@ -3,7 +3,6 @@ layout: single
 title: BEYOND, Good bye and Good luck!
 date: 2005-05-27 13:25
 author: alvachien
-comments: true
 categories: [随心随笔]
 ---
 BEYOND, a famous rock band, is disbanded now. I feel very sorry about this, because they are the favorite band of my school period!

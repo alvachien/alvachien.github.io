@@ -3,7 +3,6 @@ layout: single
 title: Let’s Photoshop I
 date: 2009-08-16 16:22
 author: alvachien
-comments: true
 tags: [Photoshop]
 categories: [技术Tips]
 ---

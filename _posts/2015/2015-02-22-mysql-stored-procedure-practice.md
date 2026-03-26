@@ -3,7 +3,6 @@ layout: single
 title: MySQL Stored Procedure Practice
 date: 2015-02-22 15:51
 author: alvachien
-comments: true
 tags: [MariaDB, MySql, PHP, Web Development]
 categories: [技术Tips]
 ---

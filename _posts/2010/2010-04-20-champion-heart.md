@@ -3,7 +3,6 @@ layout: single
 title: Champion Heart
 date: 2010-04-20 20:55
 author: alvachien
-comments: true
 tags: [Ferrari, Nadal, Real Madrid, 法拉利车队, 皇家马德里, 纳达尔]
 categories: [五洲足坛, 狂飙F1, 网球闲话]
 ---

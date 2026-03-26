@@ -3,7 +3,6 @@ layout: single
 title: 32 Campeones！
 date: 2012-05-04 22:24
 author: alvachien
-comments: true
 tags: [Real Madrid, 皇家马德里]
 categories: [五洲足坛]
 ---
