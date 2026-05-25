@@ -1,0 +1,19 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% if paginator.posts %}
+  {% for post in paginator.posts %}
+    {% assign page = post %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% else %}
+  {% for post in site.posts %}
+    {% assign page = post %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+{% include paginator.html %}
