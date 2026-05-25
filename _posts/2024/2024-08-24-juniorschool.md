@@ -4,6 +4,8 @@ title: 又一个四年开始
 date: 2024-08-24 15:34 +0800
 tags: [初中,建平西校,安安]
 categories: [随心随笔,Family]
+header:
+  teaser: /assets/uploads/2024/08/0001.jpg
 ---
 
 又一个四年开始了。   
