@@ -4,15 +4,24 @@ layout: archive
 
 {{ content }}
 
+<style>
+  .archive .archive__item-teaser {
+    max-height: 200px;
+    overflow: hidden;
+  }
+  .archive .archive__item-teaser img {
+    object-fit: cover;
+    width: 100%;
+  }
+</style>
+
 {% if paginator.posts %}
   {% for post in paginator.posts %}
-    {% assign page = post %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single-home.html %}
   {% endfor %}
 {% else %}
   {% for post in site.posts %}
-    {% assign page = post %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single-home.html %}
   {% endfor %}
 {% endif %}
 

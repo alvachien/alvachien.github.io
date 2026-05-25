@@ -1,0 +1,28 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.link %}
+  {% capture title %}<a href="{{ post.link }}" class="archive__item-teaser">{{ post.title }}</a>{% endcapture %}
+{% else %}
+  {% capture title %}<a href="{{ post.url | relative_url }}" rel="permalink" class="archive__item-teaser">{{ post.title }}</a>{% endcapture %}
+{% endif %}
+
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
+  {% if teaser %}
+    <a href="{{ post.url | relative_url }}" rel="permalink">
+      <img src="{{ teaser | relative_url }}" alt="{{ post.title }}" class="archive__item-teaser" style="max-height: 250px; width: 100%; object-fit: cover; display: block; margin-bottom: 0.5em;">
+    </a>
+  {% endif %}
+  <h2 class="archive__item-title no_toc" itemprop="headline">
+    {{ title }}
+  </h2>
+  {% unless page.author == null %}
+    {% include author.html %}
+  {% endunless %}
+  {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+  {% endif %}
+</article>
