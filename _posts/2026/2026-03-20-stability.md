@@ -2,6 +2,8 @@
 layout: single
 title: 情绪稳定
 date: 2026-03-20 07:11 +0800
+header:
+  teaser: /assets/uploads/2026/03/001.jpg
 tags: [情绪稳定]
 categories: [随心随笔]
 ---
