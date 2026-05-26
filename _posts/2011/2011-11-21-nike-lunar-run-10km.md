@@ -5,6 +5,8 @@ date: 2011-11-21 13:55
 author: alvachien
 tags: [10公里, Nike, SAP, 跑步]
 categories: [随心随笔]
+header:
+  teaser: /assets/uploads/2011/11/DSCF1240-Small.jpg
 ---
 出发前：
 

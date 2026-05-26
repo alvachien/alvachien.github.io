@@ -4,6 +4,8 @@ title: Akeelah and the Bee 阿基拉和拼字大赛
 date: 2009-08-09 16:02
 author: alvachien
 categories: [观影乱谈]
+header:
+  teaser: /assets/uploads/2009/08/IMAGE_2.png
 ---
 
 ![Image](/assets/uploads/2009/08/IMAGE_2.png)

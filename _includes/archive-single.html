@@ -1,0 +1,35 @@
+{% if page.header.teaser %}
+  {% capture teaser %}{{ page.header.teaser }}{% endcapture %}
+{% elsif post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% assign current = page %}
+{% if post %}
+  {% assign current = post %}
+{% endif %}
+
+{% if current.link %}
+  {% capture title %}<a href="{{ current.link }}" class="archive__item-teaser">{{ current.title }}</a>{% endcapture %}
+{% else %}
+  {% capture title %}<a href="{{ current.url | relative_url }}" rel="permalink" class="archive__item-teaser">{{ current.title }}</a>{% endcapture %}
+{% endif %}
+
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if current.locale %} lang="{{ current.locale }}"{% endif %}>
+  {% if teaser %}
+    <a href="{{ current.url | relative_url }}" rel="permalink">
+      <img src="{{ teaser | relative_url }}" alt="{{ current.title }}" class="archive__item-teaser" style="max-height: 250px; width: 100%; object-fit: cover; display: block; margin-bottom: 0.5em;">
+    </a>
+  {% endif %}
+  <h2 class="archive__item-title no_toc" itemprop="headline">
+    {{ title }}
+  </h2>
+  {% unless current.author == null %}
+    {% include author.html %}
+  {% endunless %}
+  {% if current.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ current.excerpt | strip_html | truncate: 160 }}</p>
+  {% endif %}
+</article>

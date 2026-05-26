@@ -5,6 +5,8 @@ date: 2007-02-01 16:53
 author: alvachien
 tags: [Band of Brothers]
 categories: [观影乱谈]
+header:
+  teaser: /assets/uploads/2007/02/89160869addde93febe328e28c6fbe79.jpg
 ---
 This week, I finished to review the classical teleplay - <**Band of Brothers**>;, all of the ten Parts embedded into 5 discs. And aften then, I decided to buy the orignial book, which was written by Stephen E. Ambrose, english version of course.
  

@@ -5,6 +5,8 @@ date: 2008-04-07 12:13
 author: alvachien
 tags: [Apple, iTunes, Safari]
 categories: [IT业内, 技术Tips]
+header:
+  teaser: /assets/uploads/2010/10/TaskManager_iTunes.gif
 ---
 自从白得了一个iPod Touch以后，俺不得不再次用上了Apple的iTunes，不过这次俺学了个乖，不再给Apple做免费测试，为了兼容iTunes，我不得不额外做了个镜像音乐路径来专供iTunes用。
 

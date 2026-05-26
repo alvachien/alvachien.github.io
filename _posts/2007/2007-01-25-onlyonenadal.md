@@ -5,6 +5,8 @@ date: 2007-01-25 17:56
 author: alvachien
 tags: [Federer, Nadal, 纳达尔, 费德勒]
 categories: [网球闲话]
+header:
+  teaser: /assets/uploads/2007/01/5e9f7337e45c15c610e758ae6d91af97.jpg
 ---
 **序:**
 

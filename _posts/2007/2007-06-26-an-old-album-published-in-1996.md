@@ -5,6 +5,8 @@ date: 2007-06-26 17:36
 author: alvachien
 tags: [歌曲, 答应我好好的过]
 categories: [随心随笔]
+header:
+  teaser: /assets/uploads/2007/06/27d44b0e901c035ec96caf06496cbacc.jpg
 ---
 
 ![The envelope](/assets/uploads/2007/06/27d44b0e901c035ec96caf06496cbacc.jpg)

@@ -4,6 +4,8 @@ title:  "Windows平台搭建C语言开发环境（基于GCC）"
 date:   2023-09-03 10:12:21 +0800
 tags: [Windows,开发环境,GCC]
 categories: [随心随笔,读书笔记]
+header:
+  teaser: /assets/uploads/2023/09/2023-09-03-01.jpg
 ---
 
 这篇是[《Windows平台搭建C语言开发环境（基于GCC）》]({% post_url 2023/2023-07-30-windows-gcc %}) 的续篇。

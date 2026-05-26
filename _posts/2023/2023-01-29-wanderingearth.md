@@ -4,6 +4,8 @@ title:  "当科幻片写入了纪录片"
 date:   2023-01-29 23:22:21 +0800
 tags: [流浪地球]
 categories: [观影乱谈]
+header:
+  teaser: /assets/uploads/2023/01/wanderingearth2.jpg
 ---
 
 ![The Post](/assets/uploads/2023/01/wanderingearth2.jpg)

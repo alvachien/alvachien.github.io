@@ -4,6 +4,8 @@ title:  "Windows平台搭建C语言开发环境（基于GCC）"
 date:   2023-07-30 10:12:21 +0800
 tags: [Windows,开发环境,GCC]
 categories: [随心随笔,读书笔记]
+header:
+  teaser: /assets/uploads/2023/07/mingw-download.jpg
 ---
 
 看到一本《啊哈C语言！》的编程科普的图书，便想着如何帮着娃们入门编程这么课——毕竟C语言是编程语言的鼻祖，入下门还是很值得。   

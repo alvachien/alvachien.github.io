@@ -5,6 +5,8 @@ date: 2007-06-14 17:34
 author: alvachien
 tags: [Real Madrid, 皇家马德里]
 categories: [五洲足坛]
+header:
+  teaser: /assets/uploads/2007/06/realmadrid.jpg
 ---
 ![Real Madrid](/assets/uploads/2007/06/realmadrid.jpg)
 

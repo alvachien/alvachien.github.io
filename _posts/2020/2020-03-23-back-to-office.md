@@ -4,6 +4,8 @@ title:  "重回办公室"
 date:   2020-03-23 09:05:01 +0800
 tags: [办公室, 疫情, SAP]
 categories: [职场生涯, 随心随笔]
+header:
+  teaser: /assets/uploads/2020/03/20200323221243.jpg
 ---
 
 仿佛过了无数个世纪，经过了疫情肆虐的恐慌后，终于，我们终于被允许回归办公室了，虽然Work From Home依旧是推荐的方式。

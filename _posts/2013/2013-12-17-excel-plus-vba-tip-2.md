@@ -5,6 +5,8 @@ date: 2013-12-17 19:57
 author: alvachien
 tags: [Office, VBA, Windows Platform]
 categories: [技术Tips]
+header:
+  teaser: /assets/uploads/2013/12/18d8bc3eb13533fa5c546959aad3fd1f40345be3.jpg
 ---
 虽然一直想得很美好，把技术相关的Blog放到CSDN上（[Write Ideas Down, Together With Skills](http://blog.csdn.net/alvachien)），把随笔等文章放在个人网站上。然而，事实总是很残酷，总有些想法在一边起了个头，却在另外一边掺了一腿。这里说的是，我先是写了一篇[Excel plus VBA Tip 1: Using Table in Data Validation]({% post_url 2013/2013-07-31-excel-plus-vba-tip-1-using-table-in-data-validation %})，又写了一篇[[Office] VBA Practice](http://blog.csdn.net/alvachien/article/details/17267197)，然后，当我想写第三篇的时候，我凌乱了，伴随着我这些天感冒的涕零。
 

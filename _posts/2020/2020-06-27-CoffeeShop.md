@@ -4,6 +4,8 @@ title:  "孩子们的咖啡屋"
 date:   2020-06-27 20:32:57 +0800
 tags: [安安, 多多, 咖啡, Duoduo, Anan]
 categories: [Family, 随心随笔]
+header:
+  teaser: /assets/uploads/2020/06/20200627203058.jpg
 ---
 
 

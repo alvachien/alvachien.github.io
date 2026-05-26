@@ -4,6 +4,8 @@ title:  "Step by Step Tutorial for Spring Boot and Thymeleaf: Part I"
 date:   2022-10-14 21:30:20 +0800
 tags: [Web API, Java, Spring, Spring Boot, Spring MVC, Thymeleaf]
 categories: [技术Tips]
+header:
+  teaser: /assets/uploads/2022/10/spring-boot-thymeleaf.png
 ---
 
 学习Spring MVC，也想学习一下Thymeleaf模板，于是，将整个过程记录下来，作为一个Step by Step的Tutorial教程吧。

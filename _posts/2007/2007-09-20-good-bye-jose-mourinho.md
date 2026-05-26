@@ -5,6 +5,8 @@ date: 2007-09-20 17:46
 author: alvachien
 tags: [Mourinho, 穆里尼奥]
 categories: [五洲足坛]
+header:
+  teaser: /assets/uploads/2007/09/jose.jpg
 ---
 Jose left Chelsea in quite a sudden.
 

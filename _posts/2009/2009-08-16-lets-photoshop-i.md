@@ -5,6 +5,8 @@ date: 2009-08-16 16:22
 author: alvachien
 tags: [Photoshop]
 categories: [技术Tips]
+header:
+  teaser: /assets/uploads/2010/10/PS_1.jpg
 ---
 既然逃不过磨皮这道关，那就甘之如饴好了。
 

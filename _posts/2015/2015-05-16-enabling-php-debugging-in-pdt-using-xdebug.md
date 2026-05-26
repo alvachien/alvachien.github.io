@@ -5,6 +5,8 @@ date: 2015-05-16 21:25
 author: alvachien
 categories: [技术Tips]
 tags: [Eclipse, PDT, PHP, Web Development, XDebug]
+header:
+  teaser: /assets/uploads/2015/05/PhpInfo.png
 ---
 First of all, read the official document provided by Eclipse: http://wiki.eclipse.org/Debugging_using_XDebug
 

@@ -4,6 +4,8 @@ title:  "Spring Boot: Spring Data Rest"
 date:   2022-09-18 22:27:20 +0800
 tags: [Web API, Java, Spring, Spring Boot]
 categories: [技术Tips]
+header:
+  teaser: /assets/uploads/2022/09/spring-data-rest-zhihu.png
 ---
 
 [Spring Rest Data](https://spring.io/projects/spring-data-rest)是建立在Spring Data下的一个子项目。

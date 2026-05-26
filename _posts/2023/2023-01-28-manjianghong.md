@@ -4,6 +4,8 @@ title:  "爱国融入了娱乐"
 date:   2023-01-28 19:52:21 +0800
 tags: [满江红]
 categories: [观影乱谈]
+header:
+  teaser: /assets/uploads/2023/01/manjianghong.jpg
 ---
 
 ![The Post](/assets/uploads/2023/01/manjianghong.jpg)

@@ -5,6 +5,8 @@ date: 2008-09-08 13:30
 author: alvachien
 tags: [Canon, Thinkpad, 佳能]
 categories: [随心随笔]
+header:
+  teaser: /assets/uploads/2008/09/432064284.jpg
 ---
 
 人是旧的好，物是新的棒！

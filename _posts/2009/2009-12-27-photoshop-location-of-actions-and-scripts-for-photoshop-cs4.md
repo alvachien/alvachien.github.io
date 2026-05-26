@@ -5,6 +5,8 @@ date: 2009-12-27 17:22
 author: alvachien
 tags: [Photoshop]
 categories: [技术Tips]
+header:
+  teaser: /assets/uploads/2010/10/IMAGE_5.jpg
 ---
 I always confused with the locations for Actions and Scripts, especially after upgrade the Photoshop or even the OS.
 
