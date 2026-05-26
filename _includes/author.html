@@ -1,0 +1,16 @@
+{% assign author_name = page.author %}
+{% if current and current.author %}
+  {% assign author_name = current.author %}
+{% endif %}
+{% if post and post.author %}
+  {% assign author_name = post.author %}
+{% endif %}
+{% unless author_name %}
+  {% assign author_name = site.author %}
+{% endunless %}
+
+{% if author_name %}
+  <span class="archive__item-author">
+    {{ author_name | capitalize }}
+  </span>
+{% endif %}
