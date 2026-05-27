@@ -11,14 +11,14 @@
 {% endif %}
 
 <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
+  <h2 class="archive__item-title no_toc" itemprop="headline">
+    {{ title }}
+  </h2>
   {% if teaser %}
     <a href="{{ post.url | relative_url }}" rel="permalink">
       <img src="{{ teaser | relative_url }}" alt="{{ post.title }}" class="archive__item-teaser" style="max-height: 250px; width: 100%; object-fit: cover; display: block; margin-bottom: 0.5em;">
     </a>
   {% endif %}
-  <h2 class="archive__item-title no_toc" itemprop="headline">
-    {{ title }}
-  </h2>
   {% unless post.author == null %}
     {% include author.html %}
   {% endunless %}
