@@ -24,7 +24,7 @@ header:
 
 
 两个Services：“Apple Mobile Device”以及“iPod服务”。
-![Service_ITunes](/assets/uploads/2010/10/Service_ITunes.gif)
+Service_ITunes (image unavailable)
 
 
 行文及此，我很想问问Apple的那些软件工程师，就一个破媒体播放软件而已，至于在系统这么多进程和Services吗？

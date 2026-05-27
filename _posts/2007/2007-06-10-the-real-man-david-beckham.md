@@ -14,5 +14,5 @@ Let's go to the point of this blog entry: he is a real man. Just because he figh
  
 And, I bring my respect and good wishes to him. Wish he realizes the objective - go to the US with the cup of the league.
 
-[!Keep fighting with pain](/assets/uploads/2017/06/Img250484373.jpg)
+*(Keep fighting with pain — image unavailable)*
 
