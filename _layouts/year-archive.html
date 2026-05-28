@@ -1,0 +1,11 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign year_posts = site.posts | where_exp: "post", "post.date.year == page.archive_year" %}
+
+{% for post in year_posts %}
+  {% include archive-single.html %}
+{% endfor %}
