@@ -10,7 +10,7 @@ module Jekyll
       data.merge!(
         "layout" => "year-archive",
         "title" => "#{year} 年归档",
-        "archive_year" => year,
+        "archive_year" => year.to_s,
         "author_profile" => true,
         "permalink" => "/archives/#{year}/"
       )
