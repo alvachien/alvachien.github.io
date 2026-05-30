@@ -1,0 +1,13 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<p><a href="/categories/">← 返回全部分类列表</a></p>
+
+{% for post in site.posts %}
+  {% if post.categories contains page.archive_category %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

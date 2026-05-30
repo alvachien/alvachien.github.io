@@ -1,0 +1,13 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<p><a href="/tags/">← 返回全部标签列表</a></p>
+
+{% for post in site.posts %}
+  {% if post.tags contains page.archive_tag %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
